@@ -1,1 +1,18 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/Makefile.old -text
+/NEWS -text
+/README -text
+/apertium-en-tg.en-tg.dix.xml -text
+/apertium-tg-en.en-tg.t1x -text
+/apertium-tg-en.en.dix.xml -text
+/apertium-tg-en.symbols.xml -text
+/apertium-tg-en.tg-en.dix.xml -text
+/apertium-tg-en.tg-en.t1x -text
+/apertium-tg-en.tg.dix.xml -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
