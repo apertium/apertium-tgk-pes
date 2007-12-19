@@ -3,13 +3,12 @@
 /COPYING -text
 /ChangeLog -text
 /Makefile.am -text
-/Makefile.old -text
 /NEWS -text
 /README -text
-/apertium-tg-en.symbols.xml -text
-/apertium-tg-en.tg-en.dix.xml -text
 /apertium-tg-en.tg.dix.xml -text
 /apertium-tg-fa.fa-tg.t1x -text
+/apertium-tg-fa.fa.dix -text
+/apertium-tg-fa.symbols.xml -text
 /apertium-tg-fa.tg-fa.t1x -text
 /autogen.sh -text
 /configure.ac -text
