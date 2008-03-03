@@ -485,8 +485,8 @@
       <!-- without ZWNJ -->
       <e r="LR">
         <p>
-          <l>ابها</l>
-          <r>اب<s n="n"/><s n="pl"/></r>
+          <l>آبها</l>
+          <r>آب<s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__را"/>
         <par n="S__ه"/>
