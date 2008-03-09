@@ -531,7 +531,6 @@
           <r><s n="n"/><s n="sg"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
       <e>
@@ -540,7 +539,6 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
       <e r="LR">
@@ -549,7 +547,6 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
     </pardef>
@@ -561,7 +558,6 @@
           <r><s n="n"/><s n="sg"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
       <e>
@@ -582,7 +578,6 @@
           <r><s n="n"/><s n="sg"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
       <e>
@@ -591,7 +586,6 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
       <e>
@@ -600,11 +594,10 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
     </pardef>
-
+<!-- soroush bookmark march 9th -->
     <pardef n="ستار/ه__n">
       <e>
         <p>
