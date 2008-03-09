@@ -346,7 +346,7 @@
       </e>
     </pardef>
 <!-- possessive pronouns -->
-    <pardef n="S__pos">
+    <pardef n="S__pos__cons">
       <e>
         <p>
           <l>م</l>
@@ -386,7 +386,7 @@
 	</pardef>
       <!-- Passthrough -->
 <!-- possessive pronouns: only when the last letter is ه and sounds `e` -->
-    <pardef n="S__pos">
+    <pardef n="S__pos__vowel">
       <e>
         <p>
           <l>ام</l>
@@ -424,6 +424,46 @@
         </p>
       </e>
     </pardef>
+<!-- possessive pronouns: only when the last letter is ه and sounds `e` -other used form -->
+    <pardef n="S__pos__vowels">
+      <e>
+        <p>
+          <l>ام</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ات</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>اش</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>یمان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>یتان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>یشان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      </pardef>
+<!-- possessive pronouns: end -->
 
     <pardef n="ﺭﻭﺯ__n">
       <e>
