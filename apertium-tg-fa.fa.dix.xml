@@ -244,7 +244,6 @@
       </e>
     </pardef>
 
-
     <pardef n="ﺩﺭ__pr">
       <e>
         <p>
@@ -346,8 +345,85 @@
         <par n="S__را"/>
       </e>
     </pardef>
-
-
+<!-- possessive pronouns -->
+    <pardef n="S__pos">
+      <e>
+        <p>
+          <l>م</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ت</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ش</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>مان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>تان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>شان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+	</pardef>
+      <!-- Passthrough -->
+<!-- possessive pronouns: only when the last letter is ه and sounds `e` -->
+    <pardef n="S__pos">
+      <e>
+        <p>
+          <l>ام</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ات</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>اش</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>مان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>تان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>شان</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
 
     <pardef n="ﺭﻭﺯ__n">
       <e>
