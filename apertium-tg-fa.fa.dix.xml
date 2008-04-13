@@ -737,7 +737,7 @@
         <par n="S__ی"/>
       </e>
     </pardef>
-<!-- soroush: strange -->
+
     <pardef n="مل/ت__n">
       <e>
         <p>
@@ -745,7 +745,6 @@
           <r>ت<s n="n"/><s n="sg"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
         <par n="S__ی"/>
       </e>
       <e>
@@ -754,7 +753,22 @@
           <r>ت<s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__را"/>
-        <par n="S__ه"/>
+        <par n="S__ی"/>
+      </e>
+	  <e>
+        <p>
+          <l>ت‌ها</l><!-- with ZWNJ -->
+          <r>ت<s n="n"/><s n="pl"/></r>
+        </p>
+        <par n="S__را"/>
+        <par n="S__ی"/>
+      </e>
+	  <e>
+        <p>
+          <l>ت ها</l>
+          <r>ت<s n="n"/><s n="pl"/></r>
+        </p>
+        <par n="S__را"/>
         <par n="S__ی"/>
       </e>
     </pardef>
