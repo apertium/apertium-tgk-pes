@@ -737,7 +737,6 @@
         <par n="S__ی"/>
       </e>
     </pardef>
-
     <pardef n="مل/ت__n">
       <e>
         <p>
@@ -7121,7 +7120,7 @@
     </pardef>
 
   </pardefs>
-
+<!-- Soroush:All the above verbs need care for reducing document size -->
   <section id="main" type="standard">
     <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
 
@@ -7370,7 +7369,7 @@
     <e lm="عکس"><i>عکس</i><par n="ﺭﻭﺯ__n"/></e>
     <e lm="سریال"><i>سریال</i><par n="ﺭﻭﺯ__n"/></e>
     <e lm="بچه"><i>بچه</i><par n="ﺭﻭﺯ__n"/></e>
-    <e lm="ترجمه"><i>ترجمه</i><par n="ﺭﻭﺯ__n"/></e>
+    <e lm="ترجمه"><i>ترجمه</i><par n="ستار/ه__n"/></e>
     <e lm="بادبان"><i>بادبان</i><par n="ﺭﻭﺯ__n"/></e>
     <e lm="دریا"><i>دریا</i><par n="ﺭﻭﺯ__n"/></e>
     <e lm="طرح"><i>طرح</i><par n="ﺭﻭﺯ__n"/></e>
