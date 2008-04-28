@@ -19,5 +19,9 @@
 /autogen.sh -text
 /configure.ac -text
 /fa-tg.prob -text svneol=unset#unset
+make-xmls/README -text
+make-xmls/verbs.csv -text
+make-xmls/verbs.odt.ods -text
+make-xmls/verbs.py -text
 /modes.xml -text
 /tg-fa.prob -text svneol=unset#unset
