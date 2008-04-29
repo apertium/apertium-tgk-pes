@@ -3,3 +3,24 @@ This is just my pad for creating xmls in script. I don't like to change xml by h
 ods file contains sheets and more data for me
 
 Wait for better tools- This is just for me
+
+Breaking verb prefixes into two groups
+#The ones can join the verb like be na(Some or all of these prefixes must join-> I'll think)*NO SPACE IS ALLOWED AND USED ANYWAY*
+#Ones can't join like mi
+*After these both prefix should be defined for all verbs 
+*#for most of the verbs those groups can be used together(especially it is found redundantly in older texts)
+*#for verbs begining with a/e/aa/o/u we should take more care and make the paradigms seperatedly(*NO SPACE IS ALLOWED AND USED ANYWAY* shouldn't be forgotten)
+*#mi always need need space
+
+
+NOW TODO
+*paradigm for all verbs:
+**simple single rooted verbs will be deleted
+**All verbs need definition in paradigm part
+**3 form(past/pres/imp) -> imp doesn't take some prefix likes me
+**for aa begining both with a (for joining prefix form) and aa for non-joining prefix form is required. Joining forms need a kind of paradigm that doesn't have path trough so making a P_jprefixes P_njprefixes to be used with path through in P_prefixes is a good practice 
+
+
+
+
+

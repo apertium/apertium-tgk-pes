@@ -39,9 +39,23 @@ bypara =u'''
       </e>
     </pardef>'''
 
-def makeVerbDefs(verbRoot):
-	result = soreg.replace('presROOT',verbRoot)
+def makeVerbDefs(verbRoot , verbRoot0 , mode=0):
+	if(mode==0):
+		result = soreg.replace('presROOT',verbRoot)
+	elif(mode==1):
+		result =boreg.replace('presROOT',verbRoot0)
 	return result
+
+def makeVerbParas(pastRoot, presentRoot,mode=0)
+	if (mode==0):
+		result =''
+	elif (mode==1):
+		result = bpara.replace('presROOT', presRoot)
+		result = result.replace('pastROOT', pastRoot)
+	elif (mode==2):
+		result = bypara.replace('presROOT',presRoot)
+		result = result.replace('pastROOT',pastRoot)
+	elif 
 
 def getVerbsFile(fileName):
 	import codecs
@@ -64,10 +78,15 @@ for pairs in mlist:
 			simpleDefs = simpleDefs + makeVerbDefs(vroot[0].strip()[1:-1])
 	elif (len(vroot[2].strip())==0):
 		#using the format of regular 2 rooted
+			brootDefs = brootDefs + makeVerbDefs(vroot[0],vroot[0],mode =2)
 		print vroot[1]
-	elif (len(vroot[2].strip())>0):
+	elif (len(vroot[3].strip())==0):
 		#using the format of azmaayidan
 		print 'hi'
+	elif ((len(vroot[4])>1)):
+		#Do nothing in this case because they should be thought later
+	elif (len(vroot[0])>0):
+		#using to prevent processing if it is empty
 print simpleDefs
 		
 
