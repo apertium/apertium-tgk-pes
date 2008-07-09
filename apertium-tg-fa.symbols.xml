@@ -74,6 +74,7 @@
     <sdef n="prs"     c="Present subjunctive"/>
     <sdef n="pis"     c="Pretério imperfecto de subjunctivo"/>
     <sdef n="imp"     c="Imperfect"/>
+    <sdef n="imprt"   c="Imperative"/>
     <sdef n="pos"     c="Possessive"/>
 
     <sdef n="gen"     c="Genitive"/>
