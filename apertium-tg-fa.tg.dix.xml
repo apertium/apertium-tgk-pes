@@ -69,9 +69,9 @@
     <!-- Enclitics -->
     <pardef n="S__ind">
       <e>
-	<p>
-	  <l>е</l>
-	  <r><j/>е<s n="enc"/><s n="ind"/></r>
+        <p>
+          <l>е</l>
+          <r><j/>е<s n="enc"/><s n="ind"/></r>
 	</p>
       </e>
       <e>
@@ -102,7 +102,22 @@
 	</p>
       </e>
     </pardef>
-
+    
+    <pardef n="S__izaORind"> 
+      <e>
+        <p>
+          <l/>
+          <r/>
+        <par n="S__ind"/>
+      </e>
+      <e>
+        <l/>
+        <r/>
+        <par n="S__iza"/>
+      </e>
+      
+      
+    </pardef>
     <pardef n="P__subj">
       <e>
         <p>
@@ -308,16 +323,14 @@
 	  <l/>
 	  <r><s n="n"/><s n="sg"/></r>
         </p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
       <e>
 	<p>
 	  <l>ҳо</l>
 	  <r><s n="n"/><s n="pl"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -327,8 +340,7 @@
 	  <l/>
 	  <r><s n="n"/><s n="pl"/></r>
         </p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -339,16 +351,14 @@
           <l/>
 	  <r><s n="n"/><s n="sg"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
       <e>
 	<p>
 	  <l>он</l>
 	  <r><s n="n"/><s n="pl"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -358,16 +368,14 @@
           <l/>
 	  <r><s n="n"/><s n="sg"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
       <e>
 	<p>
 	  <l>ён</l>
 	  <r><s n="n"/><s n="pl"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -377,16 +385,14 @@
           <l/>
 	  <r><s n="n"/><s n="sg"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
       <e>
 	<p>
 	  <l>от</l>
 	  <r><s n="n"/><s n="pl"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -396,16 +402,14 @@
           <l/>
 	  <r><s n="n"/><s n="sg"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
       <e>
 	<p>
 	  <l>гон</l>
 	  <r><s n="n"/><s n="pl"/></r>
 	</p>
-        <par n="S__ind"/>
-        <par n="S__iza"/>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -418,18 +422,21 @@
           <l/>
 	  <r><s n="adj"/><s n="pve"/></r>
 	</p>
+        <par n="S__izaORind"/>
       </e>
       <e>
         <p>
           <l>тар</l>
           <r><s n="adj"/><s n="comp"/></r>
         </p>
+        <par n="S__izaORind"/>
       </e>
       <e>
         <p>
           <l>тарин</l>
           <r><s n="adj"/><s n="sup"/></r>
         </p>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
@@ -439,27 +446,38 @@
           <l/>
 	  <r><s n="adj"/><s n="pve"/></r>
 	</p>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
     <pardef n="хушрӯ/й__adj">
       <e>
         <p>
+          <l/>
+          <r><s n="adj"/><s n="pve"/></r>
+        </p>
+        <par n="S__izaORind"/>
+      </e> 
+      <e>
+        <p>
           <l>й</l>
           <r><s n="adj"/><s n="pve"/></r>
         </p>
+        <par n="S__izaORind"/>
       </e> 
       <e>
         <p>
           <l>тар</l>
           <r><s n="adj"/><s n="comp"/></r>
         </p>
+        <par n="S__izaORind"/>
       </e>
       <e>
         <p>
           <l>тарин</l>
           <r><s n="adj"/><s n="sup"/></r>
         </p>
+        <par n="S__izaORind"/>
       </e>
     </pardef>
 
