@@ -14,21 +14,24 @@ TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$
      $(PREFIX2).t1x.bin modes \
      clean-dicts
 
-apertium-tg-fa.fa.dix: apertium-tg-fa.fa.metadix
-	@xsltproc buscaPar.xsl apertium-tg-fa.fa.metadix | uniq > $$gen.xsl
-	@xsltproc $$gen.xsl apertium-tg-fa.fa.metadix >$@
-	@rm $$gen.xsl
 
+#$(BASENAME).$(LANG2).dix:
+#	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
+
+$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).metadix
+	xmllint --xinclude $(BASENAME).$(LANG2).metadix > $(BASENAME).$(LANG2).metadixtmp1
+	@xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadixtmp1 | uniq > $$gen.xsl
+	@xsltproc $$gen.xsl $(BASENAME).$(LANG2).metadixtmp1 >$@
+	@rm $$gen.xsl
+	@rm $(BASENAME).$(LANG2).metadixtmp1
 
 #$(PREFIX2).autopgen.bin $(PREFIX1).autopgen.bin
 # $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
 
 $(BASENAME).$(LANG1).dix:
 	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
-$(BASENAME).$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
-$(BASENAME).$(LANG1)-$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
+$(BASENAME).$(PREFIX1).dix:
+	xmllint --xinclude $(BASENAME).$(PREFIX1).dix.xml > $(BASENAME).$(PREFIX1).dix
 $(BASENAME).post-$(LANG1).dix:
 	xmllint --xinclude $(BASENAME).post-$(LANG1).dix.xml > $(BASENAME).post-$(LANG1).dix
 
