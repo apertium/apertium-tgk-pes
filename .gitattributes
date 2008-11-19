@@ -9,6 +9,7 @@
 /TODO -text
 /apertium-tg-fa.fa-tg.t1x -text
 /apertium-tg-fa.fa.dix.xml -text
+/apertium-tg-fa.fa.metadix -text
 /apertium-tg-fa.post-tg.dix.xml -text
 /apertium-tg-fa.symbols.xml -text
 /apertium-tg-fa.tg-fa.dix.xml -text
@@ -17,11 +18,24 @@
 /apertium-tg-fa.translit-tg@Latn.dix -text
 /apertium-tg-fa.translit.dix -text
 /autogen.sh -text
+/buscaPar.xsl -text
 /configure.ac -text
 /fa-tg.prob -text svneol=unset#unset
-make-xmls/README -text
-make-xmls/verbs.csv -text
-make-xmls/verbs.odt.ods -text
-make-xmls/verbs.py -text
+handy/README -text
+handy/myverbparadigms.txt -text
+handy/verbs.csv -text
+handy/verbs.ods -text
+handy/verbs.py -text
 /modes.xml -text
+old/apertium-tg-fa.tg-fa.dix.xml -text
+old/apertium-tg-fa.tg.dix.xml -text
+/principal.xsl -text
 /tg-fa.prob -text svneol=unset#unset
+tsts-nov19/apertium-tg-fa.fa.metadix -text
+tsts-nov19/apertium-tg-fa.tg.dix.xml -text
+tsts-nov19/apertium-tg-fa.tg.metadix -text
+tsts-nov19/buscaPar.xsl -text
+tsts-nov19/principal--[!!-~](copie).xsl -text
+tsts-nov19/principal.xsl -text
+tsts-nov19/tobeAdded -text
+tsts-nov19/xsl.sh -text

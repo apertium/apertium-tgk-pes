@@ -5,569 +5,68 @@
 
   <pardefs>
 
-    <pardef n="guionet">
-      <e>
-        <p>
-          <l>-</l>
-          <r>-<s n="guio"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="coma">
-      <e>
-        <p>
-         <l>,</l>
-         <r>,<s n="cm"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="cometa">
-      <e>
-        <p>
-         <l>'</l>
-         <r>'<s n="apos"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="numeros">
-      <e>
-        <re>[0-9]+([.,][0-9]+)?</re>
-        <p>
-          <l/>
-          <r><s n="num"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="separa">
-      <e>
-        <re>[.\?;:!]</re>
-        <p>
-          <l/>
-          <r><s n="sent"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="paresq">
-      <e>
-        <re>[\(\[]</re>
-        <p>
-          <l/>
-          <r><s n="lpar"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="pardret">
-      <e>
-        <re>[\)\]]</re>
-        <p>
-          <l/>
-          <r><s n="rpar"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <!-- Enclitics -->
-    <pardef n="S__ind">
-      <e>
-        <p>
-          <l>е</l>
-          <r><j/>е<s n="enc"/><s n="ind"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l/>
-	  <r/>
-	</p>
-      </e>
-    </pardef>
-
-    <pardef n="S__iza">
-      <e>
-        <p>
-          <l>и</l>
-	  <r><j/>izafet<s n="enc"/><s n="izo"/></r>
-	</p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>-и</l>
-	  <r><j/>izafet<s n="enc"/><s n="izo"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l/>
-	  <r/>
-	</p>
-      </e>
-    </pardef>
-    
-    <pardef n="S__izaORind"> 
-      <e>
-        <p>
-          <l/>
-          <r/>
-        </p>
-        <par n="S__ind"/>
-      </e>
-      <e>
-      	<p>
-          <l/>
-          <r/>
-        </p>
-        <par n="S__iza"/>
-      </e>
-      
-      
-    </pardef>
-    <pardef n="P__subj">
-      <e>
-        <p>
-          <l>би</l>
-	  <r>prefix<s n="vblex"/><s n="subj"/><j/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l/>
-	  <r/>
-	</p>
-      </e>
-    </pardef>
-
-    <pardef n="directobject__enc">
-      <e>
-	<p>
-          <l/>
-          <r><s n="enc"/><s n="acc"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="pronominal__enc">
-      <e>
-        <p>
-          <l>ам</l>
-          <r>prenc<s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l>ат</l>
-          <r>prenc<s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l>аш</l>
-          <r>prenc<s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l>амон</l>
-          <r>prenc<s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l>атон</l>
-          <r>prenc<s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-	</p>
-      </e>
-      <e>
-        <p>
-          <l>ашон</l>
-          <r>prenc<s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
-	</p>
-      </e>
-    </pardef>
-
-    <!-- Numbers -->
-    <pardef n="як__num">
-      <e>
-        <p>
-          <l/>
-          <r><s n="num"/><s n="sg"/></r>
-        </p>
-        <par n="S__ind"/>
-      </e>
-    </pardef>
-
-    <pardef n="ду__num">
-      <e>
-        <p>
-          <l/>
-          <r><s n="num"/><s n="sp"/></r>
-        </p>
-        <par n="S__ind"/>
-      </e>
-    </pardef>
-
-
-
-    <!-- Pronouns -->
-
-    <pardef n="prsubj__prn">
-      <e>
-	<p>
-          <l>ман</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <e>
-	<p>
-          <l>ту</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <e r="LR">
-	<p>
-          <l>ӯ</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <!-- him or her -->
-      <e>
-	<p>
-          <l>вай</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-	</p>
-      </e>
-      <e>
-	<p>
-          <l>мо</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
-	</p>
-      </e>
-      <e>
-	<p>
-          <l>шумо</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-	</p>
-      </e>
-      <e>
-	<p>
-          <l>онҳо</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
-	</p>
-      </e>
-    </pardef>
-
-    <!-- Relative pronouns -->
-
-    <pardef n="ки__rel">
-      <e>
-        <p>
-	  <l/>
-          <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <!-- Determiners -->
-
-    <pardef n="ин__det">
-      <e>
-        <p>
-          <l/>
-          <r><s n="det"/><s n="dem"/><s n="sp"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="дувум__det">
-      <e>
-        <p>
-          <l/>
-          <r><s n="det"/><s n="ord"/><s n="sp"/></r>
-        </p>
-      </e>
-      <!-- Find out what ~in means -->
-      <e r="LR">
-        <p>
-          <l>ин</l>
-          <r><s n="det"/><s n="ord"/><s n="sp"/></r>
-        </p>
-      </e>
-    </pardef>
-
-
-    <!-- Proper Nouns -->
-
-    <pardef n="Тоҷикистон__np">
-      <e>
-        <p>
-          <l/>
-          <r><s n="np"/><s n="top"/><s n="sg"/></r>
-        </p>
-        <par n="S__iza"/>
-      </e>
-    </pardef>
-
-    <pardef n="Фурӯғ__np">
-      <e>
-        <p>
-          <l/>
-          <r><s n="np"/><s n="ant"/><s n="sg"/></r>
-        </p>
-        <par n="S__iza"/>
-      </e>
-    </pardef>
-
-
-
-    <!-- Nouns -->
-
-    <pardef n="китоб__n">
-      <e>
-        <p>
-	  <l/>
-	  <r><s n="n"/><s n="sg"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-	<p>
-	  <l>ҳо</l>
-	  <r><s n="n"/><s n="pl"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <pardef n="ҷамоҳир__n"> 			<!-- Arabic broken plurals -->
-      <e>
-        <p>
-	  <l/>
-	  <r><s n="n"/><s n="pl"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-
-    <pardef n="духтар__n">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="n"/><s n="sg"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-	<p>
-	  <l>он</l>
-	  <r><s n="n"/><s n="pl"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <pardef n="тракторчи__n">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="n"/><s n="sg"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-	<p>
-	  <l>ён</l>
-	  <r><s n="n"/><s n="pl"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <pardef n="деҳ__n">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="n"/><s n="sg"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-	<p>
-	  <l>от</l>
-	  <r><s n="n"/><s n="pl"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <pardef n="ширкаткунанда__n">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="n"/><s n="sg"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-	<p>
-	  <l>гон</l>
-	  <r><s n="n"/><s n="pl"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-
-    <!-- Adjectives -->
-
-    <pardef n="бузург__adj">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="adj"/><s n="pve"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-        <p>
-          <l>тар</l>
-          <r><s n="adj"/><s n="comp"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-        <p>
-          <l>тарин</l>
-          <r><s n="adj"/><s n="sup"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <pardef n="русӣ__adj">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="adj"/><s n="pve"/></r>
-	</p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <pardef n="хушрӯ/й__adj">
-      <e>
-        <p>
-          <l/>
-          <r><s n="adj"/><s n="pve"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e> 
-      <e>
-        <p>
-          <l>й</l>
-          <r><s n="adj"/><s n="pve"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e> 
-      <e>
-        <p>
-          <l>тар</l>
-          <r><s n="adj"/><s n="comp"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e>
-      <e>
-        <p>
-          <l>тарин</l>
-          <r><s n="adj"/><s n="sup"/></r>
-        </p>
-        <par n="S__izaORind"/>
-      </e>
-    </pardef>
-
-    <!-- Adverbs -->
-
-    <pardef n="имрӯз__adv">
-      <e>
-        <p>
-          <l/>
-          <r><s n="adv"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <!-- Prepositions -->
-
-    <pardef n="дар__pr">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="pr"/></r>
-	</p>
-      </e>
-    </pardef>
-
-    <!-- Conjunctions -->
-
-    <pardef n="ва__cnjcoo">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="cnjcoo"/></r>
-	</p>
-      </e>
-    </pardef>
-
-    <pardef n="барои__cnjadv">
-      <e>
-        <p>
-          <l/>
-	  <r><s n="cnjadv"/></r>
-	</p>
-      </e>
-    </pardef>
-
-    <pardef n="P__на">
-      <e>
-        <p>
-          <l>на</l>
-          <r>на<s n="neg"/><j/></r>
-        </p>
-      </e>
-      <!-- Passthrough -->
-      <e>
-        <p>
-          <l/>
-          <r/>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="P__prefixes">
-      <e>
-        <par n="P__на"/>
-        <p>
-          <l>ме</l>
-          <r>ме<s n="me"/><j/></r>
-        </p>
-      </e>
-      <e>
-        <par n="P__на"/>
-        <p>
-          <l>би</l>
-          <r>би<s n="bi"/><j/></r>
-        </p>
-      </e>
-      <!-- Passthrough -->
-      <e>
-        <p>
-          <l/>
-          <r/>
-        </p>
-      </e>
-    </pardef>
 
     <!-- Verbs -->
+    <pardef n="/VERBS">
+      <e>
+        <par n="P__prefixes" />
+        <p>
+          <l><prm1/></l>
+          <r><prm1/>ан<s n="vblex"/><s n="past"/></r>
+        </p>
+        <par n="V__дидан__vblex"/>
+      </e>
+      <e>
+        <par n="P__prefixes" />
+        <p>
+          <l><prm1/>а</l>
+          <r><prm1/>ан<s n="vblex"/><s n="past"/></r>
+        </p>
+        <par n="zwnj_or_space" />
+        <par n="aV__/астан__vbser"/>
+      </e>
+      <!-- Imperative -->
+      <e>
+        <par n="P__imp__prefixes" />
+        <p>
+          <l><prm2/></l>
+          <r><prm1/>ан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <par n="P__imp__prefixes" />
+        <p>
+          <l><prm2/></l>
+          <r><prm1/>ан<s n="vblex"/><s n="imp"/></r>
+        </p>
+        <i><prm3/></i>
+        <par n="V__/бебин[дидан]__vblex"/>
+      </e>
+      <!-- Present -->
+      <e>
+        <par n="P__н" />
+        <par n="P__njprefixes" />
+        <p>
+          <l><prm2/></l>
+          <r><prm1/>ан<s n="vblex"/><s n="pri"/></r>
+        </p>
+        <i><prm3/></i>
+        <par n="V__چش/[چشیدن]__vblex"/>
+      </e>
+      <e>
+        <par n="P__jprefixes" />
+        <p>
+          <l><prm2/></l>
+          <r><prm1/>ан<s n="vblex"/><s n="prs"/></r>
+        </p>
+        <i><prm3/></i>
+        <par n="V__چش/[چشیدن]__vblex"/>
+      </e>
+    </pardef>
 
+
+
+<!-- OLD &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&^%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <pardef n="/будан__vbser"> <!-- to be -->
     <!-- ҳастам ҳасти ҳаст аст ҳастем ҳастанд ҳастед -->
       <e>

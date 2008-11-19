@@ -14,6 +14,12 @@ TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$
      $(PREFIX2).t1x.bin modes \
      clean-dicts
 
+apertium-tg-fa.fa.dix: apertium-tg-fa.fa.metadix
+	@xsltproc buscaPar.xsl apertium-tg-fa.fa.metadix | uniq > $$gen.xsl
+	@xsltproc $$gen.xsl apertium-tg-fa.fa.metadix >$@
+	@rm $$gen.xsl
+
+
 #$(PREFIX2).autopgen.bin $(PREFIX1).autopgen.bin
 # $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
 
