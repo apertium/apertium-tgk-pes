@@ -292,6 +292,7 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
+<!--
       <e>
         <p>
           <l><b/>این</l>
@@ -316,6 +317,7 @@
           <r><j/>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
+-->
     </pardef>
 
     <pardef n="همه__prn">
