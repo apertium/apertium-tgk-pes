@@ -28,8 +28,6 @@ $(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).metadix
 #$(PREFIX2).autopgen.bin $(PREFIX1).autopgen.bin
 # $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
 
-$(BASENAME).$(LANG1).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
 $(BASENAME).$(PREFIX1).dix:
 	xmllint --xinclude $(BASENAME).$(PREFIX1).dix.xml > $(BASENAME).$(PREFIX1).dix
 $(BASENAME).post-$(LANG1).dix:
@@ -101,7 +99,6 @@ $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
 
 clean-dicts:
-	rm $(BASENAME).$(LANG1).dix
 	rm $(BASENAME).$(LANG2).dix
 	rm $(BASENAME).$(PREFIX1).dix
 	rm $(BASENAME).post-$(LANG1).dix
