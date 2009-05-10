@@ -20,12 +20,12 @@
 /autogen.sh -text
 /buscaPar.xsl -text
 /configure.ac -text
+dev/README -text
+dev/myverbparadigms.txt -text
+dev/verbs.csv -text
+dev/verbs.ods -text
+dev/verbs.py -text
 /fa-tg.prob -text svneol=unset#unset
-handy/README -text
-handy/myverbparadigms.txt -text
-handy/verbs.csv -text
-handy/verbs.ods -text
-handy/verbs.py -text
 /modes.xml -text
 old/apertium-tg-fa.tg-fa.dix.xml -text
 old/apertium-tg-fa.tg.dix.xml -text
