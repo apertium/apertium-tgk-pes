@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dictionary>
   <alphabet>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЪЭЮЯҒӢҚӮҲҶабвгдеёжзийклмнопрстуфхчшъэюяғӣқӯҳҷابپتثچجحخديذرزژسشصضطظعغقکگلىمنهیئونكفهؤپءٔآ</alphabet>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-tg-fa.symbols.xml"/>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+  </sdefs>
   <pardefs>
     <pardef n="numbers">
     <e>
@@ -87,6 +89,7 @@
         <l><a/></l>
 	<r/>
       </p>
+      <par n="numbers"/>
     </e>
   </section>
   
