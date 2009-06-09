@@ -1389,37 +1389,37 @@
       <e>
         <p>
           <l>یم</l>
-          <r><s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+          <r><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>م</l>
-          <r><s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+          <r><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ید</l>
-          <r><s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
+          <r><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ی</l>
-          <r><s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+          <r><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ند</l>
-          <r><s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
+          <r><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>د</l>
-          <r><s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+          <r><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
