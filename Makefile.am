@@ -11,7 +11,7 @@ TARGETS_COMMON =  \
      $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin \
      $(PREFIX1).t1x.bin  \
-     $(PREFIX2).t1x.bin modes 
+     $(PREFIX2).t1x.bin modes  $(PREFIX2).mode
 
 $(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).metadix
 	@xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadix | uniq > $$gen.xsl
@@ -108,5 +108,6 @@ install-data-local:
 	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_tg_famodesdir)
 	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_tg_famodesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x $(apertium_tg_fadir)
+	cp *.mode modes/
 
 CLEANFILES = -r $(TARGETS_COMMON) 

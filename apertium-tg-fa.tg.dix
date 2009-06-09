@@ -690,14 +690,16 @@
           <r>будан<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
-      <e r="LR"> <!-- this is is one acceptable form -->
+<!-- this is is one acceptable form -->
+      <e r="LR"> 
         <p>
           <l>ҳаст</l>
           <r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
+<!-- this is the other acceptable form -->
       <e>
-        <p> <!-- this is the other acceptable form -->
+        <p> 
           <l>аст</l>
           <r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
@@ -800,75 +802,75 @@
     <pardef n="до/штан__vbhaver"> <!-- to have -->
       <e>
         <p>
-          <l>рам</l> <!-- i have -->
+          <l>рам</l> 
 	  <r>штан<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
      <e>
        <p>
-         <l>ри</l> <!-- you have -->
+         <l>ри</l> 
 	 <r>штан<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>рад</l> <!-- he has -->
+         <l>рад</l> 
 	 <r>штан<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>рем</l> <!-- we have -->
+         <l>рем</l>
 	 <r>штан<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>ранд</l> <!-- they have -->
+         <l>ранд</l> 
 	 <r>штан<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>ред</l> <!-- you have -->
+         <l>ред</l> 
 	 <r>штан<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>штам</l> <!-- i had -->
+         <l>штам</l> 
 	 <r>штан<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>шти</l> <!-- you had -->
+         <l>шти</l> 
 	 <r>штан<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>шт</l> <!-- he had -->
+         <l>шт</l>
 	 <r>штан<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
-         <l>штем</l> <!-- we had -->
+         <l>штем</l>
 	 <r>штан<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="pl"/></r>
        </p>
      </e>
 
      <e>
        <p>
-         <l>штанд</l> <!-- they had -->
+         <l>штанд</l> 
 	 <r>штан<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="pl"/></r>
        </p>
      </e>
 
      <e>
        <p>
-         <l>штед</l> <!-- you had -->
+         <l>штед</l> 
 	 <r>штан<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="pl"/></r>
        </p>
      </e>

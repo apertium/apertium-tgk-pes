@@ -40,9 +40,6 @@
       <program name="lt-proc $1">
         <file name="tg-fa.autogen.bin"/>
       </program>
-<!--      <program name="lt-proc -p">
-        <file name="tg-fa.autopgen.bin"/>
-      </program>  -->
     </pipeline>
   </mode>
 
@@ -63,9 +60,6 @@
       <program name="lt-proc -g">
         <file name="fa-tg.autogen.bin"/>
       </program>
-<!--      <program name="lt-proc -p">
-        <file name="fa-tg.autopgen.bin"/>
-      </program> -->
     </pipeline>
   </mode>
 
@@ -87,10 +81,40 @@
       <program name="lt-proc $1">
         <file name="fa-tg.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="fa-tg.autopgen.bin"/>
-      </program> 
     </pipeline>
   </mode>
+
+
+
+  <mode name="fa-tg-tagger">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="fa-tg.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="fa-tg.prob"/>
+      </program> 
+     </pipeline>
+  </mode>
+
+  <mode name="fa-tg-transfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="fa-tg.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="fa-tg.prob"/>
+      </program> 
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-tg-fa.fa-tg.t1x"/>
+        <file name="fa-tg.t1x.bin"/>
+        <file name="fa-tg.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
 
 </modes>
