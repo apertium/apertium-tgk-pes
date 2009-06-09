@@ -10,7 +10,7 @@ AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
-PKG_CHECK_MODULES(APERTIUM, apertium-3.0 >= 3.0.0)
+PKG_CHECK_MODULES(APERTIUM, apertium-3.1 >= 3.1.0)
 
 MODES="modes";
 
