@@ -88,6 +88,7 @@
     <sdef n="ij"      c="Interjection"/>
 
 
+    <sdef n="al"      c="Altres"/>
     <sdef n="sent"    c="End of sentence"/>
     <sdef n="cm"      c="Commа"/>
     <sdef n="lpar"    c="Left pаrenthesis"/>
@@ -2231,7 +2232,7 @@
     <e><p><l>Мэн<s n="np"/></l><r>مِین<s n="np"/></r></p></e>
     <e><p><l>Миннесота<s n="np"/></l><r>مینسوتا<s n="np"/></r></p></e>
     <e><p><l>Монтана<s n="np"/></l><r>مونتانا<s n="np"/></r></p></e>
-    <e><p><l>ҳавзаи Колумбия<s n="np"/></l><r>ناحیه کلمبیا<s n="np"/></r></p></e>
+    <e><p><l>ҳавзаи<b/>Колумбия<s n="np"/></l><r>ناحیه کلمبیا<s n="np"/></r></p></e>
     <e><p><l>Небраска<s n="np"/></l><r>نبراسکا<s n="np"/></r></p></e>
     <e><p><l>Невада<s n="np"/></l><r>نوادا<s n="np"/></r></p></e>
     <e><p><l>Ню-Ҷерсӣ<s n="np"/></l><r>نیوجرسی<s n="np"/></r></p></e>
@@ -2248,6 +2249,10 @@
     <e><p><l>Вирҷинияи Ғарбӣ<s n="np"/></l><r>ویرجینیای باختری<s n="np"/></r></p></e>
     <e><p><l>Вермонт<s n="np"/></l><r>ورمونت<s n="np"/></r></p></e>
     <e><p><l>Висконсин<s n="np"/></l><r>ویسكانسین<s n="np"/></r></p></e>
+
+    <!-- Altres -->
+ 
+    <e><p><l>Ҳизбаллоҳ<s n="np"/><s n="al"/></l><r>حزب<b/>الله<s n="np"/><s n="al"/></r></p></e>
 
     <!-- nouns which their plurаls is like thаt of (дyшман), pаrt1 (words which don't hаve аny of "дзр" аt the end) -->
     <e><p><l>йобӣ<s n="n"/></l><r>یابی<s n="n"/></r></p></e>
