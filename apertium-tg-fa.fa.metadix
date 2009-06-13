@@ -46,14 +46,13 @@
 
     <sdef n="detnt"   c="Neuter determiner"/>
     <sdef n="predet"  c="Pre determiner"/>
-    <sdef n="atn"/>
-    <sdef n="qnt"/>
+    <sdef n="qnt"     c="Quantifier"/>
     <sdef n="ord"     c="Ordinal"/>
     <sdef n="obj"     c="Object"/>
     <sdef n="subj"    c="Subject"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="acr"     c="Acronym"/>
-    <sdef n="ant"     c="Antroponym"/>
+    <sdef n="ant"     c="Anthroponym"/>
     <sdef n="al"      c="Other / Otros"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="top"     c="Toponym"/>
@@ -76,8 +75,8 @@
     <sdef n="cni"     c="Conditional"/>
     <sdef n="prs"     c="Present subjunctive"/>
     <sdef n="pis"     c="Pretério imperfecto de subjunctivo"/>
-    <sdef n="imp"     c="Imperfect"/>
-    <sdef n="imprt"   c="Imperative"/>
+    <sdef n="pii"     c="Imperfect"/>
+    <sdef n="imp"     c="Imperative"/>
     <sdef n="pos"     c="Possessive"/>
 
     <sdef n="gen"     c="Genitive"/>
@@ -95,14 +94,9 @@
     <sdef n="rpar"    c="Right parenthesis"/>
     <sdef n="lquest"  c="Left question-mark"/>
     <sdef n="web"/>
-    <sdef n="subs"/>
-    <sdef n="pprs"/>    
     <sdef n="guio"    c="Hyphen"/> 
     <sdef n="enc"/>
     <sdef n="vbdo"    c="The verb 'to do'"/>
-    <sdef n="unc"/>
-    <sdef n="sep"/>
-    <sdef n="pron"/>
     <sdef n="apos"    c="Apostrophe"/>
 
     <sdef n="pref"    c="Prefix"/>
@@ -1388,13 +1382,13 @@
       <e>
         <p>
           <l>ید</l>
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+          <r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l/>
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -1503,14 +1497,14 @@
         <par n="P__imp__prefixes" />
         <p>
           <l><prm2/></l>
-          <r><prm/>ن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <par n="P__imp__prefixes" />
         <p>
           <l><prm2/></l>
-          <r><prm/>ن<s n="vblex"/><s n="imp"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="pii"/></r>
         </p>
         <i><prm3/></i>
         <par n="V__/بچش[چشیدن]__vblex"/>
@@ -1601,7 +1595,7 @@
         <i><prm4/></i>
         <p>
           <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -1609,14 +1603,14 @@
         <i><prm5/></i>
         <p>
           <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <i><prm4/></i>
         <p>
           <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="imp"/></r>
+          <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/></r>
         </p>
         <i><prm3/></i>
         <par n="V__/بچش[چشیدن]__vblex"/>
@@ -1626,7 +1620,7 @@
         <i><prm5/></i>
         <p>
           <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="imp"/></r>
+          <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/></r>
         </p>
         <i><prm3/></i>
         <par n="V__/بچش[چشیدن]__vblex"/>
