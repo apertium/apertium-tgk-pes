@@ -60,9 +60,9 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="preadv"  c="Pre-adverb"/>
     <sdef n="rel"     c="Relative"/>
-    <sdef n="nn"      c="Noun noun"/>
-    <sdef n="an"      c="Adjective noun"/>
-    <sdef n="aa"      c="Adjective adjective"/>
+    <sdef n="nn"      c="Inanimate"/>
+    <sdef n="an"      c="Animate / inanimate"/>
+    <sdef n="aa"      c="Animate"/>
     <sdef n="ind"     c="Indefinite"/>    
     <sdef n="itg"     c="Interrogative"/>
     <sdef n="det"     c="Determiner"/>
