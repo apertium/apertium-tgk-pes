@@ -75,7 +75,6 @@
     <sdef n="cni"     c="Conditional"/>
     <sdef n="prs"     c="Present subjunctive"/>
     <sdef n="pis"     c="Pretério imperfecto de subjunctivo"/>
-    <sdef n="pii"     c="Imperfect"/>
     <sdef n="imp"     c="Imperative"/>
     <sdef n="pos"     c="Possessive"/>
 
@@ -1479,7 +1478,7 @@
         <par n="P__prefixes" />
         <p>
           <l><prm/></l>
-          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/><j/></r>
         </p>
         <par n="V__چشید/ن__vblex"/>
       </e>
@@ -1487,7 +1486,7 @@
         <par n="P__prefixes" />
         <p>
           <l><prm/>ه</l>
-          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/><j/></r>
         </p>
         <par n="zwnj_or_space" />
         <par n="aV__/استن__vbser"/>
