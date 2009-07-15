@@ -1343,37 +1343,37 @@
       <e>
         <p>
           <l>یم</l>
-          <r>ن<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+          <r>ن<s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>م</l>
-          <r>ن<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+          <r>ن<s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ید</l>
-          <r>ن<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+          <r>ن<s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ی</l>
-          <r>ن<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+          <r>ن<s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ند</l>
-          <r>ن<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+          <r>ن<s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l/>
-          <r>ن<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+          <r>ن<s n="p3"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -1478,7 +1478,7 @@
         <par n="P__prefixes" />
         <p>
           <l><prm/></l>
-          <r><prm/>ن<s n="vblex"/><s n="past"/><j/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="V__چشید/ن__vblex"/>
       </e>
