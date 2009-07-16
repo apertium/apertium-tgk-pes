@@ -223,13 +223,13 @@
     </pardef>
 
     <pardef n="P__ن">
-      <e>
+      <!--<e>
         <p>
           <l>ن‌</l>
           <r>ن<s n="neg"/><j/></r>
         </p>
-      </e>
-      <e r="LR">
+      </e> -->
+      <e >
         <p>
           <l>ن</l>
           <r>ن<s n="neg"/><j/></r>
@@ -1502,30 +1502,26 @@
       <e>
         <par n="P__imp__prefixes" />
         <p>
-          <l><prm2/></l>
+          <l><prm2/><prm3/></l>
           <r><prm/>ن<s n="vblex"/><s n="pii"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__/بچش[چشیدن]__vblex"/>
       </e>
       <!-- Present -->
       <e>
-        <par n="P__ن" />
         <par n="P__njprefixes" />
         <p>
-          <l><prm2/></l>
+          <l><prm2/><prm3/></l>
           <r><prm/>ن<s n="vblex"/><s n="pri"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__چش/[چشیدن]__vblex"/>
       </e>
       <e>
         <par n="P__jprefixes" />
         <p>
-          <l><prm2/></l>
+          <l><prm2/><prm3/></l>
           <r><prm/>ن<s n="vblex"/><s n="prs"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__چش/[چشیدن]__vblex"/>
       </e>
     </pardef>
@@ -1536,25 +1532,23 @@
         <i><prm4/></i>
         <p>
           <l><prm/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="past"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="V__چشید/ن__vblex"/>
       </e>
       <e>
-        <par n="P__ن" />
         <par n="P__jnjprefixes" />
         <i><prm4/></i>
         <p>
           <l><prm/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="past"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="V__چشید/ن__vblex"/>
       </e>
       <e>
         <par n="P__jjprefixes" />
-        <i><prm5/></i>
         <p>
-          <l><prm/></l>
+          <l><prm5/><prm/></l>
           <r><prm4/><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="V__چشید/ن__vblex"/>
@@ -1563,27 +1557,25 @@
         <i><prm4/></i>
         <p>
           <l><prm/>ه</l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="past"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="zwnj_or_space" />
         <par n="aV__/استن__vbser"/>
       </e>
       <e>
-        <par n="P__ن" />
         <par n="P__jnjprefixes" />
         <i><prm4/></i>
         <p>
           <l><prm/>ه</l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="past"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="zwnj_or_space" />
         <par n="aV__/استن__vbser"/>
       </e>
       <e>
         <par n="P__jjprefixes" />
-        <i><prm5/></i>
         <p>
-          <l><prm/>ه</l>
+          <l><prm5/><prm/>ه</l>
           <r><prm4/><prm/>ن<s n="vblex"/><s n="past"/></r>
         </p>
         <par n="zwnj_or_space" />
@@ -1594,44 +1586,39 @@
         <i><prm4/></i>
         <p>
           <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+          <r><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <par n="Pjj__imp__prefixes" />
-        <i><prm5/></i>
         <p>
-          <l><prm2/></l>
+          <l><prm5/><prm2/></l>
           <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <i><prm4/></i>
         <p>
-          <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/></r>
+          <l><prm2/><prm3/></l>
+          <r><prm/>ن<s n="vblex"/><s n="pii"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__/بچش[چشیدن]__vblex"/>
       </e>
       <e>
         <par n="Pjj__imp__prefixes" />
-        <i><prm5/></i>
         <p>
-          <l><prm2/></l>
+          <l><prm5/><prm2/><prm3/></l>
           <r><prm4/><prm/>ن<s n="vblex"/><s n="pii"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__/بچش[چشیدن]__vblex"/>
       </e>
       <!-- Present -->
       <e>
         <i><prm4/></i>
         <p>
-          <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="prs"/></r>
+          <l><prm2/><prm3/></l>
+          <r><prm/>ن<s n="vblex"/><s n="prs"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__چش/[چشیدن]__vblex"/>
       </e>
       <e>
@@ -1639,20 +1626,18 @@
         <par n="P__jnjprefixes" />
         <i><prm4/></i>
         <p>
-          <l><prm2/></l>
-          <r><prm4/><prm/>ن<s n="vblex"/><s n="pri"/></r>
+          <l><prm2/><prm3/></l>
+          <r><prm/>ن<s n="vblex"/><s n="pri"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__چش/[چشیدن]__vblex"/>
       </e>
       <e>
         <par n="P__jjprefixes" />
-        <i><prm5/></i>
+        
         <p>
-          <l><prm2/></l>
+          <l><prm5/><prm2/><prm3/></l>
           <r><prm4/><prm/>ن<s n="vblex"/><s n="prs"/></r>
         </p>
-        <i><prm3/></i>
         <par n="V__چش/[چشیدن]__vblex"/>
       </e>
     </pardef>
@@ -1662,7 +1647,7 @@
 
   <section id="main" type="standard">
     <!-- VERBS -->
-    <e lm="باختن"><i></i><par n="/VERBS" prm="باخت" prm2="باز" prm3="" /></e>
+    <e lm="باختن"><i></i><par n="/VERBS" prm="باخت" prm2="باز" prm3="" /></e> 
     <e lm="بافاندن"><i></i><par n="/VERBS" prm="بافاند" prm2="بافان" prm3="" /></e>
     <e lm="بافتن"><i></i><par n="/VERBS" prm="بافت" prm2="باف" prm3="" /></e>
     <e lm="بافیدن"><i></i><par n="/VERBS" prm="بافید" prm2="باف" prm3="" /></e>
