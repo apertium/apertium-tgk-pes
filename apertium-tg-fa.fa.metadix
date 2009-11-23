@@ -1844,6 +1844,8 @@
     <e lm="اندوختن"><i></i><par n="/VERBS_vowel" prm="ندوختن" prm2="ندوز" prm3="" prm4="ا" prm5="یا" /></e>
     <e lm="اندودن"><i></i><par n="/VERBS_vowel" prm="نباشت" prm2="نبار" prm3="" prm4="ا" prm5="یا" /></e>
 
+    <e lm=""><i></i><par n="aV__/استن__vbser"/></e>
+
     
     <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
 
@@ -2223,6 +2225,7 @@
     <e lm="حزب الله"><i>حزب<b/>الله</i><par n="الجبهة_الشعبية_لتحرير_فلسطين__np"/></e>
 
     <!-- nouns which their plurals is like that of (دشمن), part1 (words which don't have any of "دذرز" at the end) -->
+    <e lm="دارای"><i>دارای</i><par n="دشمن__n"/></e>
     <e lm="یابی"><i>یابی</i><par n="دشمن__n"/></e>
     <e lm="ایتالیایی"><i>ایتالیایی</i><par n="دشمن__n"/></e>
     <e lm="احمق"><i>احمق</i><par n="دشمن__n"/></e>
