@@ -45,7 +45,7 @@
  
     <sdef n="tn"      c="Tonico"/>
     <sdef n="adj"     c="Adjective"/>
-    <sdef n="pve"     c="Positive"/>
+    <sdef n="pst"     c="Positive"/>
     <sdef n="comp"    c="Comparative"/>
     <sdef n="sup"     c="Superlative"/>
     <sdef n="attr"    c="Attributive"/>
@@ -1115,7 +1115,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="adj"/><s n="pve"/></r>
+          <r><s n="adj"/><s n="pst"/></r>
         </p>
       </e>
       <e>

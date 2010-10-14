@@ -14,8 +14,8 @@ TARGETS_COMMON =  \
      $(PREFIX2).t1x.bin modes  $(PREFIX2).mode
 
 $(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).metadix
-	@xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadix | uniq > $$gen.xsl
-	@xsltproc $$gen.xsl $(BASENAME).$(LANG2).metadix >$@
+	xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadix | uniq > $$gen.xsl
+	xsltproc $$gen.xsl $(BASENAME).$(LANG2).metadix >$@
 	@rm $$gen.xsl
 
 #$(PREFIX2).autopgen.bin $(PREFIX1).autopgen.bin
