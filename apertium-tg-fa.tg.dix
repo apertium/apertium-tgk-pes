@@ -58,9 +58,6 @@
     <sdef n="qnt"/>
     <sdef n="ord"     c="Ordinal"/>
 
-    <sdef n="obj"     c="Object"/>
-    <sdef n="subj"    c="Subject"/>
-
     <sdef n="acr"     c="Acronym"/>
     <sdef n="ant"     c="Antroponym"/>
     <sdef n="al"      c="Other / Otros"/>
@@ -94,6 +91,7 @@
     <sdef n="izo"     c="izofa"/>
     <sdef n="me"      c="me verb prefix"/>
     <sdef n="bi"      c="bi verb prefix"/>
+    <sdef n="neg"     c="negative verb prefix"/>
   </sdefs>
 
   <pardefs>
@@ -125,8 +123,8 @@
     <!-- SECTION: Enclitics -->
 
     <pardef n="S__accusative">
-      <e>       <p><l>ро<r><j/>ро<s n="enc"/></r></p></e>
-      <e r="LR"><p><l>-ро<r><j/>ро<s n="enc"/></r></p></e>
+      <e>       <p><l>ро</l><r><j/>ро<s n="enc"/></r></p></e>
+      <e r="LR"><p><l>-ро</l><r><j/>ро<s n="enc"/></r></p></e>
       <e>       <p><l/><r/></p></e>
     </pardef>
 
@@ -137,7 +135,7 @@
       <e>       <p><l>амон</l><r><s n="px1pl"/></r></p></e>
       <e>       <p><l>атон</l><r><s n="px2pl"/></r></p></e>
       <e>       <p><l>ашон</l><r><s n="px3pl"/></r></p></e>
-      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l></l><r></r></p></e>
     </pardef>
 
     <pardef n="S__ind">
@@ -148,8 +146,8 @@
     <pardef n="S__iza">
       <e>       <p><l>и</l><r><j/>izafet<s n="enc"/><s n="izo"/></r></p></e>
       <e r="LR"><p><l>-и</l><r><j/>izafet<s n="enc"/><s n="izo"/></r></p></e>
-      <e>       <p><l/><r/></p><par n="S__possess"/></e>
-      <e>       <p><l/><r/></p></e>
+      <e>       <p><l/><r/></p><par n="S__possess"/><par n="S__accusative"/></e>
+      <e>       <p><l/><r/></p><par n="S__accusative"/></e>
     </pardef>
 
     <pardef n="S__izaORind">
@@ -187,13 +185,13 @@
 
     <!-- SECTION: Pronouns -->
     <pardef n="prsubj__prn">
-      <e>       <p><l>ман</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ту</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>ӯ</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>вай</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>мо</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>шумо</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>онҳо</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ман</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ту</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ӯ</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>вай</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мо</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>шумо</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>онҳо</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ки__rel">
@@ -218,7 +216,11 @@
     </pardef>
 
     <pardef n="Фурӯғ__np">
-      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="sg"/></r></p><par n="S__iza"/></e>
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="S__iza"/></e>
+    </pardef>
+
+    <pardef n="Иброҳим__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="S__iza"/></e>
     </pardef>
 
     <pardef n="Википедиа__np">
@@ -1093,6 +1095,11 @@
     <e lm="Брашов"><i>Брашов</i><par n="Тоҷикистон__np"/></e>
     <e lm="Санкт Петербург"><i>Санкт<b/>Петербург</i><par n="Тоҷикистон__np"/></e>
 
+    <!-- Anthroponyms -->
+
+    <e lm="Иброҳим"><i>Иброҳим</i><par n="Иброҳим__np"/></e>
+
+    <e lm="Фурӯғ"><i>Фурӯғ</i><par n="Фурӯғ__np"/></e>
 
     <!-- Altres -->
 
@@ -1172,6 +1179,5 @@
       <e><par n="paresq"/></e>
       <e><par n="pardret"/></e>
       <e><par n="guionet"/></e>
-    </e>
   </section>
 </dictionary>
