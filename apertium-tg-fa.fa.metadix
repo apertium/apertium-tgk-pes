@@ -35,6 +35,13 @@
     <sdef n="p2"      c="Second person"/>
     <sdef n="p3"      c="Third person"/>
     <sdef n="impers"  c="Impersonal"/>
+
+    <sdef n="px1sg"   c="Possessive, First person singular"/>
+    <sdef n="px2sg"   c="Possessive, Second person singular"/>
+    <sdef n="px3sg"   c="Possessive, Third person singular"/>
+    <sdef n="px1pl"   c="Possessive, First person plural"/>
+    <sdef n="px2pl"   c="Possessive, Second person plural"/>
+    <sdef n="px3pl"   c="Possessive, Third person plural"/>
  
     <sdef n="tn"      c="Tonico"/>
     <sdef n="adj"     c="Adjective"/>
