@@ -1,8 +1,18 @@
 == Dictionaries TODO ==
+
 * Make for fa-tg.tg.metadix
-* To check all nouns paradigms for existense of zwnj
+
+* To check all noun paradigms for existence of ZWNJ
+
 * To change all irregular Arabic plurals and remove the exceptions from standard section
+
 * In the persian dictionary, make sure that possessive suffixes work on nouns
+
+* Check the bilingual dictionary entries to make sure that Tajik words are correctly spelt, e.g. 
+
+        <e><p><l>тоҷек<s n="np"/></l><r>تاجیک<s n="np"/></r></p></e>
+
+* In the bilingual dictionary, proper nouns on the Tajik side should probably have capital letters.
 
 == Other TODOs ==
 See: http://xixona.dlsi.ua.es/wiki/index.php/Iranian_Persian_and_Tajik
