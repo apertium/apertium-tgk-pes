@@ -19,6 +19,7 @@
 /buscaPar.xsl -text
 /configure.ac -text
 dev/README -text
+dev/count.tg-fa.dix -text
 dev/myverbparadigms.txt -text
 dev/verbs.csv -text
 dev/verbs.ods -text
