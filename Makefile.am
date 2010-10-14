@@ -79,6 +79,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 
 modes: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX1).mode: modes.xml 
 	apertium-gen-modes modes.xml
