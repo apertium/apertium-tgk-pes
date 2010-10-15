@@ -117,7 +117,7 @@
     <!-- SECTION: Enclitics and particles -->
 
     <e><p><l>и<s n="enc"/><s n="izo"/></l><r>ه<s n="enc"/><s n="izo"/></r></p></e>
-    <e><p><l>ро<s n="enc"/><s n="acc"/></l><r>را<s n="enc"/><s n="acc"/></r></p></e>
+    <e><p><l>ро<s n="enc"/></l><r>را<s n="enc"/></r></p></e>
 
     <e><p><l>ме<s n="me"/></l><r>می<s n="me"/></r></p></e>
     <e><p><l>би<s n="bi"/></l><r>ﺏ<s n="bi"/></r></p></e>

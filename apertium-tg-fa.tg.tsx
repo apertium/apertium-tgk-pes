@@ -23,6 +23,9 @@
   <def-label name="cnjadv" closed="true">
     <tags-item tags="cnjadv"/>
   </def-label>
+  <def-label name="cnjsub" closed="true">
+    <tags-item tags="cnjsub"/>
+  </def-label>
   <def-label name="cnjcoo" closed="true">
     <tags-item tags="cnjcoo"/>
   </def-label>
@@ -36,6 +39,7 @@
     <tags-item tags="det.ord.*"/>
   </def-label>
   <def-label name="enc" closed="true">
+    <tags-item tags="enc"/>
     <tags-item tags="enc.*"/>
   </def-label>
   <def-label name="guio" closed="true">
@@ -208,6 +212,9 @@
   </def-label>
   <def-label name="vbhaver.pres.p3.sg" closed="true">
     <tags-item tags="vbhaver.pres.p3.sg"/>
+  </def-label>
+  <def-label name="vbmod" closed="true">
+    <tags-item tags="vbmod.*"/>
   </def-label>
   <def-label name="vblex.imp.p2.pl" closed="true">
     <tags-item tags="vblex.imp.p2.pl"/>

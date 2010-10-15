@@ -10,6 +10,11 @@
      <cat-item tags="enc.izo"/>
      <cat-item tags="enc.izo.*"/>
   </def-cat>
+  <def-cat n="enc">
+     <cat-item tags="enc"/>
+     <cat-item tags="enc.*"/>
+     <cat-item tags="enc.*"/>
+  </def-cat>
 </section-def-cats>
 
 <section-def-attrs>
@@ -47,6 +52,7 @@
 </section-def-vars>
 
 <section-rules>
+
   <rule>
      <pattern>
        <pattern-item n="nom"/>
@@ -58,6 +64,52 @@
            <clip pos="1" side="tl" part="a_nom"/>
            <clip pos="1" side="tl" part="nbr"/>
          </lu>
+       </out>
+     </action>
+  </rule>
+
+  <rule>
+     <pattern>
+       <pattern-item n="nom"/>
+       <pattern-item n="enc"/>
+     </pattern>
+     <action>
+       <out>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+         </mlu>
+       </out>
+     </action>
+  </rule>
+
+   <rule>
+     <pattern>
+       <pattern-item n="nom"/>
+       <pattern-item n="enc"/>
+       <pattern-item n="enc"/>
+     </pattern>
+     <action>
+       <out>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+         </mlu>
        </out>
      </action>
   </rule>
