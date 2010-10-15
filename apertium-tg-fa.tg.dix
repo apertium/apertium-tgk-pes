@@ -165,7 +165,7 @@
     <pardef n="S__iza_V">
       <e>       <p><l>и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
       <e r="LR"><p><l>-и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
-      <e>       <p><l/><r/></p><par n="S__possess_C"/><par n="S__accusative"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_V"/><par n="S__accusative"/></e>
       <e>       <p><l/><r/></p><par n="S__accusative"/></e>
     </pardef>
 
