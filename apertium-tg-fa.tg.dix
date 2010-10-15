@@ -319,17 +319,22 @@
 
     <!-- SECTION: Adjectives -->
 
+    <pardef n="дигар__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p></e>
+      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="S__adject"/></e>
+    </pardef>
+
     <pardef n="бузург__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>тар</l><r><s n="adj"/><s n="comp"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>тарин</l><r><s n="adj"/><s n="sup"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>тар</l><r><s n="adj"/><s n="comp"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>тарин</l><r><s n="adj"/><s n="sup"/></r></p><par n="S__adject"/></e>
     </pardef>
 
     <pardef n="хушрӯ/й__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>й</l><r><s n="adj"/><s n="pst"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>тар</l><r><s n="adj"/><s n="comp"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>тарин</l><r><s n="adj"/><s n="sup"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>й</l><r><s n="adj"/><s n="pst"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>тар</l><r><s n="adj"/><s n="comp"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>тарин</l><r><s n="adj"/><s n="sup"/></r></p><par n="S__adject"/></e>
     </pardef>
 
     <pardef n="рус/ӣ__adj">
@@ -947,6 +952,8 @@
     <e lm="писар"><i>писар</i><par n="духтар__n"/></e> <!-- boy -->
     <e lm="террорист"><i>террорист</i><par n="духтар__n"/></e> <!-- terrorist -->
 
+    <e lm="дигар"><i>дигар</i><par n="духтар__n"/></e> <!-- other -->
+
     <e lm="диҳанда"><i>диҳанда</i><par n="ширкаткунанда__n"/></e>
     <e lm="овоздиҳанда"><i>овоздиҳанда</i><par n="ширкаткунанда__n"/></e>
     <e lm="хатмкунанда"><i>хатмкунанда</i><par n="ширкаткунанда__n"/></e>
@@ -1245,6 +1252,8 @@
     <e lm="Толибон"><i>Толибон</i><par n="Википедиа__np"/></e>
 
     <!-- SECTION: Adjectives -->
+
+    <e lm="дигар"><i>дигар</i><par n="дигар__adj"/></e> 
 
     <e lm="арзон"><i>арзон</i><par n="бузург__adj"/></e> <!-- cheap -->
     <e lm="баланд"><i>баланд</i><par n="бузург__adj"/></e> <!-- tall -->
