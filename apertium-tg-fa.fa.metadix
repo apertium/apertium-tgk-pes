@@ -113,7 +113,6 @@
   </sdefs>
   <pardefs>
 
-<!--
     <pardef n="numeros">
       <e>
         <re>[۰۱۲۳۴۵۶۷۸۹]+([.,][۰۱۲۳۴۵۶۷۸۹]+)?</re>
@@ -122,8 +121,15 @@
           <r><s n="num"/></r>
         </p>
       </e>
+      <e>
+        <re>[0-9]+([., ][0-9]+)?</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
     </pardef>
--->
+
     <pardef n="coma">
       <e>
         <p>
@@ -704,7 +710,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r>
+          <r><s n="rel"/></r>
         </p>
       </e>
     </pardef>
@@ -12787,13 +12793,9 @@
   </section>
 
   <section id="final" type="inconditional">
-<!--    <e>
-      <p>
-        <l/>
-        <r><a/></r>
-      </p>
+    <e>
       <par n="numeros"/>
-    </e> -->
+    </e> 
     <e>
       <par n="separa"/>
     </e>

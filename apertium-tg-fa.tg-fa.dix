@@ -113,6 +113,9 @@
   </sdefs>
 
   <section id="main" type="standard">
+
+    <!-- SECTION: Enclitics and particles -->
+
     <e><p><l>и<s n="enc"/><s n="izo"/></l><r>ه<s n="enc"/><s n="izo"/></r></p></e>
     <e><p><l>ро<s n="enc"/><s n="acc"/></l><r>را<s n="enc"/><s n="acc"/></r></p></e>
 
@@ -120,16 +123,92 @@
     <e><p><l>би<s n="bi"/></l><r>ﺏ<s n="bi"/></r></p></e>
     <e><p><l>на<s n="neg"/></l><r>ن<s n="neg"/></r></p></e>
 
+    <!-- SECTION: Conjunctions -->
+
     <e><p><l>ва<s n="cnjcoo"/></l><r>و<s n="cnjcoo"/></r></p></e>
     <e><p><l>ё<s n="cnjcoo"/></l><r>ای<s n="cnjcoo"/></r></p></e>
 
+    <!-- SECTION: Prepositions -->
+
     <e><p><l>аз<s n="pr"/></l><r>از<s n="pr"/></r></p></e>
 
+    <!-- harfe ezafe -->
+    <e><p><l>бо<s n="pr"/></l><r>با<s n="pr"/></r></p></e>
+    <e><p><l>биҷойа<s n="pr"/></l><r>بجای<s n="pr"/></r></p></e>
+    <e><p><l>бидӯна<s n="pr"/></l><r>بدون<s n="pr"/></r></p></e>
+    <e><p><l>бар<s n="pr"/></l><r>بر<s n="pr"/></r></p></e>
+    <e><p><l>баъдаз<s n="pr"/></l><r>بعداز<s n="pr"/></r></p></e>
+    <e><p><l>банобар<s n="pr"/></l><r>بنابر<s n="pr"/></r></p></e>
+    <e><p><l>баноба<s n="pr"/></l><r>بنابه<s n="pr"/></r></p></e>
+    <e><p><l>ба<s n="pr"/></l><r>به<s n="pr"/></r></p></e>
+    <e><p><l>ба<s n="pr"/></l><r>بـه<s n="pr"/></r></p></e>
+    <e><p><l>баҳра<s n="pr"/></l><r>بهر<s n="pr"/></r></p></e>
+    <e><p><l>пас<s n="pr"/></l><r>پس<s n="pr"/></r></p></e>
+    <e><p><l>ҷуз<s n="pr"/></l><r>جز<s n="pr"/></r></p></e>
+    <e><p><l>дар<s n="pr"/></l><r>در<s n="pr"/></r></p></e>
+    <e><p><l>дарбора<s n="pr"/></l><r>درباره<s n="pr"/></r></p></e>
+    <e><p><l>сипас<s n="pr"/></l><r>سپس<s n="pr"/></r></p></e>
+    <e><p><l>тибқ<s n="pr"/></l><r>طبق<s n="pr"/></r></p></e>
+    <e><p><l>мобийн<s n="pr"/></l><r>مابین<s n="pr"/></r></p></e>
+    <e><p><l>ваба<s n="pr"/></l><r>وبه<s n="pr"/></r></p></e>
+    <e><p><l>вапас<s n="pr"/></l><r>وپس<s n="pr"/></r></p></e>
+    <e><p><l>вадар<s n="pr"/></l><r>ودر<s n="pr"/></r></p></e>
+    <e><p><l>васипас<s n="pr"/></l><r>وسپس<s n="pr"/></r></p></e>
+
+    <!-- harfe rabt -->
+    <e><p><l>йо<s n="pr"/></l><r>یا<s n="pr"/></r></p></e>
+    <e><p><l>аз<s n="pr"/></l><r>از<s n="pr"/></r></p></e>
+    <e><p><l>агар<s n="pr"/></l><r>اگر<s n="pr"/></r></p></e>
+    <e><p><l>агарча<s n="pr"/></l><r>اگرچه<s n="pr"/></r></p></e>
+    <e><p><l>агарна<s n="pr"/></l><r>اگرنه<s n="pr"/></r></p></e>
+    <e><p><l>агарҳам<s n="pr"/></l><r>اگرهم<s n="pr"/></r></p></e>
+    <e><p><l>ага<s n="pr"/></l><r>اگه<s n="pr"/></r></p></e>
+    <e><p><l>аммо<s n="pr"/></l><r>اما<s n="pr"/></r></p></e>
+    <e><p><l>барои<s n="pr"/></l><r>برای<s n="pr"/></r></p></e>
+    <e><p><l>бароят<s n="pr"/></l><r>برایت<s n="pr"/></r></p></e>
+    <e><p><l>баройитон<s n="pr"/></l><r>برایتان<s n="pr"/></r></p></e>
+    <e><p><l>барояш<s n="pr"/></l><r>برایش<s n="pr"/></r></p></e>
+    <e><p><l>баройишон<s n="pr"/></l><r>برایشان<s n="pr"/></r></p></e>
+    <e><p><l>бароям<s n="pr"/></l><r>برایم<s n="pr"/></r></p></e>
+    <e><p><l>баройимон<s n="pr"/></l><r>برایمان<s n="pr"/></r></p></e>
+    <e><p><l>пас<s n="pr"/></l><r>پس<s n="pr"/></r></p></e>
+    <e><p><l>ча<s n="pr"/></l><r>چه<s n="pr"/></r></p></e>
+    <e><p><l>зеро<s n="pr"/></l><r>زیرا<s n="pr"/></r></p></e>
+    <e><p><l>кест<s n="pr"/></l><r>کیست<s n="pr"/></r></p></e>
+    <e><p><l>ка<s n="pr"/></l><r>که<s n="pr"/></r></p></e>
+    <e><p><l>ка<s n="pr"/></l><r>کـه<s n="pr"/></r></p></e>
+    <e><p><l>гарча<s n="pr"/></l><r>گرچه<s n="pr"/></r></p></e>
+    <e><p><l>лекин<s n="pr"/></l><r>لیکن<s n="pr"/></r></p></e>
+    <e><p><l>локин<s n="pr"/></l><r>لکن<s n="pr"/></r></p></e>
+    <e><p><l>монанд<s n="pr"/></l><r>مانند<s n="pr"/></r></p></e>
+    <e><p><l>мабодо<s n="pr"/></l><r>مبادا<s n="pr"/></r></p></e>
+    <e><p><l>ва<s n="pr"/></l><r>و<s n="pr"/></r></p></e>
+    <e><p><l>вайо<s n="pr"/></l><r>ویا<s n="pr"/></r></p></e>
+    <e><p><l>уаз<s n="pr"/></l><r>واز<s n="pr"/></r></p></e>
+    <e><p><l>убо<s n="pr"/></l><r>وبا<s n="pr"/></r></p></e>
+    <e><p><l>упас<s n="pr"/></l><r>وپس<s n="pr"/></r></p></e>
+    <e><p><l>вагарна<s n="pr"/></l><r>وگرنه<s n="pr"/></r></p></e>
+    <e><p><l>валекин<s n="pr"/></l><r>ولیکن<s n="pr"/></r></p></e>
+    <e><p><l>валу<s n="pr"/></l><r>ولو<s n="pr"/></r></p></e>
+    <e><p><l>валӣ<s n="pr"/></l><r>ولى<s n="pr"/></r></p></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+
+    <e><p><l>ин<s n="prn"/><s n="dem"/></l><r>ﺍیﻥ<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>он<s n="prn"/><s n="dem"/></l><r>آن<s n="prn"/><s n="dem"/></r></p></e>
+
     <e><p><l>ки<s n="rel"/></l><r>که<s n="rel"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
+
     <e><p><l>ин<s n="det"/><s n="dem"/></l><r>ﺍیﻥ<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>ҳамин<s n="det"/><s n="dem"/></l><r>همین<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>он<s n="det"/><s n="dem"/></l><r>آن<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>дувум<s n="det"/></l><r>دوم<s n="det"/></r></p></e>
+
+    <!-- SECTION: Numerals -->
 
     <e><p><l>як<s n="num"/></l><r>یک<s n="num"/></r></p></e>
     <e><p><l>ду<s n="num"/></l><r>دو<s n="num"/></r></p></e>
@@ -8461,6 +8540,8 @@
     <!-- verbs -->
     <e><p><l>будан<s n="vbser"/></l><r>بودن<s n="vbser"/></r></p></e>
 
+    <e><p><l>шудан<s n="vblex"/></l><r>شد<s n="vblex"/></r></p></e>
+
     <e><p><l>бӯд<s n="vblex"/></l><r>بود<s n="vblex"/></r></p></e>
     <e><p><l>бош<s n="vblex"/></l><r>باش<s n="vblex"/></r></p></e>
     <e><p><l>дошт<s n="vblex"/></l><r>داشت<s n="vblex"/></r></p></e>
@@ -8684,68 +8765,8 @@
     <e><p><l>вазед<s n="vblex"/></l><r>وزید<s n="vblex"/></r></p></e>
     <e><p><l>ваз<s n="vblex"/></l><r>وز<s n="vblex"/></r></p></e>
 
-    <!-- harfe ezafe -->
-    <e><p><l>бо<s n="pr"/></l><r>با<s n="pr"/></r></p></e>
-    <e><p><l>биҷойа<s n="pr"/></l><r>بجای<s n="pr"/></r></p></e>
-    <e><p><l>бидӯна<s n="pr"/></l><r>بدون<s n="pr"/></r></p></e>
-    <e><p><l>бар<s n="pr"/></l><r>بر<s n="pr"/></r></p></e>
-    <e><p><l>баъдаз<s n="pr"/></l><r>بعداز<s n="pr"/></r></p></e>
-    <e><p><l>банобар<s n="pr"/></l><r>بنابر<s n="pr"/></r></p></e>
-    <e><p><l>баноба<s n="pr"/></l><r>بنابه<s n="pr"/></r></p></e>
-    <e><p><l>ба<s n="pr"/></l><r>به<s n="pr"/></r></p></e>
-    <e><p><l>ба<s n="pr"/></l><r>بـه<s n="pr"/></r></p></e>
-    <e><p><l>баҳра<s n="pr"/></l><r>بهر<s n="pr"/></r></p></e>
-    <e><p><l>пас<s n="pr"/></l><r>پس<s n="pr"/></r></p></e>
-    <e><p><l>ҷуз<s n="pr"/></l><r>جز<s n="pr"/></r></p></e>
-    <e><p><l>дар<s n="pr"/></l><r>در<s n="pr"/></r></p></e>
-    <e><p><l>дарбора<s n="pr"/></l><r>درباره<s n="pr"/></r></p></e>
-    <e><p><l>сипас<s n="pr"/></l><r>سپس<s n="pr"/></r></p></e>
-    <e><p><l>тибқ<s n="pr"/></l><r>طبق<s n="pr"/></r></p></e>
-    <e><p><l>мобийн<s n="pr"/></l><r>مابین<s n="pr"/></r></p></e>
-    <e><p><l>ваба<s n="pr"/></l><r>وبه<s n="pr"/></r></p></e>
-    <e><p><l>вапас<s n="pr"/></l><r>وپس<s n="pr"/></r></p></e>
-    <e><p><l>вадар<s n="pr"/></l><r>ودر<s n="pr"/></r></p></e>
-    <e><p><l>васипас<s n="pr"/></l><r>وسپس<s n="pr"/></r></p></e>
-
     <!-- harfe neshane -->
     <e><p><l>ро<s n="n"/></l><r>را<s n="n"/></r></p></e>
-
-    <!-- harfe rabt -->
-    <e><p><l>йо<s n="pr"/></l><r>یا<s n="pr"/></r></p></e>
-    <e><p><l>аз<s n="pr"/></l><r>از<s n="pr"/></r></p></e>
-    <e><p><l>агар<s n="pr"/></l><r>اگر<s n="pr"/></r></p></e>
-    <e><p><l>агарча<s n="pr"/></l><r>اگرچه<s n="pr"/></r></p></e>
-    <e><p><l>агарна<s n="pr"/></l><r>اگرنه<s n="pr"/></r></p></e>
-    <e><p><l>агарҳам<s n="pr"/></l><r>اگرهم<s n="pr"/></r></p></e>
-    <e><p><l>ага<s n="pr"/></l><r>اگه<s n="pr"/></r></p></e>
-    <e><p><l>аммо<s n="pr"/></l><r>اما<s n="pr"/></r></p></e>
-    <e><p><l>барои<s n="pr"/></l><r>برای<s n="pr"/></r></p></e>
-    <e><p><l>бароят<s n="pr"/></l><r>برایت<s n="pr"/></r></p></e>
-    <e><p><l>баройитон<s n="pr"/></l><r>برایتان<s n="pr"/></r></p></e>
-    <e><p><l>барояш<s n="pr"/></l><r>برایش<s n="pr"/></r></p></e>
-    <e><p><l>баройишон<s n="pr"/></l><r>برایشان<s n="pr"/></r></p></e>
-    <e><p><l>бароям<s n="pr"/></l><r>برایم<s n="pr"/></r></p></e>
-    <e><p><l>баройимон<s n="pr"/></l><r>برایمان<s n="pr"/></r></p></e>
-    <e><p><l>пас<s n="pr"/></l><r>پس<s n="pr"/></r></p></e>
-    <e><p><l>ча<s n="pr"/></l><r>چه<s n="pr"/></r></p></e>
-    <e><p><l>зеро<s n="pr"/></l><r>زیرا<s n="pr"/></r></p></e>
-    <e><p><l>кест<s n="pr"/></l><r>کیست<s n="pr"/></r></p></e>
-    <e><p><l>ка<s n="pr"/></l><r>که<s n="pr"/></r></p></e>
-    <e><p><l>ка<s n="pr"/></l><r>کـه<s n="pr"/></r></p></e>
-    <e><p><l>гарча<s n="pr"/></l><r>گرچه<s n="pr"/></r></p></e>
-    <e><p><l>лекин<s n="pr"/></l><r>لیکن<s n="pr"/></r></p></e>
-    <e><p><l>локин<s n="pr"/></l><r>لکن<s n="pr"/></r></p></e>
-    <e><p><l>монанд<s n="pr"/></l><r>مانند<s n="pr"/></r></p></e>
-    <e><p><l>мабодо<s n="pr"/></l><r>مبادا<s n="pr"/></r></p></e>
-    <e><p><l>ва<s n="pr"/></l><r>و<s n="pr"/></r></p></e>
-    <e><p><l>вайо<s n="pr"/></l><r>ویا<s n="pr"/></r></p></e>
-    <e><p><l>уаз<s n="pr"/></l><r>واز<s n="pr"/></r></p></e>
-    <e><p><l>убо<s n="pr"/></l><r>وبا<s n="pr"/></r></p></e>
-    <e><p><l>упас<s n="pr"/></l><r>وپس<s n="pr"/></r></p></e>
-    <e><p><l>вагарна<s n="pr"/></l><r>وگرنه<s n="pr"/></r></p></e>
-    <e><p><l>валекин<s n="pr"/></l><r>ولیکن<s n="pr"/></r></p></e>
-    <e><p><l>валу<s n="pr"/></l><r>ولو<s n="pr"/></r></p></e>
-    <e><p><l>валӣ<s n="pr"/></l><r>ولى<s n="pr"/></r></p></e>
 
     <!-- pаsvаnd -->
     <e><p><l>оген<s n="n"/></l><r>آگین<s n="n"/></r></p></e>
@@ -11338,7 +11359,6 @@
     <e><p><l>ваен<s n="n"/></l><r>واین<s n="n"/></r></p></e>
 
 
-    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <!-- punctuаtion etc. -->
      <e>
