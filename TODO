@@ -14,5 +14,16 @@
 
 * In the bilingual dictionary, proper nouns on the Tajik side should probably have capital letters.
 
+* Maybe look at using HFST 
+
+===Tajik===
+
+* Split clitics into "noun system", "adjective system" and "verb system".
+** Noun system: plural , indef , izofa
+** Adjective system: izofa
+** Verb system: pronom
+* Pronominal verb clitics only follow non-finite verbs (incl. imperative)
+* Some non-finite verb forms take full N clitics (e.g. long infinitive)
+
 == Other TODOs ==
 See: http://xixona.dlsi.ua.es/wiki/index.php/Iranian_Persian_and_Tajik

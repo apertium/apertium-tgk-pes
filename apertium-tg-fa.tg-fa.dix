@@ -126,9 +126,9 @@
     <e><p><l>аз<s n="pr"/></l><r>از<s n="pr"/></r></p></e>
 
     <e><p><l>ки<s n="rel"/></l><r>که<s n="rel"/></r></p></e>
-    <e><p><l>ин<s n="det"/></l><r>این<s n="det"/></r></p></e>
-    <e><p><l>ҳамин<s n="det"/></l><r>همین<s n="det"/></r></p></e>
-    <e><p><l>он<s n="det"/></l><r>آن<s n="det"/></r></p></e>
+    <e><p><l>ин<s n="det"/><s n="dem"/></l><r>ﺍیﻥ<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>ҳамин<s n="det"/><s n="dem"/></l><r>همین<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>он<s n="det"/><s n="dem"/></l><r>آن<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>дувум<s n="det"/></l><r>دوم<s n="det"/></r></p></e>
 
     <e><p><l>як<s n="num"/></l><r>یک<s n="num"/></r></p></e>

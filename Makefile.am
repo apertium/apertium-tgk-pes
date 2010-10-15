@@ -83,9 +83,11 @@ modes: modes.xml
 
 $(PREFIX1).mode: modes.xml 
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX2).mode: modes.xml 
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 apertium_tg_famodesdir=$(prefix)/share/apertium/modes/
 apertium_tg_fadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/

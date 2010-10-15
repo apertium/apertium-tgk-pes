@@ -735,6 +735,16 @@
       </e>
     </pardef>
 
+
+    <pardef n="ﺍیﻥ__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="dem"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="دوم__det">
       <e>
         <p>
@@ -12797,6 +12807,8 @@
     <e lm="هان"><i>هان</i><par n="اوه__ij"/></e>
     <e lm="وای"><i>وای</i><par n="اوه__ij"/></e>
     <e lm="واخ"><i>واخ</i><par n="اوه__ij"/></e>
+
+    <e lm="ﺍیﻥ"><i>ﺍیﻥ</i><par n="ﺍیﻥ__det"/></e>
 
   </section>
 

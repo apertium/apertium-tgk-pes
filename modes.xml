@@ -23,6 +23,37 @@
     </pipeline>
   </mode>
 
+  <mode name="tg-fa-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="tg-fa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tg-fa.prob"/>
+      </program> 
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+
+  <mode name="tg-fa-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="tg-fa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tg-fa.prob"/>
+      </program> 
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-tg-fa.tg-fa.t1x"/>
+        <file name="tg-fa.t1x.bin"/>
+        <file name="tg-fa.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="tg-fa" install="yes">
     <pipeline>
       <program name="lt-proc">
