@@ -135,33 +135,63 @@
       <e>       <p><l/><r/></p></e>
     </pardef>
 
-    <pardef n="S__possess">
-      <e>       <p><l>ам</l><r><s n="px1sg"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>ат</l><r><s n="px2sg"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>аш</l><r><s n="px3sg"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>амон</l><r><s n="px1pl"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>атон</l><r><s n="px2pl"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>ашон</l><r><s n="px3pl"/></r></p><par n="S__accusative"/></e>
+    <pardef n="S__possess_C">
+      <e>       <p><l>ам</l><r><j/>ам<s n="enc"/><s n="px1sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ат</l><r><j/>ат<s n="enc"/><s n="px2sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>аш</l><r><j/>аш<s n="enc"/><s n="px3sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>амон</l><r><j/>амон<s n="enc"/><s n="px1pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>атон</l><r><j/>атон<s n="enc"/><s n="px2pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ашон</l><r><j/>ашон<s n="enc"/><s n="px3pl"/></r></p><par n="S__accusative"/></e>
       <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
     </pardef>
 
-    <pardef n="S__iza">
-      <e>       <p><l>и</l><r><j/>izafet<s n="enc"/><s n="izo"/></r></p></e>
-      <e r="LR"><p><l>-и</l><r><j/>izafet<s n="enc"/><s n="izo"/></r></p></e>
-      <e>       <p><l/><r/></p><par n="S__possess"/><par n="S__accusative"/></e>
+    <pardef n="S__possess_V">
+      <e>       <p><l>ям</l><r><j/>ам<s n="enc"/><s n="px1sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ят</l><r><j/>ат<s n="enc"/><s n="px2sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>яш</l><r><j/>аш<s n="enc"/><s n="px3sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ямон</l><r><j/>амон<s n="enc"/><s n="px1pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ятон</l><r><j/>атон<s n="enc"/><s n="px2pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>яшон</l><r><j/>ашон<s n="enc"/><s n="px3pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+    </pardef>
+
+    <pardef n="S__iza_C">
+      <e>       <p><l>и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
+      <e r="LR"><p><l>-и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
+      <e>       <p><l/><r/></p><par n="S__possess_C"/><par n="S__accusative"/></e>
       <e>       <p><l/><r/></p><par n="S__accusative"/></e>
     </pardef>
 
-    <pardef n="S__ind">
-      <e>       <p><l>е</l><r><j/>е<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l/><r/></p><par n="S__iza"/></e>
+    <pardef n="S__iza_V">
+      <e>       <p><l>и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
+      <e r="LR"><p><l>-и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
+      <e>       <p><l/><r/></p><par n="S__possess_C"/><par n="S__accusative"/></e>
+      <e>       <p><l/><r/></p><par n="S__accusative"/></e>
     </pardef>
 
-    <pardef n="S__nominal">
+    <pardef n="S__ind_C">
+      <e>       <p><l>е</l><r><j/>е<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_C"/></e>
+    </pardef>
+
+    <pardef n="S__ind_V">
+      <e>       <p><l>е</l><r><j/>е<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_V"/></e>
+    </pardef>
+
+    <pardef n="S__nominal_C">
       <!-- Clitics that can be added to nominals 
            Morphotactics: stem + (number)? + (definite)? + (object)?
         -->
-      <e>       <p><l/><r/></p><par n="S__ind"/></e>
+      <e>       <p><l/><r/></p><par n="S__ind_C"/></e>
+      <e>       <p><l>у</l><r><j/>ва<s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__nominal_V">
+      <!-- Clitics that can be added to nominals 
+           Morphotactics: stem + (number)? + (definite)? + (object)?
+        -->
+      <e>       <p><l/><r/></p><par n="S__ind_V"/></e>
       <e>       <p><l>у</l><r><j/>ва<s n="cnjcoo"/></r></p></e>
     </pardef>
 
@@ -198,11 +228,11 @@
 
     <!-- SECTION: Numbers -->
     <pardef n="як__num">
-      <e>       <p><l/><r><s n="num"/><s n="sg"/></r></p><par n="S__ind"/></e>
+      <e>       <p><l/><r><s n="num"/><s n="sg"/></r></p><par n="S__ind_C"/></e>
     </pardef>
 
     <pardef n="ду__num">
-      <e>       <p><l/><r><s n="num"/><s n="sp"/></r></p><par n="S__ind"/></e>
+      <e>       <p><l/><r><s n="num"/><s n="sp"/></r></p><par n="S__ind_V"/></e>
     </pardef>
 
     <!-- SECTION: Pronouns -->
@@ -222,7 +252,7 @@
     </pardef>
 
     <pardef n="худ__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="ref"/></r></p><par n="S__possess"/></e>
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/></r></p><par n="S__possess_C"/></e>
     </pardef>
 
     <pardef n="к/ӣ__prn">
@@ -238,8 +268,8 @@
     </pardef>
 
     <pardef n="кадом__prn">
-      <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>ҳо</l><r><s n="prn"/><s n="itg"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="sg"/></r></p><par n="S__nominal_C"/></e>
+      <e>       <p><l>ҳо</l><r><s n="prn"/><s n="itg"/><s n="pl"/></r></p><par n="S__nominal_V"/></e>
     </pardef>
 
     <pardef n="ки__rel">
@@ -264,57 +294,57 @@
     <!-- SECTION: Proper Nouns -->
 
     <pardef n="Тоҷикистон__np">
-      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="sg"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="sg"/></r></p><par n="S__nominal_V"/></e>
     </pardef>
 
     <pardef n="Фурӯғ__np">
-      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="S__iza"/></e>
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="S__iza_C"/></e>
     </pardef>
 
     <pardef n="Иброҳим__np">
-      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="S__iza"/></e>
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="S__iza_C"/></e>
     </pardef>
 
     <pardef n="Рустамов__np">
-      <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="sg"/></r></p><par n="S__iza"/></e>
+      <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="sg"/></r></p><par n="S__iza_C"/></e>
     </pardef>
 
     <pardef n="Википедиа__np">
-      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="sg"/></r></p><par n="S__iza"/></e>
+      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="sg"/></r></p><par n="S__iza_C"/></e>
     </pardef>
 
     <!-- SECTION: Nouns -->
 
     <pardef n="китоб__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>ҳо</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal_C"/></e>
+      <e>       <p><l>ҳо</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal_V"/></e>
     </pardef>
 
     <pardef n="ҷ/умҳури__n">
-      <e>       <p><l>умҳури</l><r>умҳури<s n="n"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>умҳуриҳо</l><r>умҳури<s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
-      <e r="LR"><p><l>амоҳир</l><r>умҳури<s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l>умҳури</l><r>умҳури<s n="n"/><s n="sg"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>умҳуриҳо</l><r>умҳури<s n="n"/><s n="pl"/></r></p><par n="S__nominal_V"/></e>
+      <e r="LR"><p><l>амоҳир</l><r>умҳури<s n="n"/><s n="pl"/></r></p><par n="S__nominal_C"/></e>
     </pardef>
 
     <pardef n="духтар__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e r="LR"><p><l>ҳо</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>он</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal_C"/></e>
+      <e r="LR"><p><l>ҳо</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>он</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal_C"/></e>
     </pardef>
 
     <pardef n="тракторчи__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>ён</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>ён</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal_C"/></e>
     </pardef>
 
     <pardef n="деҳ__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>от</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal_C"/></e>
+      <e>       <p><l>от</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal_C"/></e>
     </pardef>
 
     <pardef n="ширкаткунанда__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal"/></e>
-      <e>       <p><l>гон</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>гон</l><r><s n="n"/><s n="pl"/></r></p><par n="S__nominal_C"/></e>
     </pardef>
 
     <!-- SECTION: Adjectives -->
@@ -325,6 +355,9 @@
     </pardef>
 
     <pardef n="бузург__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p></e>
+      <e>       <p><l>тар</l><r><s n="adj"/><s n="comp"/></r></p></e>
+      <e>       <p><l>тарин</l><r><s n="adj"/><s n="sup"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="S__adject"/></e>
       <e>       <p><l>тар</l><r><s n="adj"/><s n="comp"/></r></p><par n="S__adject"/></e>
       <e>       <p><l>тарин</l><r><s n="adj"/><s n="sup"/></r></p><par n="S__adject"/></e>
@@ -357,7 +390,7 @@
 
     <!-- Verbs -->
     <pardef n="/будан__vbser">
-      <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
 
       <e>       <p><l>ҳастам</l><r>будан<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ҳасти</l><r>будан<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -444,7 +477,7 @@
     </pardef>
 
     <pardef n="ш/удан__vblex">
-      <e>       <p><l>удан</l>	  <r>удан<s n="vblex"/><s n="inf"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l>удан</l>	  <r>удан<s n="vblex"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
 
       <e>       <p><l>авам</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ави</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -462,7 +495,7 @@
     </pardef>
 
     <pardef n="к/ардан__vbdo">
-      <e>       <p><l>ардан</l><r>ардан<s n="vbdo"/><s n="inf"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l>ардан</l><r>ардан<s n="vbdo"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
 
       <e>       <p><l>уним</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>унам</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1262,7 +1295,7 @@
     <e lm="бузург"><i>бузург</i><par n="бузург__adj"/></e> 
     <e lm="дур"><i>дур</i><par n="бузург__adj"/></e> <!-- far -->
     <e lm="зебо"><i>зебо</i><par n="бузург__adj"/></e> <!-- beautiful -->
-    <e lm="калон"><i>калон</i><par n="бузург__adj"/></e> <!-- major -->
+    <e lm="калон"><i>калон</i><par n="бузург__adj"/></e> <!-- major / big -->
     <e lm="нав"><i>нав</i><par n="бузург__adj"/></e> <!-- new -->
     <e lm="озод"><i>озод</i><par n="бузург__adj"/></e> <!-- free -->
     <e lm="шавқовар"><i>шавқовар</i><par n="бузург__adj"/></e> <!-- interesting -->
@@ -1285,6 +1318,7 @@
 
     <e lm="давлатӣ"><i>давлат</i><par n="рус/ӣ__adj"/></e> <!-- state -->
     <e lm="террористӣ"><i>террорист</i><par n="рус/ӣ__adj"/></e> <!-- terrorist -->
+    <e lm="атомӣ"><i>атом</i><par n="рус/ӣ__adj"/></e> <!-- terrorist -->
 
     <!-- SECTION: Adverbs -->
 
