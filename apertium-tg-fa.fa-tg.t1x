@@ -17,6 +17,7 @@
     <cat-item tags="prn.*"/>
   </def-cat>
   <def-cat n="enc">
+    <cat-item tags="enc"/>
     <cat-item tags="enc.*"/>
   </def-cat>
   <def-cat n="vpart">
@@ -76,7 +77,8 @@
   </def-attr>
   <def-attr n="a_enc">
      <attr-item tags="enc.izo"/>
-     <attr-item tags="enc.acc"/>
+     <attr-item tags="enc.ind"/>
+     <attr-item tags="enc"/>
   </def-attr>
   <def-attr n="a_det">
      <attr-item tags="det.ind"/>
@@ -349,15 +351,62 @@
          </when>
        </choose>
        <out>
-         <lu>
-           <clip pos="1" side="tl" part="lem"/>
-           <clip pos="1" side="tl" part="a_nom"/>
-           <clip pos="1" side="tl" part="nbr"/>
-         </lu>
-	 <lu>
-           <clip pos="2" side="tl" part="lem"/>
-           <clip pos="2" side="tl" part="a_enc"/>
-	 </lu>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_enc"/>
+           </lu>
+         </mlu>
+       </out>
+       <let>
+         <var n="isFirstWord"/>
+         <lit v="false"/> 
+       </let>
+     </action>
+  </rule>
+
+  <rule>
+     <pattern>
+       <pattern-item n="nom"/>
+       <pattern-item n="enc"/>
+       <pattern-item n="enc"/>
+     </pattern>
+     <action>
+       <choose>
+         <when>
+           <test>
+             <equal>
+               <var n="isFirstWord"/>
+               <lit v="true"/>
+             </equal>
+           </test>
+           <modify-case>
+             <clip pos="1" side="tl" part="lem"/>
+             <lit v="Aa"/>
+           </modify-case>
+         </when>
+       </choose>
+       <out>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_enc"/>
+           </lu>
+           <lu>
+             <clip pos="3" side="tl" part="lem"/>
+             <clip pos="3" side="tl" part="a_enc"/>
+           </lu>
+         </mlu>
        </out>
        <let>
          <var n="isFirstWord"/>
