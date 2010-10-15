@@ -135,7 +135,7 @@
 
     <pardef n="separa">
       <e>
-        <re>[.\?;:!]</re>
+        <re>[.\?;:!]+</re>
         <p>
           <l/>
           <r><s n="sent"/></r>
@@ -300,133 +300,107 @@
       <e>
         <p>
           <l>من</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>تو</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>او</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <!-- him or her -->
       <e r="LR">
         <p>
           <l>وی</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ما</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>شما</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>شماها</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>آن‌ها</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>آنها</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>آنان</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <!-- human only -->
       <e r="LR">
         <p>
           <l>ایشان</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>خودم</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>خودت</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>خودش</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>خودمان</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>خودتان</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>خودشان</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-<!--
-      <e>
-        <p>
-          <l><b/>این</l>
-          <r><j/>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/>اینان</l>
-          <r><j/>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/>آن</l>
-          <r><j/>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l><b/>اون</l>
-          <r><j/>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
--->
     </pardef>
 
     <pardef n="همه__prn">

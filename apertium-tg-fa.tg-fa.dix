@@ -8459,6 +8459,8 @@
     <e><p><l>вилойот<s n="n"/></l><r>ولایات<s n="n"/></r></p></e>
 
     <!-- verbs -->
+    <e><p><l>будан<s n="vbser"/></l><r>بودن<s n="vbser"/></r></p></e>
+
     <e><p><l>бӯд<s n="vblex"/></l><r>بود<s n="vblex"/></r></p></e>
     <e><p><l>бош<s n="vblex"/></l><r>باش<s n="vblex"/></r></p></e>
     <e><p><l>дошт<s n="vblex"/></l><r>داشت<s n="vblex"/></r></p></e>
@@ -11356,7 +11358,7 @@
        </p>
      </e>
 
-     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+     <e><re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
      <e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
      <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
