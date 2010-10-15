@@ -40,7 +40,8 @@
     <sdef n="pres"    c="Present tense"/>
     <sdef n="inf"     c="Infinitive"/>
     <sdef n="ger"     c="Gerund"/>
-    <sdef n="pp"      c="Participle"/>
+    <sdef n="pp"      c="Past participle I"/>
+    <sdef n="ppgi"    c="Past participle II"/>
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -71,6 +72,7 @@
     <sdef n="aa"      c="Animate"/>
 
     <sdef n="rel"     c="Relative"/>
+    <sdef n="emph"    c="Emphatic"/>
     <sdef n="ind"     c="Indefinite"/>    
     <sdef n="itg"     c="Interrogative"/>
     <sdef n="det"     c="Determiner"/>
@@ -326,14 +328,30 @@
 
     <!-- Verbs -->
     <pardef n="/будан__vbser">
+      <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal"/></e>
+
       <e>       <p><l>ҳастам</l><r>будан<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ҳасти</l><r>будан<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ҳаст</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ҳаст</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>аст</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>ҳастем</l><r>будан<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ҳастанд</l><r>будан<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>ҳастед</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>аст</l><r>будан<s n="vbser"/><s n="clt"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нестам</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нести</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нест</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>не</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нестем</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>нестанд</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>нестед</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>мебошам</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мебоши</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мебошад</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мебошим</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>мебошид</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>мебошанд</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>бошам</l><r>будан<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>боши</l><r>будан<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -343,11 +361,14 @@
       <e>       <p><l>бошанд</l><r>будан<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>будам</l><r>будан<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>буди</l><r>будан<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>будӣ</l><r>будан<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>буд</l><r>будан<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>будем</l><r>будан<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>будед</l><r>будан<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>буданд</l><r>будан<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="pp"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>будагӣ</l><r>будан<s n="vbser"/><s n="ppgi"/></r></p></e>
     </pardef>
 
     <pardef n="до/штан__vbhaver">
@@ -1231,7 +1252,7 @@
     <!-- SECTION: Verbs -->
 
     <e lm="доштан"><par n="P__prefixes"/><i>до</i><par n="до/штан__vbhaver"/></e> <!-- to have -->
-    <e lm="будан"><par n="P__prefixes"/><i/><par n="/будан__vbser"/></e> <!-- to be -->
+    <e lm="будан"><i/><par n="/будан__vbser"/></e> <!-- to be -->
     <e lm="рафтан"><par n="P__prefixes"/><i>ра</i><par n="ра/фтан__vblex"/></e> <!-- to go --> <!-- check! -->
     <e lm="шудан"><par n="P__prefixes"/><i>ш</i><par n="ш/удан__vblex"/></e> <!-- to become --> <!-- check! -->
     <e lm="кардан"><par n="P__prefixes"/><i>к</i><par n="к/ардан__vbdo"/></e> <!-- to do -->
