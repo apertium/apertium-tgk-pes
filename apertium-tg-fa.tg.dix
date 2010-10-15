@@ -228,7 +228,7 @@
     <pardef n="к/ӣ__prn">
       <e>       <p><l>ӣ</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/></r></p></e>
       <e>       <p><l>иҳо</l><r>ӣ<s n="prn"/><s n="itg"/><s n="pl"/></r></p></e>
-      <e>       <p><l>и</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>иро</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/><j/>ро<s n="enc"/></r></p></e>
     </pardef>
 
     <pardef n="ч/ӣ__prn">
@@ -1280,6 +1280,7 @@
     <e lm="куҷо"><i>куҷо</i><par n="куҷо__adv"/></e> 
     <e lm="кай"><i>кай</i><par n="куҷо__adv"/></e> 
     <e lm="чаро"><i>чаро</i><par n="куҷо__adv"/></e> 
+    <e lm="чӣ вақт"><i>чӣ<b/>вақт</i><par n="куҷо__adv"/></e> 
 
     <e lm="имрӯз"><i>имрӯз</i><par n="имрӯз__adv"/></e> <!-- today -->
     <e lm="ҳам"><i>ҳам</i><par n="имрӯз__adv"/></e> <!-- too -->
