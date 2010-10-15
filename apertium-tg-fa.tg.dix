@@ -225,8 +225,20 @@
       <e>       <p><l/><r><s n="prn"/><s n="ref"/></r></p><par n="S__possess"/></e>
     </pardef>
 
-    <pardef n="кӣ__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="itg"/></r></p></e>
+    <pardef n="к/ӣ__prn">
+      <e>       <p><l>ӣ</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/></r></p></e>
+      <e>       <p><l>иҳо</l><r>ӣ<s n="prn"/><s n="itg"/><s n="pl"/></r></p></e>
+      <e>       <p><l>и</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/></r></p><par n="S__accusative"/></e>
+    </pardef>
+
+    <pardef n="ч/ӣ__prn">
+      <e>       <p><l>ӣ</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/></r></p></e>
+      <e>       <p><l>и</l><r>ӣ<s n="prn"/><s n="itg"/><s n="sg"/></r></p><par n="S__accusative"/></e>
+    </pardef>
+
+    <pardef n="кадом__prn">
+      <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="sg"/></r></p><par n="S__nominal"/></e>
+      <e>       <p><l>ҳо</l><r><s n="prn"/><s n="itg"/><s n="pl"/></r></p><par n="S__nominal"/></e>
     </pardef>
 
     <pardef n="ки__rel">
@@ -664,7 +676,6 @@
 
     <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
 
-    <e lm="кӣ"><i>кӣ</i><par n="ки__rel"/></e> <!-- who -->
     <e lm="ки"><i>ки</i><par n="ки__rel"/></e> <!-- that -->
 
     <e lm="ин"><i>ин</i><par n="ин__prn"/></e> <!-- this -->
@@ -672,9 +683,21 @@
 
     <e lm="худ"><i>худ</i><par n="худ__prn"/></e> <!-- self -->
 
-    <e lm="кӣ"><i>кӣ</i><par n="кӣ__prn"/></e> 
-    <e lm="чӣ"><i>чӣ</i><par n="кӣ__prn"/></e> 
-    <e lm="кадом"><i>кадом</i><par n="кӣ__prn"/></e> 
+    <e lm="кӣ"><i>к</i><par n="к/ӣ__prn"/></e> 
+    <e lm="чӣ"><i>ч</i><par n="ч/ӣ__prn"/></e> 
+    <e lm="кадом"><i>кадом</i><par n="кадом__prn"/></e> 
+
+    <!-- SECTION: Determiners -->
+
+    <e lm="ин"><i>ин</i><par n="ин__det"/></e> <!-- this -->
+    <e lm="ҳамин"><i>ҳамин</i><par n="ин__det"/></e> <!-- this very -->
+    <e lm="он"><i>он</i><par n="ин__det"/></e> <!-- that -->
+
+    <e lm="дувум"><i>дувум</i><par n="дувум__det"/></e> <!-- second -->
+
+    <e lm="кадом"><i>кадом</i><par n="кадом__det"/></e> 
+    <e lm="чанд"><i>чанд</i><par n="кадом__det"/></e> 
+    <e lm="чӣ"><i>чӣ</i><par n="кадом__det"/></e> 
 
     <!-- SECTION: Adpositions -->
 
@@ -691,17 +714,6 @@
 
     <e lm="барин"><i>барин</i><par n="барин__post"/></e> <!-- like -->
     <e lm="боз"><i>боз</i><par n="барин__post"/></e> <!-- since -->
-
-    <!-- SECTION: Determiners -->
-
-    <e lm="ин"><i>ин</i><par n="ин__det"/></e> <!-- this -->
-    <e lm="ҳамин"><i>ҳамин</i><par n="ин__det"/></e> <!-- this very -->
-    <e lm="он"><i>он</i><par n="ин__det"/></e> <!-- that -->
-
-    <e lm="дувум"><i>дувум</i><par n="дувум__det"/></e> <!-- second -->
-
-    <e lm="кадом"><i>кадом</i><par n="кадом__det"/></e> 
-    <e lm="чанд"><i>чанд</i><par n="кадом__det"/></e> 
 
     <!-- SECTION: Conjunctions -->
     <e lm="ва"><i>ва</i><par n="ва__cnjcoo"/></e> <!-- and -->

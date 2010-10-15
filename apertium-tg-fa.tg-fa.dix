@@ -201,12 +201,17 @@
 
     <e><p><l>ки<s n="rel"/></l><r>که<s n="rel"/></r></p></e>
 
+    <e><p><l>чӣ<s n="prn"/><s n="itg"/></l><r>چی<s n="adv"/></r></p></e>
+    <e><p><l>кадом<s n="prn"/><s n="itg"/></l><r>کدام<s n="adv"/></r></p></e>
+
     <!-- SECTION: Determiners -->
 
     <e><p><l>ин<s n="det"/><s n="dem"/></l><r>ﺍیﻥ<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>ҳамин<s n="det"/><s n="dem"/></l><r>همین<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>он<s n="det"/><s n="dem"/></l><r>آن<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>дувум<s n="det"/></l><r>دوم<s n="det"/></r></p></e>
+
+    <e><p><l>кадом<s n="det"/><s n="itg"/></l><r>کدام<s n="adv"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -5980,7 +5985,6 @@
     <e><p><l>ҷо<s n="n"/></l><r>جا<s n="n"/></r></p></e>
     <e><p><l>ҷудо<s n="n"/></l><r>جدا<s n="n"/></r></p></e>
     <e><p><l>ҷуқрофейо<s n="n"/></l><r>جغرافیا<s n="n"/></r></p></e>
-    <e><p><l>чиро<s n="n"/></l><r>چرا<s n="n"/></r></p></e>
     <e><p><l>хурмо<s n="n"/></l><r>خرما<s n="n"/></r></p></e>
     <e><p><l>хато<s n="n"/></l><r>خطا<s n="n"/></r></p></e>
     <e><p><l>хала<s n="n"/></l><r>خلا<s n="n"/></r></p></e>
@@ -8545,10 +8549,11 @@
     <e><p><l>вукалойа<s n="n"/></l><r>وکلای<s n="n"/></r></p></e>
     <e><p><l>вилойот<s n="n"/></l><r>ولایات<s n="n"/></r></p></e>
 
-    <!-- verbs -->
+    <!-- SECTION: Verbs -->
     <e><p><l>будан<s n="vbser"/></l><r>بودن<s n="vbser"/></r></p></e>
 
     <e><p><l>шудан<s n="vblex"/></l><r>شد<s n="vblex"/></r></p></e>
+    <e><p><l>доштан<s n="vbhaver"/></l><r>داشت<s n="vblex"/></r></p></e>
 
     <e><p><l>бӯд<s n="vblex"/></l><r>بود<s n="vblex"/></r></p></e>
     <e><p><l>бош<s n="vblex"/></l><r>باش<s n="vblex"/></r></p></e>
@@ -8784,6 +8789,12 @@
     <e><p><l>таҳ<s n="n"/></l><r>ته<s n="n"/></r></p></e>
     <e><p><l>дар<s n="n"/></l><r>در<s n="n"/></r></p></e>
     <e><p><l>но<s n="n"/></l><r>نا<s n="n"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e><p><l>чаро<s n="adv"/><s n="itg"/></l><r>چرا<s n="adv"/></r></p></e>
+    <e><p><l>куҷо<s n="adv"/><s n="itg"/></l><r>کجا<s n="adv"/></r></p></e>
+    <e><p><l>кай<s n="adv"/><s n="itg"/></l><r>کی<s n="adv"/></r></p></e>
 
     <!-- аdverbs like (ҳанӯз) -->
     <e><p><l>иттифоқӣ<s n="adv"/></l><r>اتفاقی<s n="adv"/></r></p></e>
@@ -9025,8 +9036,6 @@
     <e><p><l>ҷамъан<s n="adv"/></l><r>جمعا<s n="adv"/></r></p></e>
     <e><p><l>ҷамъан<s n="adv"/></l><r>جمعاً<s n="adv"/></r></p></e>
     <e><p><l>ҷӯйона<s n="adv"/></l><r>جویانه<s n="adv"/></r></p></e>
-    <e><p><l>чӣ<s n="adv"/></l><r>چی<s n="adv"/></r></p></e>
-    <e><p><l>чиро<s n="adv"/></l><r>چرا<s n="adv"/></r></p></e>
     <e><p><l>чирока<s n="adv"/></l><r>چراکه<s n="adv"/></r></p></e>
     <e><p><l>чест<s n="adv"/></l><r>چیست<s n="adv"/></r></p></e>
     <e><p><l>читур<s n="adv"/></l><r>چطور<s n="adv"/></r></p></e>
@@ -9035,7 +9044,6 @@
     <e><p><l>чинон<s n="adv"/></l><r>چنان<s n="adv"/></r></p></e>
     <e><p><l>чинонча<s n="adv"/></l><r>چنانچه<s n="adv"/></r></p></e>
     <e><p><l>чинонка<s n="adv"/></l><r>چنانکه<s n="adv"/></r></p></e>
-    <e><p><l>чанд<s n="adv"/></l><r>چند<s n="adv"/></r></p></e>
     <e><p><l>чандӣ<s n="adv"/></l><r>چندی<s n="adv"/></r></p></e>
     <e><p><l>чандон<s n="adv"/></l><r>چندان<s n="adv"/></r></p></e>
     <e><p><l>чинен<s n="adv"/></l><r>چنین<s n="adv"/></r></p></e>
@@ -9221,15 +9229,12 @@
     <e><p><l>қатъан<s n="adv"/></l><r>قطعاً<s n="adv"/></r></p></e>
     <e><p><l>яқенан<s n="adv"/></l><r>یقیناً<s n="adv"/></r></p></e>
     <e><p><l>қаҳримонона<s n="adv"/></l><r>قهرمانانه<s n="adv"/></r></p></e>
-    <e><p><l>кий<s n="adv"/></l><r>کی<s n="adv"/></r></p></e>
     <e><p><l>коршиносона<s n="adv"/></l><r>کارشناسانه<s n="adv"/></r></p></e>
     <e><p><l>комилан<s n="adv"/></l><r>کاملا<s n="adv"/></r></p></e>
     <e><p><l>комилан<s n="adv"/></l><r>کاملاً<s n="adv"/></r></p></e>
     <e><p><l>якбор<s n="adv"/></l><r>یکبار<s n="adv"/></r></p></e>
     <e><p><l>якбора<s n="adv"/></l><r>یکباره<s n="adv"/></r></p></e>
     <e><p><l>якҷо<s n="adv"/></l><r>یکجا<s n="adv"/></r></p></e>
-    <e><p><l>куҷо<s n="adv"/></l><r>کجا<s n="adv"/></r></p></e>
-    <e><p><l>кудом<s n="adv"/></l><r>کدام<s n="adv"/></r></p></e>
     <e><p><l>яксола<s n="adv"/></l><r>یکساله<s n="adv"/></r></p></e>
     <e><p><l>яксара<s n="adv"/></l><r>یکسره<s n="adv"/></r></p></e>
     <e><p><l>куллӣ<s n="adv"/></l><r>کلی<s n="adv"/></r></p></e>
