@@ -71,6 +71,9 @@
       <program name="lt-proc $1">
         <file name="tg-fa.autogen.bin"/>
       </program>
+      <program name="lt-proc -t">
+        <file name="tg-fa.autopgen.bin"/>
+      </program> 
     </pipeline>
   </mode>
 
@@ -112,6 +115,9 @@
       <program name="lt-proc $1">
         <file name="fa-tg.autogen.bin"/>
       </program>
+      <program name="lt-proc -t">
+        <file name="fa-tg.autopgen.bin"/>
+      </program> 
     </pipeline>
   </mode>
 

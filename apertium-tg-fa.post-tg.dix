@@ -8,14 +8,8 @@
     <pardef n="numbers">
     <e>
       <p>
-        <l><b/></l>
-	<r><b/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l></l>
-	<r></r>
+        <l>٬</l>
+	<r>.</r>
       </p>
     </e>
     <e>
@@ -82,11 +76,11 @@
   </pardefs>
 
   <!-- ۰۱۲۳۴۵۶۷۸۹ -->
-  <section id="main" type="standard">
+  <section id="main" type="inconditional">
     <!-- This takes care of years in a very crude manner -->
     <e>
       <p>
-        <l><a/></l>
+        <l/>
 	<r/>
       </p>
       <par n="numbers"/>
