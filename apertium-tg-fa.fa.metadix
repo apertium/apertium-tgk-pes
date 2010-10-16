@@ -24,7 +24,6 @@
     <sdef n="vbmod"   c="Modal verb"/>
     <sdef n="pri"     c="Present indicative"/>
     <sdef n="past"    c="Past tense"/>
-    <sdef n="pres"    c="Present tense"/>
     <sdef n="inf"     c="Infinitive"/>
 
     <sdef n="aff"     c="Affirmative"/>
@@ -1439,37 +1438,37 @@
       <e>
         <p>
           <l>ایم</l>
-          <r>بودن<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+          <r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ام</l>
-          <r>بودن<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>اید</l>
-          <r>بودن<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+          <r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ای</l>
-          <r>بودن<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>اند</l>
-          <r>بودن<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+          <r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>است</l>
-          <r>بودن<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
