@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <tagger name="tajik">
 <tagset>
 <!--
-  125 single tags
-  753 multiple tags
+  211 single tags
+  653 multiple tags
 -->
-  <def-label name="adj">
-    <tags-item tags="adj.*"/>
+  <def-label name="adj.comp" closed="true">
+    <tags-item tags="adj.comp"/>
   </def-label>
-  <def-label name="adv">
+  <def-label name="adj.ord" closed="true">
+    <tags-item tags="adj.ord"/>
+  </def-label>
+  <def-label name="adj.pst" closed="true">
+    <tags-item tags="adj.pst"/>
+  </def-label>
+  <def-label name="adj.sup" closed="true">
+    <tags-item tags="adj.sup"/>
+  </def-label>
+  <def-label name="adv" closed="true">
     <tags-item tags="adv"/>
   </def-label>
   <def-label name="adv.itg" closed="true">
@@ -23,24 +32,26 @@
   <def-label name="cnjadv" closed="true">
     <tags-item tags="cnjadv"/>
   </def-label>
-  <def-label name="cnjsub" closed="true">
-    <tags-item tags="cnjsub"/>
-  </def-label>
   <def-label name="cnjcoo" closed="true">
     <tags-item tags="cnjcoo"/>
   </def-label>
-  <def-label name="det.dem" closed="true">
-    <tags-item tags="det.dem.*"/>
+  <def-label name="cnjsub" closed="true">
+    <tags-item tags="cnjsub"/>
   </def-label>
-  <def-label name="det.itg" closed="true">
-    <tags-item tags="det.itg.*"/>
+  <def-label name="det.dem.sp" closed="true">
+    <tags-item tags="det.dem.sp"/>
   </def-label>
-  <def-label name="det.ord" closed="true">
-    <tags-item tags="det.ord.*"/>
+  <def-label name="det.itg.sp" closed="true">
+    <tags-item tags="det.itg.sp"/>
+  </def-label>
+  <def-label name="det.ord.sp" closed="true">
+    <tags-item tags="det.ord.sp"/>
   </def-label>
   <def-label name="enc" closed="true">
     <tags-item tags="enc"/>
-    <tags-item tags="enc.*"/>
+  </def-label>
+  <def-label name="enc.izo" closed="true">
+    <tags-item tags="enc.izo"/>
   </def-label>
   <def-label name="guio" closed="true">
     <tags-item tags="guio"/>
@@ -114,68 +125,107 @@
   <def-label name="rel" closed="true">
     <tags-item tags="rel"/>
   </def-label>
-  <def-label name="vbdo.imp.p2.pl" closed="true">
-    <tags-item tags="vbdo.imp.p2.pl"/>
+  <def-label name="vbhaver.dur.p1.pl" closed="true">
+    <tags-item tags="vbhaver.dur.p1.pl"/>
   </def-label>
-  <def-label name="vbdo.imp.p2.sg" closed="true">
-    <tags-item tags="vbdo.imp.p2.sg"/>
+  <def-label name="vbhaver.dur.p1.sg" closed="true">
+    <tags-item tags="vbhaver.dur.p1.sg"/>
   </def-label>
-  <def-label name="vbdo.inf" closed="true">
-    <tags-item tags="vbdo.inf"/>
+  <def-label name="vbhaver.dur.p2.pl" closed="true">
+    <tags-item tags="vbhaver.dur.p2.pl"/>
   </def-label>
-  <def-label name="vbdo.past.p1.pl" closed="true">
-    <tags-item tags="vbdo.past.p1.pl"/>
+  <def-label name="vbhaver.dur.p3.pl" closed="true">
+    <tags-item tags="vbhaver.dur.p3.pl"/>
   </def-label>
-  <def-label name="vbdo.past.p1.sg" closed="true">
-    <tags-item tags="vbdo.past.p1.sg"/>
+  <def-label name="vbhaver.dur.p3.sg" closed="true">
+    <tags-item tags="vbhaver.dur.p3.sg"/>
   </def-label>
-  <def-label name="vbdo.past.p2.pl" closed="true">
-    <tags-item tags="vbdo.past.p2.pl"/>
+  <def-label name="vbhaver.inf" closed="true">
+    <tags-item tags="vbhaver.inf"/>
   </def-label>
-  <def-label name="vbdo.past.p2.sg" closed="true">
-    <tags-item tags="vbdo.past.p2.sg"/>
+  <def-label name="vbhaver.inf2" closed="true">
+    <tags-item tags="vbhaver.inf2"/>
   </def-label>
-  <def-label name="vbdo.past.p3.pl" closed="true">
-    <tags-item tags="vbdo.past.p3.pl"/>
+  <def-label name="vbhaver.neg.inf" closed="true">
+    <tags-item tags="vbhaver.neg.inf"/>
   </def-label>
-  <def-label name="vbdo.past.p3.sg" closed="true">
-    <tags-item tags="vbdo.past.p3.sg"/>
+  <def-label name="vbhaver.neg.inf2" closed="true">
+    <tags-item tags="vbhaver.neg.inf2"/>
   </def-label>
-  <def-label name="vbdo.pres.p1.pl" closed="true">
-    <tags-item tags="vbdo.pres.p1.pl"/>
+  <def-label name="vbhaver.neg.past.p1.pl" closed="true">
+    <tags-item tags="vbhaver.neg.past.p1.pl"/>
   </def-label>
-  <def-label name="vbdo.pres.p1.sg" closed="true">
-    <tags-item tags="vbdo.pres.p1.sg"/>
+  <def-label name="vbhaver.neg.past.p1.sg" closed="true">
+    <tags-item tags="vbhaver.neg.past.p1.sg"/>
   </def-label>
-  <def-label name="vbdo.pres.p2.pl" closed="true">
-    <tags-item tags="vbdo.pres.p2.pl"/>
+  <def-label name="vbhaver.neg.past.p2.pl" closed="true">
+    <tags-item tags="vbhaver.neg.past.p2.pl"/>
   </def-label>
-  <def-label name="vbdo.pres.p2.sg" closed="true">
-    <tags-item tags="vbdo.pres.p2.sg"/>
+  <def-label name="vbhaver.neg.past.p2.sg" closed="true">
+    <tags-item tags="vbhaver.neg.past.p2.sg"/>
   </def-label>
-  <def-label name="vbdo.pres.p3.pl" closed="true">
-    <tags-item tags="vbdo.pres.p3.pl"/>
+  <def-label name="vbhaver.neg.past.p3.pl" closed="true">
+    <tags-item tags="vbhaver.neg.past.p3.pl"/>
   </def-label>
-  <def-label name="vbdo.pres.p3.sg" closed="true">
-    <tags-item tags="vbdo.pres.p3.sg"/>
+  <def-label name="vbhaver.neg.past.p3.sg" closed="true">
+    <tags-item tags="vbhaver.neg.past.p3.sg"/>
   </def-label>
-  <def-label name="vbdo.prs.p1.pl" closed="true">
-    <tags-item tags="vbdo.prs.p1.pl"/>
+  <def-label name="vbhaver.neg.perf.p1.pl" closed="true">
+    <tags-item tags="vbhaver.neg.perf.p1.pl"/>
   </def-label>
-  <def-label name="vbdo.prs.p1.sg" closed="true">
-    <tags-item tags="vbdo.prs.p1.sg"/>
+  <def-label name="vbhaver.neg.perf.p1.sg" closed="true">
+    <tags-item tags="vbhaver.neg.perf.p1.sg"/>
   </def-label>
-  <def-label name="vbdo.prs.p2.pl" closed="true">
-    <tags-item tags="vbdo.prs.p2.pl"/>
+  <def-label name="vbhaver.neg.perf.p2.pl" closed="true">
+    <tags-item tags="vbhaver.neg.perf.p2.pl"/>
   </def-label>
-  <def-label name="vbdo.prs.p2.sg" closed="true">
-    <tags-item tags="vbdo.prs.p2.sg"/>
+  <def-label name="vbhaver.neg.perf.p3.pl" closed="true">
+    <tags-item tags="vbhaver.neg.perf.p3.pl"/>
   </def-label>
-  <def-label name="vbdo.prs.p3.pl" closed="true">
-    <tags-item tags="vbdo.prs.p3.pl"/>
+  <def-label name="vbhaver.neg.perf.p3.sg" closed="true">
+    <tags-item tags="vbhaver.neg.perf.p3.sg"/>
   </def-label>
-  <def-label name="vbdo.prs.p3.sg" closed="true">
-    <tags-item tags="vbdo.prs.p3.sg"/>
+  <def-label name="vbhaver.neg.pp" closed="true">
+    <tags-item tags="vbhaver.neg.pp"/>
+  </def-label>
+  <def-label name="vbhaver.neg.ppgi" closed="true">
+    <tags-item tags="vbhaver.neg.ppgi"/>
+  </def-label>
+  <def-label name="vbhaver.neg.pri.p1.pl" closed="true">
+    <tags-item tags="vbhaver.neg.pri.p1.pl"/>
+  </def-label>
+  <def-label name="vbhaver.neg.pri.p1.sg" closed="true">
+    <tags-item tags="vbhaver.neg.pri.p1.sg"/>
+  </def-label>
+  <def-label name="vbhaver.neg.pri.p2.pl" closed="true">
+    <tags-item tags="vbhaver.neg.pri.p2.pl"/>
+  </def-label>
+  <def-label name="vbhaver.neg.pri.p2.sg" closed="true">
+    <tags-item tags="vbhaver.neg.pri.p2.sg"/>
+  </def-label>
+  <def-label name="vbhaver.neg.pri.p3.pl" closed="true">
+    <tags-item tags="vbhaver.neg.pri.p3.pl"/>
+  </def-label>
+  <def-label name="vbhaver.neg.pri.p3.sg" closed="true">
+    <tags-item tags="vbhaver.neg.pri.p3.sg"/>
+  </def-label>
+  <def-label name="vbhaver.neg.prs.p1.pl" closed="true">
+    <tags-item tags="vbhaver.neg.prs.p1.pl"/>
+  </def-label>
+  <def-label name="vbhaver.neg.prs.p1.sg" closed="true">
+    <tags-item tags="vbhaver.neg.prs.p1.sg"/>
+  </def-label>
+  <def-label name="vbhaver.neg.prs.p2.pl" closed="true">
+    <tags-item tags="vbhaver.neg.prs.p2.pl"/>
+  </def-label>
+  <def-label name="vbhaver.neg.prs.p2.sg" closed="true">
+    <tags-item tags="vbhaver.neg.prs.p2.sg"/>
+  </def-label>
+  <def-label name="vbhaver.neg.prs.p3.pl" closed="true">
+    <tags-item tags="vbhaver.neg.prs.p3.pl"/>
+  </def-label>
+  <def-label name="vbhaver.neg.prs.p3.sg" closed="true">
+    <tags-item tags="vbhaver.neg.prs.p3.sg"/>
   </def-label>
   <def-label name="vbhaver.past.p1.pl" closed="true">
     <tags-item tags="vbhaver.past.p1.pl"/>
@@ -195,35 +245,182 @@
   <def-label name="vbhaver.past.p3.sg" closed="true">
     <tags-item tags="vbhaver.past.p3.sg"/>
   </def-label>
-  <def-label name="vbhaver.pres.p1.pl" closed="true">
-    <tags-item tags="vbhaver.pres.p1.pl"/>
+  <def-label name="vbhaver.perf.p1.pl" closed="true">
+    <tags-item tags="vbhaver.perf.p1.pl"/>
   </def-label>
-  <def-label name="vbhaver.pres.p1.sg" closed="true">
-    <tags-item tags="vbhaver.pres.p1.sg"/>
+  <def-label name="vbhaver.perf.p1.sg" closed="true">
+    <tags-item tags="vbhaver.perf.p1.sg"/>
   </def-label>
-  <def-label name="vbhaver.pres.p2.pl" closed="true">
-    <tags-item tags="vbhaver.pres.p2.pl"/>
+  <def-label name="vbhaver.perf.p2.pl" closed="true">
+    <tags-item tags="vbhaver.perf.p2.pl"/>
   </def-label>
-  <def-label name="vbhaver.pres.p2.sg" closed="true">
-    <tags-item tags="vbhaver.pres.p2.sg"/>
+  <def-label name="vbhaver.perf.p3.pl" closed="true">
+    <tags-item tags="vbhaver.perf.p3.pl"/>
   </def-label>
-  <def-label name="vbhaver.pres.p3.pl" closed="true">
-    <tags-item tags="vbhaver.pres.p3.pl"/>
+  <def-label name="vbhaver.perf.p3.sg" closed="true">
+    <tags-item tags="vbhaver.perf.p3.sg"/>
   </def-label>
-  <def-label name="vbhaver.pres.p3.sg" closed="true">
-    <tags-item tags="vbhaver.pres.p3.sg"/>
+  <def-label name="vbhaver.pii.p1.pl" closed="true">
+    <tags-item tags="vbhaver.pii.p1.pl"/>
   </def-label>
-  <def-label name="vbmod" closed="true">
-    <tags-item tags="vbmod.*"/>
+  <def-label name="vbhaver.pii.p1.sg" closed="true">
+    <tags-item tags="vbhaver.pii.p1.sg"/>
   </def-label>
-  <def-label name="vblex.imp.p2.pl" closed="true">
-    <tags-item tags="vblex.imp.p2.pl"/>
+  <def-label name="vbhaver.pii.p2.pl" closed="true">
+    <tags-item tags="vbhaver.pii.p2.pl"/>
   </def-label>
-  <def-label name="vblex.imp.p2.sg" closed="true">
-    <tags-item tags="vblex.imp.p2.sg"/>
+  <def-label name="vbhaver.pii.p2.sg" closed="true">
+    <tags-item tags="vbhaver.pii.p2.sg"/>
+  </def-label>
+  <def-label name="vbhaver.pii.p3.pl" closed="true">
+    <tags-item tags="vbhaver.pii.p3.pl"/>
+  </def-label>
+  <def-label name="vbhaver.pii.p3.sg" closed="true">
+    <tags-item tags="vbhaver.pii.p3.sg"/>
+  </def-label>
+  <def-label name="vbhaver.pp" closed="true">
+    <tags-item tags="vbhaver.pp"/>
+  </def-label>
+  <def-label name="vbhaver.ppgi" closed="true">
+    <tags-item tags="vbhaver.ppgi"/>
+  </def-label>
+  <def-label name="vbhaver.pri.p1.pl" closed="true">
+    <tags-item tags="vbhaver.pri.p1.pl"/>
+  </def-label>
+  <def-label name="vbhaver.pri.p1.sg" closed="true">
+    <tags-item tags="vbhaver.pri.p1.sg"/>
+  </def-label>
+  <def-label name="vbhaver.pri.p2.pl" closed="true">
+    <tags-item tags="vbhaver.pri.p2.pl"/>
+  </def-label>
+  <def-label name="vbhaver.pri.p2.sg" closed="true">
+    <tags-item tags="vbhaver.pri.p2.sg"/>
+  </def-label>
+  <def-label name="vbhaver.pri.p3.pl" closed="true">
+    <tags-item tags="vbhaver.pri.p3.pl"/>
+  </def-label>
+  <def-label name="vbhaver.pri.p3.sg" closed="true">
+    <tags-item tags="vbhaver.pri.p3.sg"/>
+  </def-label>
+  <def-label name="vbhaver.prs.p1.pl" closed="true">
+    <tags-item tags="vbhaver.prs.p1.pl"/>
+  </def-label>
+  <def-label name="vbhaver.prs.p1.sg" closed="true">
+    <tags-item tags="vbhaver.prs.p1.sg"/>
+  </def-label>
+  <def-label name="vbhaver.prs.p2.pl" closed="true">
+    <tags-item tags="vbhaver.prs.p2.pl"/>
+  </def-label>
+  <def-label name="vbhaver.prs.p2.sg" closed="true">
+    <tags-item tags="vbhaver.prs.p2.sg"/>
+  </def-label>
+  <def-label name="vbhaver.prs.p3.pl" closed="true">
+    <tags-item tags="vbhaver.prs.p3.pl"/>
+  </def-label>
+  <def-label name="vbhaver.prs.p3.sg" closed="true">
+    <tags-item tags="vbhaver.prs.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.dur.p1.pl" closed="true">
+    <tags-item tags="vblex.dur.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.dur.p1.sg" closed="true">
+    <tags-item tags="vblex.dur.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.dur.p2.pl" closed="true">
+    <tags-item tags="vblex.dur.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.dur.p3.pl" closed="true">
+    <tags-item tags="vblex.dur.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.dur.p3.sg" closed="true">
+    <tags-item tags="vblex.dur.p3.sg"/>
   </def-label>
   <def-label name="vblex.inf" closed="true">
     <tags-item tags="vblex.inf"/>
+  </def-label>
+  <def-label name="vblex.inf2" closed="true">
+    <tags-item tags="vblex.inf2"/>
+  </def-label>
+  <def-label name="vblex.neg.inf" closed="true">
+    <tags-item tags="vblex.neg.inf"/>
+  </def-label>
+  <def-label name="vblex.neg.inf2" closed="true">
+    <tags-item tags="vblex.neg.inf2"/>
+  </def-label>
+  <def-label name="vblex.neg.past.p1.pl" closed="true">
+    <tags-item tags="vblex.neg.past.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.past.p1.sg" closed="true">
+    <tags-item tags="vblex.neg.past.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.past.p2.pl" closed="true">
+    <tags-item tags="vblex.neg.past.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.past.p2.sg" closed="true">
+    <tags-item tags="vblex.neg.past.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.past.p3.pl" closed="true">
+    <tags-item tags="vblex.neg.past.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.past.p3.sg" closed="true">
+    <tags-item tags="vblex.neg.past.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.perf.p1.pl" closed="true">
+    <tags-item tags="vblex.neg.perf.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.perf.p1.sg" closed="true">
+    <tags-item tags="vblex.neg.perf.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.perf.p2.pl" closed="true">
+    <tags-item tags="vblex.neg.perf.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.perf.p3.pl" closed="true">
+    <tags-item tags="vblex.neg.perf.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.perf.p3.sg" closed="true">
+    <tags-item tags="vblex.neg.perf.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.pp" closed="true">
+    <tags-item tags="vblex.neg.pp"/>
+  </def-label>
+  <def-label name="vblex.neg.ppgi" closed="true">
+    <tags-item tags="vblex.neg.ppgi"/>
+  </def-label>
+  <def-label name="vblex.neg.pri.p1.pl" closed="true">
+    <tags-item tags="vblex.neg.pri.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.pri.p1.sg" closed="true">
+    <tags-item tags="vblex.neg.pri.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.pri.p2.pl" closed="true">
+    <tags-item tags="vblex.neg.pri.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.pri.p2.sg" closed="true">
+    <tags-item tags="vblex.neg.pri.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.pri.p3.pl" closed="true">
+    <tags-item tags="vblex.neg.pri.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.pri.p3.sg" closed="true">
+    <tags-item tags="vblex.neg.pri.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.prs.p1.pl" closed="true">
+    <tags-item tags="vblex.neg.prs.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.prs.p1.sg" closed="true">
+    <tags-item tags="vblex.neg.prs.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.prs.p2.pl" closed="true">
+    <tags-item tags="vblex.neg.prs.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.prs.p2.sg" closed="true">
+    <tags-item tags="vblex.neg.prs.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.neg.prs.p3.pl" closed="true">
+    <tags-item tags="vblex.neg.prs.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.neg.prs.p3.sg" closed="true">
+    <tags-item tags="vblex.neg.prs.p3.sg"/>
   </def-label>
   <def-label name="vblex.past.p1.pl" closed="true">
     <tags-item tags="vblex.past.p1.pl"/>
@@ -243,23 +440,62 @@
   <def-label name="vblex.past.p3.sg" closed="true">
     <tags-item tags="vblex.past.p3.sg"/>
   </def-label>
-  <def-label name="vblex.pres.p1.pl" closed="true">
-    <tags-item tags="vblex.pres.p1.pl"/>
+  <def-label name="vblex.perf.p1.pl" closed="true">
+    <tags-item tags="vblex.perf.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pres.p1.sg" closed="true">
-    <tags-item tags="vblex.pres.p1.sg"/>
+  <def-label name="vblex.perf.p1.sg" closed="true">
+    <tags-item tags="vblex.perf.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pres.p2.pl" closed="true">
-    <tags-item tags="vblex.pres.p2.pl"/>
+  <def-label name="vblex.perf.p2.pl" closed="true">
+    <tags-item tags="vblex.perf.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pres.p2.sg" closed="true">
-    <tags-item tags="vblex.pres.p2.sg"/>
+  <def-label name="vblex.perf.p3.pl" closed="true">
+    <tags-item tags="vblex.perf.p3.pl"/>
   </def-label>
-  <def-label name="vblex.pres.p3.pl" closed="true">
-    <tags-item tags="vblex.pres.p3.pl"/>
+  <def-label name="vblex.perf.p3.sg" closed="true">
+    <tags-item tags="vblex.perf.p3.sg"/>
   </def-label>
-  <def-label name="vblex.pres.p3.sg" closed="true">
-    <tags-item tags="vblex.pres.p3.sg"/>
+  <def-label name="vblex.pii.p1.pl" closed="true">
+    <tags-item tags="vblex.pii.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.pii.p1.sg" closed="true">
+    <tags-item tags="vblex.pii.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.pii.p2.pl" closed="true">
+    <tags-item tags="vblex.pii.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.pii.p2.sg" closed="true">
+    <tags-item tags="vblex.pii.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.pii.p3.pl" closed="true">
+    <tags-item tags="vblex.pii.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.pii.p3.sg" closed="true">
+    <tags-item tags="vblex.pii.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.pp" closed="true">
+    <tags-item tags="vblex.pp"/>
+  </def-label>
+  <def-label name="vblex.ppgi" closed="true">
+    <tags-item tags="vblex.ppgi"/>
+  </def-label>
+  <def-label name="vblex.pri.p1.pl" closed="true">
+    <tags-item tags="vblex.pri.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.pri.p1.sg" closed="true">
+    <tags-item tags="vblex.pri.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.pri.p2.pl" closed="true">
+    <tags-item tags="vblex.pri.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.pri.p2.sg" closed="true">
+    <tags-item tags="vblex.pri.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.pri.p3.pl" closed="true">
+    <tags-item tags="vblex.pri.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.pri.p3.sg" closed="true">
+    <tags-item tags="vblex.pri.p3.sg"/>
   </def-label>
   <def-label name="vblex.prs.p1.pl" closed="true">
     <tags-item tags="vblex.prs.p1.pl"/>
@@ -279,44 +515,56 @@
   <def-label name="vblex.prs.p3.sg" closed="true">
     <tags-item tags="vblex.prs.p3.sg"/>
   </def-label>
-  <def-label name="vbser.emph.pres.p1.pl" closed="true">
-    <tags-item tags="vbser.emph.pres.p1.pl"/>
+  <def-label name="vbmod.neg.pri.p3.sg" closed="true">
+    <tags-item tags="vbmod.neg.pri.p3.sg"/>
   </def-label>
-  <def-label name="vbser.emph.pres.p1.sg" closed="true">
-    <tags-item tags="vbser.emph.pres.p1.sg"/>
+  <def-label name="vbmod.past.p3.sg" closed="true">
+    <tags-item tags="vbmod.past.p3.sg"/>
   </def-label>
-  <def-label name="vbser.emph.pres.p2.pl" closed="true">
-    <tags-item tags="vbser.emph.pres.p2.pl"/>
+  <def-label name="vbmod.pri.p3.sg" closed="true">
+    <tags-item tags="vbmod.pri.p3.sg"/>
   </def-label>
-  <def-label name="vbser.emph.pres.p2.sg" closed="true">
-    <tags-item tags="vbser.emph.pres.p2.sg"/>
+  <def-label name="vbser.emph.pri.p1.pl" closed="true">
+    <tags-item tags="vbser.emph.pri.p1.pl"/>
   </def-label>
-  <def-label name="vbser.emph.pres.p3.pl" closed="true">
-    <tags-item tags="vbser.emph.pres.p3.pl"/>
+  <def-label name="vbser.emph.pri.p1.sg" closed="true">
+    <tags-item tags="vbser.emph.pri.p1.sg"/>
   </def-label>
-  <def-label name="vbser.emph.pres.p3.sg" closed="true">
-    <tags-item tags="vbser.emph.pres.p3.sg"/>
+  <def-label name="vbser.emph.pri.p2.pl" closed="true">
+    <tags-item tags="vbser.emph.pri.p2.pl"/>
+  </def-label>
+  <def-label name="vbser.emph.pri.p2.sg" closed="true">
+    <tags-item tags="vbser.emph.pri.p2.sg"/>
+  </def-label>
+  <def-label name="vbser.emph.pri.p3.pl" closed="true">
+    <tags-item tags="vbser.emph.pri.p3.pl"/>
+  </def-label>
+  <def-label name="vbser.emph.pri.p3.sg" closed="true">
+    <tags-item tags="vbser.emph.pri.p3.sg"/>
   </def-label>
   <def-label name="vbser.inf" closed="true">
     <tags-item tags="vbser.inf"/>
   </def-label>
-  <def-label name="vbser.neg.pres.p1.pl" closed="true">
-    <tags-item tags="vbser.neg.pres.p1.pl"/>
+  <def-label name="vbser.inf2" closed="true">
+    <tags-item tags="vbser.inf2"/>
   </def-label>
-  <def-label name="vbser.neg.pres.p1.sg" closed="true">
-    <tags-item tags="vbser.neg.pres.p1.sg"/>
+  <def-label name="vbser.neg.pri.p1.pl" closed="true">
+    <tags-item tags="vbser.neg.pri.p1.pl"/>
   </def-label>
-  <def-label name="vbser.neg.pres.p2.pl" closed="true">
-    <tags-item tags="vbser.neg.pres.p2.pl"/>
+  <def-label name="vbser.neg.pri.p1.sg" closed="true">
+    <tags-item tags="vbser.neg.pri.p1.sg"/>
   </def-label>
-  <def-label name="vbser.neg.pres.p2.sg" closed="true">
-    <tags-item tags="vbser.neg.pres.p2.sg"/>
+  <def-label name="vbser.neg.pri.p2.pl" closed="true">
+    <tags-item tags="vbser.neg.pri.p2.pl"/>
   </def-label>
-  <def-label name="vbser.neg.pres.p3.pl" closed="true">
-    <tags-item tags="vbser.neg.pres.p3.pl"/>
+  <def-label name="vbser.neg.pri.p2.sg" closed="true">
+    <tags-item tags="vbser.neg.pri.p2.sg"/>
   </def-label>
-  <def-label name="vbser.neg.pres.p3.sg" closed="true">
-    <tags-item tags="vbser.neg.pres.p3.sg"/>
+  <def-label name="vbser.neg.pri.p3.pl" closed="true">
+    <tags-item tags="vbser.neg.pri.p3.pl"/>
+  </def-label>
+  <def-label name="vbser.neg.pri.p3.sg" closed="true">
+    <tags-item tags="vbser.neg.pri.p3.sg"/>
   </def-label>
   <def-label name="vbser.past.p1.pl" closed="true">
     <tags-item tags="vbser.past.p1.pl"/>
@@ -336,26 +584,41 @@
   <def-label name="vbser.past.p3.sg" closed="true">
     <tags-item tags="vbser.past.p3.sg"/>
   </def-label>
+  <def-label name="vbser.perf.p1.pl" closed="true">
+    <tags-item tags="vbser.perf.p1.pl"/>
+  </def-label>
+  <def-label name="vbser.perf.p1.sg" closed="true">
+    <tags-item tags="vbser.perf.p1.sg"/>
+  </def-label>
+  <def-label name="vbser.perf.p2.pl" closed="true">
+    <tags-item tags="vbser.perf.p2.pl"/>
+  </def-label>
+  <def-label name="vbser.perf.p3.pl" closed="true">
+    <tags-item tags="vbser.perf.p3.pl"/>
+  </def-label>
+  <def-label name="vbser.perf.p3.sg" closed="true">
+    <tags-item tags="vbser.perf.p3.sg"/>
+  </def-label>
   <def-label name="vbser.ppgi" closed="true">
     <tags-item tags="vbser.ppgi"/>
   </def-label>
-  <def-label name="vbser.pres.p1.pl" closed="true">
-    <tags-item tags="vbser.pres.p1.pl"/>
+  <def-label name="vbser.pri.p1.pl" closed="true">
+    <tags-item tags="vbser.pri.p1.pl"/>
   </def-label>
-  <def-label name="vbser.pres.p1.sg" closed="true">
-    <tags-item tags="vbser.pres.p1.sg"/>
+  <def-label name="vbser.pri.p1.sg" closed="true">
+    <tags-item tags="vbser.pri.p1.sg"/>
   </def-label>
-  <def-label name="vbser.pres.p2.pl" closed="true">
-    <tags-item tags="vbser.pres.p2.pl"/>
+  <def-label name="vbser.pri.p2.pl" closed="true">
+    <tags-item tags="vbser.pri.p2.pl"/>
   </def-label>
-  <def-label name="vbser.pres.p2.sg" closed="true">
-    <tags-item tags="vbser.pres.p2.sg"/>
+  <def-label name="vbser.pri.p2.sg" closed="true">
+    <tags-item tags="vbser.pri.p2.sg"/>
   </def-label>
-  <def-label name="vbser.pres.p3.pl" closed="true">
-    <tags-item tags="vbser.pres.p3.pl"/>
+  <def-label name="vbser.pri.p3.pl" closed="true">
+    <tags-item tags="vbser.pri.p3.pl"/>
   </def-label>
-  <def-label name="vbser.pres.p3.sg" closed="true">
-    <tags-item tags="vbser.pres.p3.sg"/>
+  <def-label name="vbser.pri.p3.sg" closed="true">
+    <tags-item tags="vbser.pri.p3.sg"/>
   </def-label>
   <def-label name="vbser.prs.p1.pl" closed="true">
     <tags-item tags="vbser.prs.p1.pl"/>
@@ -384,10 +647,218 @@
       <tags-item tags="enc.izo"/>
     </sequence>
   </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.comp+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.comp"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="num.ord+enc.izo" closed="true">
+    <sequence>
+      <tags-item tags="num.ord"/>
+      <tags-item tags="enc.izo"/>
+    </sequence>
+  </def-mult>
+
+  <def-mult name="adj.ord+enc.izo" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="enc.izo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.ord+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.ord"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
   <def-mult name="adj.pst+enc.izo" closed="true">
     <sequence>
       <tags-item tags="adj.pst"/>
       <tags-item tags="enc.izo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adj.pst+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="adj.pst"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
   <def-mult name="adj.sup+enc.izo" closed="true">
@@ -396,3008 +867,69 @@
       <tags-item tags="enc.izo"/>
     </sequence>
   </def-mult>
-  <def-mult name="bi+vbdo.imp.p2.pl" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p1.pl" closed="true">
     <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.imp.p2.pl"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="bi+vbdo.imp.p2.sg" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p1.pl+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
       <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
-  <def-mult name="bi+vbdo.inf+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p1.sg" closed="true">
     <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="bi+vbdo.inf+enc+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p1.sg+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbdo.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vbhaver.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
       <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
-  <def-mult name="bi+vblex.inf+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p2.pl" closed="true">
     <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="bi+vblex.inf+enc+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p2.pl+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="bi+vblex.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
       <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
-  <def-mult name="me+vbdo.inf+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p3.pl" closed="true">
     <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="me+vbdo.inf+enc+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p3.pl+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbdo.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vbhaver.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
       <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
-  <def-mult name="me+vblex.inf+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p3.sg" closed="true">
     <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="me+vblex.inf+enc+enc" closed="true">
+  <def-mult name="adj.sup+vbser.clt.p3.sg+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="me+vblex.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="adj.sup"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
       <tags-item tags="cnjcoo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbdo.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbdo.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vbhaver.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vbhaver.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="cnjcoo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+bi+vblex.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="bi"/>
-      <tags-item tags="vblex.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="cnjcoo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbdo.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbdo.prs.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vbhaver.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vbhaver.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+cnjcoo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="cnjcoo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.ind" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.ind+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.ind"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.izo" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.izo"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px1pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px1pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px1pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px1sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px1sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px1sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px1sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px2pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px2pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px2pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px2sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px2sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px2sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px2sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px3pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px3pl+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px3pl+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3pl"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px3sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px3sg+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.inf+enc.px3sg+enc+enc" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.inf"/>
-      <tags-item tags="enc.px3sg"/>
-      <tags-item tags="enc"/>
-      <tags-item tags="enc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.past.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.past.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.past.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.past.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.pres.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.pres.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.pres.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.pres.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.pres.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.pres.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.pres.p3.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.prs.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.prs.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.prs.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.prs.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p2.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.prs.p3.pl" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p3.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="neg+me+vblex.prs.p3.sg" closed="true">
-    <sequence>
-      <tags-item tags="neg"/>
-      <tags-item tags="me"/>
-      <tags-item tags="vblex.prs.p3.sg"/>
     </sequence>
   </def-mult>
   <def-mult name="np.al.sg+enc" closed="true">
@@ -4144,6 +1676,71 @@
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
+  <def-mult name="n.pl+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.pl+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.pl"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
   <def-mult name="np.top.sg+cnjcoo" closed="true">
     <sequence>
       <tags-item tags="np.top.sg"/>
@@ -4308,6 +1905,71 @@
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="np.top.sg+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="np.top.sg"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
   <def-mult name="n.sg+cnjcoo" closed="true">
     <sequence>
       <tags-item tags="n.sg"/>
@@ -4470,6 +2132,71 @@
       <tags-item tags="enc.px3sg"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="n.sg+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="n.sg"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
   <def-mult name="num.sg+enc" closed="true">
@@ -5116,6 +2843,71 @@
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="prn.itg.sg+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="prn.itg.sg"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
   <def-mult name="prn.p1.mf.pl+enc" closed="true">
     <sequence>
       <tags-item tags="prn.p1.mf.pl"/>
@@ -5236,168 +3028,834 @@
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+cnjcoo" closed="true">
+  <def-mult name="vbhaver.dur.p1.pl+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.dur.p1.pl"/>
       <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc" closed="true">
+  <def-mult name="vbhaver.dur.p1.sg+cnjcoo" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.dur.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.dur.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.dur.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.dur.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.dur.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.dur.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.dur.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.ind" closed="true">
+  <def-mult name="vbhaver.inf+enc.ind" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.ind+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.ind+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.ind"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.izo" closed="true">
+  <def-mult name="vbhaver.inf+enc.izo" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.izo"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px1pl" closed="true">
+  <def-mult name="vbhaver.inf+enc.px1pl" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px1pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px1pl+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px1pl+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px1pl"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px1pl+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px1pl+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px1pl"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px1sg" closed="true">
+  <def-mult name="vbhaver.inf+enc.px1sg" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px1sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px1sg+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px1sg+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px1sg"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px1sg+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px1sg+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px1sg"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px2pl" closed="true">
+  <def-mult name="vbhaver.inf+enc.px2pl" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px2pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px2pl+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px2pl+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px2pl"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px2pl+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px2pl+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px2pl"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px2sg" closed="true">
+  <def-mult name="vbhaver.inf+enc.px2sg" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px2sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px2sg+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px2sg+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px2sg"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px2sg+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px2sg+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px2sg"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px3pl" closed="true">
+  <def-mult name="vbhaver.inf+enc.px3pl" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px3pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px3pl+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px3pl+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px3pl"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px3pl+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px3pl+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px3pl"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px3sg" closed="true">
+  <def-mult name="vbhaver.inf+enc.px3sg" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px3sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px3sg+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px3sg+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px3sg"/>
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
-  <def-mult name="vbdo.inf+enc.px3sg+enc+enc" closed="true">
+  <def-mult name="vbhaver.inf+enc.px3sg+enc+enc" closed="true">
     <sequence>
-      <tags-item tags="vbdo.inf"/>
+      <tags-item tags="vbhaver.inf"/>
       <tags-item tags="enc.px3sg"/>
       <tags-item tags="enc"/>
       <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.inf+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.ind" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.ind+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.ind"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.izo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.izo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px1pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px1pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px1pl+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px1pl"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px1pl+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px1pl"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px1sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px1sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px1sg+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px1sg"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px1sg+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px1sg"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px2pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px2pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px2pl+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px2pl"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px2pl+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px2pl"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px2sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px2sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px2sg+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px2sg"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px2sg+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px2sg"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px3pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px3pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px3pl+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px3pl"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px3pl+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px3pl"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px3sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px3sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px3sg+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px3sg"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+enc.px3sg+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="enc.px3sg"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.inf+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.past.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.past.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.past.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.past.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.past.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.past.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.past.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.past.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.past.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.past.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.past.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.past.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.perf.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.perf.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.perf.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.perf.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.perf.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.perf.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.perf.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.perf.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.perf.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.perf.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.pri.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.pri.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.pri.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.pri.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.pri.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.pri.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.pri.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.pri.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.pri.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.pri.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.pri.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.pri.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.prs.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.prs.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.prs.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.prs.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.prs.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.prs.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.prs.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.prs.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.prs.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.prs.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.neg.prs.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.neg.prs.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.past.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.past.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.past.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.past.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.past.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.past.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.past.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.past.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.past.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.past.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.past.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.past.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.perf.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.perf.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.perf.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.perf.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.perf.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.perf.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.perf.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.perf.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.perf.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.perf.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pii.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pii.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pii.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pii.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pii.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pii.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pii.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pii.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pii.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pii.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pii.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pii.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pri.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pri.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pri.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pri.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pri.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pri.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pri.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pri.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pri.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pri.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.pri.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.pri.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.prs.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.prs.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.prs.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.prs.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.prs.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.prs.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.prs.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.prs.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.prs.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.prs.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbhaver.prs.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbhaver.prs.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.dur.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.dur.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.dur.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.dur.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.dur.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.dur.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.dur.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.dur.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.dur.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.dur.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
   <def-mult name="vblex.inf+cnjcoo" closed="true">
@@ -5564,6 +4022,612 @@
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.inf+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.ind" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.ind+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.ind"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.izo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.izo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px1pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px1pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px1pl+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px1pl"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px1pl+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px1pl"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px1sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px1sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px1sg+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px1sg"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px1sg+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px1sg"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px2pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px2pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px2pl+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px2pl"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px2pl+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px2pl"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px2sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px2sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px2sg+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px2sg"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px2sg+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px2sg"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px3pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px3pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px3pl+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px3pl"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px3pl+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px3pl"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px3sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px3sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px3sg+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px3sg"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+enc.px3sg+enc+enc" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="enc.px3sg"/>
+      <tags-item tags="enc"/>
+      <tags-item tags="enc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.inf+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.past.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.past.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.past.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.past.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.past.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.past.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.past.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.past.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.past.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.past.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.past.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.past.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.perf.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.perf.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.perf.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.perf.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.perf.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.perf.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.perf.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.perf.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.perf.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.perf.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.pri.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.pri.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.pri.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.pri.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.pri.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.pri.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.pri.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.pri.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.pri.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.pri.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.pri.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.pri.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.prs.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.prs.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.prs.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.prs.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.prs.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.prs.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.prs.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.prs.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.prs.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.prs.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.neg.prs.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.neg.prs.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.past.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.past.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.past.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.past.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.past.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.past.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.past.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.past.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.past.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.past.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.past.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.past.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.perf.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.perf.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.perf.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.perf.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.perf.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.perf.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.perf.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.perf.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.perf.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.perf.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pii.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pii.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pii.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pii.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pii.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pii.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pii.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pii.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pii.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pii.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pii.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pii.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pri.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pri.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pri.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pri.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pri.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pri.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pri.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pri.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pri.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pri.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.pri.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.pri.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.prs.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.prs.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.prs.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.prs.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.prs.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.prs.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.prs.p2.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.prs.p2.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.prs.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.prs.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vblex.prs.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vblex.prs.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
   <def-mult name="vbser.inf+cnjcoo" closed="true">
     <sequence>
       <tags-item tags="vbser.inf"/>
@@ -5728,10 +4792,170 @@
       <tags-item tags="enc"/>
     </sequence>
   </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.inf+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.inf"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.perf.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.perf.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.perf.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.perf.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.perf.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.perf.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.perf.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.perf.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.perf.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.perf.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
   <def-mult name="vbser.pp+enc.izo" closed="true">
     <sequence>
       <tags-item tags="vbser.pp"/>
       <tags-item tags="enc.izo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p1.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p1.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p1.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p1.sg"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p2.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p2.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p3.pl+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p3.pl"/>
+      <tags-item tags="cnjcoo"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="vbser.pp+vbser.clt.p3.sg+cnjcoo" closed="true">
+    <sequence>
+      <tags-item tags="vbser.pp"/>
+      <tags-item tags="vbser.clt.p3.sg"/>
+      <tags-item tags="cnjcoo"/>
     </sequence>
   </def-mult>
 </tagset>

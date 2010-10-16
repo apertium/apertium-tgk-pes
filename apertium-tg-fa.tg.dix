@@ -210,6 +210,7 @@
 
     <pardef n="S__adject">
       <e>       <p><l>и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
+      <e>       <p><l></l><r><j/>будан<s n="vbser"/><s n="clt"/></r></p><par n="S__будан"/></e>
     </pardef>
 
     <!-- SECTION: Adverbs -->
