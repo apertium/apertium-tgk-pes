@@ -211,6 +211,7 @@
     <pardef n="S__adject">
       <e>       <p><l>и</l><r><j/>и<s n="enc"/><s n="izo"/></r></p></e>
       <e>       <p><l></l><r><j/>будан<s n="vbser"/><s n="clt"/></r></p><par n="S__будан"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__possess_C"/></e> <!-- p. 114 -->
     </pardef>
 
     <!-- SECTION: Adverbs -->
@@ -553,6 +554,7 @@
 
     <e lm="ин"><i>ин</i><par n="ин__prn"/></e> <!-- this -->
     <e lm="он"><i>он</i><par n="ин__prn"/></e> <!-- that -->
+    <e lm="вай"><i>вай</i><par n="ин__prn"/></e> <!-- that -->
 
     <e lm="худ"><i>худ</i><par n="худ__prn"/></e> <!-- self -->
 
@@ -568,6 +570,7 @@
     <e lm="ин"><i>ин</i><par n="ин__det"/></e> <!-- this -->
     <e lm="ҳамин"><i>ҳамин</i><par n="ин__det"/></e> <!-- this very -->
     <e lm="он"><i>он</i><par n="ин__det"/></e> <!-- that -->
+    <e lm="вай"><i>вай</i><par n="ин__det"/></e> <!-- that -->
     <e lm="ҳамон"><i>ҳамон</i><par n="ин__det"/></e> <!-- that very -->
     <e lm="чунин"><i>чунин</i><par n="ин__det"/></e> <!-- such -->
     <e lm="ҳамчунин"><i>ҳамчунин</i><par n="ин__det"/></e> <!-- such -->
@@ -732,6 +735,7 @@
     <e lm="бабр"><i>бабр</i><par n="китоб__n"/></e> <!-- leopard -->
     <e lm="банк"><i>банк</i><par n="китоб__n"/></e> <!-- bank -->
     <e lm="барнома"><i>барнома</i><par n="китоб__n"/></e> <!-- programme / program -->
+    <e lm="рӯзнома"><i>рӯзнома</i><par n="китоб__n"/></e> <!-- newspaper -->
     <e lm="баҳр"><i>баҳр</i><par n="китоб__n"/></e> <!-- sea -->
     <e lm="барф"><i>барф</i><par n="китоб__n"/></e> <!-- snow -->
     <e lm="биёбон"><i>биёбон</i><par n="китоб__n"/></e> <!-- desert -->
