@@ -13,7 +13,6 @@
     <sdef n="vaux"    c="Auxilliary verb"/>	
     <sdef n="vbhaver" c="The verb 'to have'"/>
     <sdef n="vbmod"   c="Modal verb"/>
-    <sdef n="vbdo"    c="The verb 'to do'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"  c="Subordinating conjunction"/>
     <sdef n="cnjadv"  c="Adverbial conjunction"/>
@@ -35,7 +34,6 @@
 
     <sdef n="prs"     c="Present subjunctive"/>
     <sdef n="pri"     c="Present indicative"/>
-    <sdef n="pres"    c="Present indicative"/>
     <sdef n="past"    c="Past tense"/>
     <sdef n="pii"     c="Imperfect"/>
     <sdef n="imp"     c="Imperative"/>
@@ -406,32 +404,57 @@
       <e><p><l/><r/></p></e>
     </pardef>
 
-    <!-- Verbs -->
+    <!-- SECTION: Verbs  -->
+
+    <pardef n="S__будан"> <!-- Clitic present of 'to be' -->
+      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>аст</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
+    </pardef>
+
+    <pardef n="/шояд__vbmod">
+      <e>       <p><l>шояд</l><r>шояд<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нашояд</l><r>шояд<s n="vbmod"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="/бояд__vbmod">
+      <e>       <p><l>бояд</l><r>бояд<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>набояд</l><r>бояд<s n="vbmod"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>боист</l><r>бояд<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <!--<e>       <p><l>мебоист</l><r>бояд<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>-->
+    </pardef>
+
     <pardef n="/будан__vbser">
       <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
+      <e>       <p><l>буд</l><r>будан<s n="vbser"/><s n="inf2"/></r></p></e>
+      <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="pp"/></r></p><par n="S__adject"/></e>
+      <e>       <p><l>будагӣ</l><r>будан<s n="vbser"/><s n="ppgi"/></r></p></e>
 
-      <e>       <p><l>ҳастам</l><r>будан<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ҳасти</l><r>будан<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>ҳаст</l><r>будан<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>аст</l><r>будан<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ҳастем</l><r>будан<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ҳастанд</l><r>будан<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ҳастед</l><r>будан<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ҳастам</l><r>будан<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ҳасти</l><r>будан<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ҳаст</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>аст</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ҳастем</l><r>будан<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ҳастанд</l><r>будан<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ҳастед</l><r>будан<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>нестам</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нести</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нест</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>не</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нестем</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>нестанд</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>нестед</l><r>будан<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>нестам</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нести</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нест</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>не</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нестем</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>нестанд</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>нестед</l><r>будан<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>мебошам</l><r>будан<s n="vbser"/><s n="emph"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>мебоши</l><r>будан<s n="vbser"/><s n="emph"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>мебошад</l><r>будан<s n="vbser"/><s n="emph"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>мебошим</l><r>будан<s n="vbser"/><s n="emph"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>мебошид</l><r>будан<s n="vbser"/><s n="emph"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>мебошанд</l><r>будан<s n="vbser"/><s n="emph"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>мебошам</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мебоши</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мебошад</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>мебошим</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>мебошид</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>мебошанд</l><r>будан<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>бошам</l><r>будан<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>боши</l><r>будан<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -447,277 +470,19 @@
       <e>       <p><l>будед</l><r>будан<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>буданд</l><r>будан<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="pp"/></r></p><par n="S__adject"/></e>
-      <e>       <p><l>будагӣ</l><r>будан<s n="vbser"/><s n="ppgi"/></r></p></e>
+      <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="perf"/></r></p><par n="S__будан"/></e>
     </pardef>
 
-    <pardef n="/шояд__vbmod">
-      <e>       <p><l>шояд</l><r>шояд<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нашояд</l><r>шояд<s n="vbmod"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="/бояд__vbmod">
-      <e>       <p><l>бояд</l><r>бояд<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>набояд</l><r>бояд<s n="vbmod"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>боист</l><r>бояд<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <!--<e>       <p><l>мебоист</l><r>бояд<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>-->
-    </pardef>
-
-    <pardef n="до/штан__vbhaver">
-      <!-- to have -->
-      <e>       <p><l>рам</l><r>штан<s n="vbhaver"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ри</l><r>штан<s n="vbhaver"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>рад</l><r>штан<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>рем</l><r>штан<s n="vbhaver"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ранд</l><r>штан<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ред</l><r>штан<s n="vbhaver"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-
-      <e>       <p><l>штам</l><r>штан<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>шти</l><r>штан<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>шт</l><r>штан<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>штем</l><r>штан<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>штанд</l><r>штан<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>штед</l><r>штан<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="ра/фтан__vblex">
-      <e>       <p><l>вим</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>вам</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>вид</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ви</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ванд</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>вад</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>вим</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>вам</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>вид</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ви</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ванд</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>вад</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>фтим</l><r>фтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фтам</l><r>фтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>фтид</l><r>фтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фти</l><r>фтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>фтанд</l><r>фтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фт</l><r>фтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>в</l><r>фтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>вид</l><r>фтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="ш/удан__vblex">
-      <e>       <p><l>удан</l>	  <r>удан<s n="vblex"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
-
-      <e>       <p><l>авам</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ави</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>авад</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>авим</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>авид</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>аванд</l>	  <r>удан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e>       <p><l>удам</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>уди</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>уд</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>удим</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>удид</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>уданд</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="кан/дан__vblex">
-      <e>       <p><l>им</l><r>дан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ам</l><r>дан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ид</l><r>дан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>и</l><r>дан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>анд</l><r>дан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ад</l><r>дан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>им</l><r>дан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ам</l><r>дан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ид</l><r>дан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>и</l><r>дан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>анд</l><r>дан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ад</l><r>дан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>дим</l><r>дан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>дам</l><r>дан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>дид</l><r>дан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ди</l><r>дан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>данд</l><r>дан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>д</l><r>дан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l></l><r>дан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ид</l><r>дан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="ё/фтан__vblex">
-      <e>       <p><l>бим</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>бам</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>бид</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>би</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>банд</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>бад</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>бим</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>бам</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>бид</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>би</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>банд</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>бад</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>фтим</l><r>фтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фтам</l><r>фтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>фтид</l><r>фтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фти</l><r>фтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>фтанд</l><r>фтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фт</l><r>фтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>б</l><r>фтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>бид</l><r>фтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="гу/фтан__vblex">
-      <e>       <p><l>yим</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ям</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>yид</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>yи</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>янд</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>яд</l><r>фтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>yим</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ям</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>yид</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>yи</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>янд</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>яд</l><r>фтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>фтим</l><r>фтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фтам</l><r>фтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>фтид</l><r>фтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фти</l><r>фтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>фтанд</l><r>фтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>фт</l><r>фтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l></l><r>фтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>yид</l><r>фтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="ру/стан__vblex">
-      <e>       <p><l>yим</l><r>стан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ям</l><r>стан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>yид</l><r>стан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>yи</l><r>стан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>янд</l><r>стан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>яд</l><r>стан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>yим</l><r>стан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ям</l><r>стан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>yид</l><r>стан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>yи</l><r>стан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>янд</l><r>стан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>яд</l><r>стан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>стим</l><r>стан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>стам</l><r>стан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>стид</l><r>стан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>сти</l><r>стан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>станд</l><r>стан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ст</l><r>стан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l></l><r>стан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>yид</l><r>стан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="г/ерефтан__vblex">
-      <e>       <p><l>ирим</l><r>ерефтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ирам</l><r>ерефтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ирид</l><r>ерефтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ири</l><r>ерефтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>иранд</l><r>ерефтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ирад</l><r>ерефтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>ирим</l><r>ерефтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ирам</l><r>ерефтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ирид</l><r>ерефтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ири</l><r>ерефтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>иранд</l><r>ерефтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ирад</l><r>ерефтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>ерефтим</l><r>ерефтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ерефтам</l><r>ерефтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ерефтид</l><r>ерефтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ерефти</l><r>ерефтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ерефтанд</l><r>ерефтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ерефт</l><r>ерефтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>ир</l><r>ерефтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ирид</l><r>ерефтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="шека/стан__vblex">
-      <e>       <p><l>ним</l><r>стан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>нам</l><r>стан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нид</l><r>стан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ни</l><r>стан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нанд</l><r>стан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>над</l><r>стан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>ним</l><r>стан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>нам</l><r>стан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нид</l><r>стан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ни</l><r>стан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нанд</l><r>стан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>над</l><r>стан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>стим</l><r>стан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>стам</l><r>стан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>стид</l><r>стан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>сти</l><r>стан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>станд</l><r>стан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ст</l><r>стан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>н</l><r>стан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нид</l><r>стан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="пардо/хтан__vblex">
-      <e>       <p><l>зим</l><r>хтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>зам</l><r>хтан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>зид</l><r>хтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>зи</l><r>хтан<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>занд</l><r>хтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e>       <p><l>зад</l><r>хтан<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>зим</l><r>хтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>зам</l><r>хтан<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>зид</l><r>хтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>зи</l><r>хтан<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>занд</l><r>хтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>зад</l><r>хтан<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>хтим</l><r>хтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>хтам</l><r>хтан<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>хтид</l><r>хтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>хти</l><r>хтан<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>хтанд</l><r>хтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>хт</l><r>хтан<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>з</l><r>хтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>зид</l><r>хтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
-
-    <!-- SECTION: Verbs (NEW) -->
-
-    <pardef n="S__будан"> <!-- Clitic present of 'to be' -->
-      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
+    <pardef n="гу/фт.ан__vblex"> <!-- Personal suffixes for present tense (vowel ending stem I) -->
+      <e>       <p><l>ям</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
       <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
-      <e>       <p><l>аст</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>яд</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
       <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва"/></e>
       <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва"/></e>
-      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>янд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
     </pardef>
 
-    <pardef n="к/ард.ан__vbdo"> <!-- Personal suffixes for present tense -->
+    <pardef n="к/ард.ан__vblex"> <!-- Personal suffixes for present tense (consonant ending stem I) -->
       <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
       <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
       <e>       <p><l>ад</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
@@ -726,7 +491,7 @@
       <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
     </pardef>
 
-    <pardef n="кард.ан__vbdo"> <!-- Personal suffixes for past tenses -->
+    <pardef n="кард.ан__vblex"> <!-- Personal suffixes for past tenses -->
       <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
       <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
       <e>       <p><l></l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
@@ -735,18 +500,18 @@
       <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
     </pardef>
 
-    <pardef n="кард/ан__vbdo"> <!-- Tenses and non-finite forms formed from stem II -->
+    <pardef n="кард/ан__vblex"> <!-- Tenses and non-finite forms formed from stem II -->
       <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C"/></e> <!-- Takes S__nominal_C -->
       <e>       <p><l></l><r><s n="inf2"/></r></p></e>
       <e>       <p><l>а</l><r><s n="pp"/></r></p></e>
       <e>       <p><l>агӣ</l><r><s n="ppgi"/></r></p></e>
 
       <e>       <p><l>а</l><r><s n="perf"/></r></p><par n="S__будан"/></e>
-      <e>       <p><l></l><r><s n="past"/></r></p><par n="кард.ан__vbdo"/></e>
+      <e>       <p><l></l><r><s n="past"/></r></p><par n="кард.ан__vblex"/></e>
     </pardef>
 
-    <pardef n="ме.кард/ан__vbdo"> <!-- Tenses formed from me- prefix and stem II -->
-      <e>       <p><l></l><r><s n="pii"/></r></p><par n="кард.ан__vbdo"/></e>
+    <pardef n="ме.кард/ан__vblex"> <!-- Tenses formed from me- prefix and stem II -->
+      <e>       <p><l></l><r><s n="pii"/></r></p><par n="кард.ан__vblex"/></e>
       <e>       <p><l>а</l><r><s n="dur"/></r></p><par n="S__будан"/></e>
     </pardef>
 
@@ -754,10 +519,6 @@
 
   <section id="main" type="standard">
     <!-- SECTION: Clitics and particles -->
-
-    <e lm="ме"><i>ме</i></e>
-    <e lm="би"><i>би</i></e>
-    <e lm="и"><i>и</i></e> <!-- izafet enclitic -->
 
     <!-- SECTION: Pronouns -->
 
@@ -1277,6 +1038,7 @@
     <e lm="журналист"><i>журналист</i><par n="духтар__n"/></e> <!-- journalist -->
     <e lm="писар"><i>писар</i><par n="духтар__n"/></e> <!-- boy -->
     <e lm="террорист"><i>террорист</i><par n="духтар__n"/></e> <!-- terrorist -->
+    <e lm="демократ"><i>демократ</i><par n="духтар__n"/></e> <!-- democrat -->
     <e lm="мустақил"><i>мустақил</i><par n="духтар__n"/></e> <!-- -->
 
     <e lm="тоҷик"><i>тоҷик</i><par n="духтар__n"/></e> <!-- Tajik -->
@@ -1633,24 +1395,6 @@
     <e lm="баъд аз"><i>баъд<b/>аз</i><par n="имрӯз__adv"/></e> <!-- -->
     <e lm="то кунун"><i>то<b/>кунун</i><par n="имрӯз__adv"/></e> <!-- -->
 
-
-    <!-- SECTION: Verbs -->
-
-    <e lm="доштан"><par n="P__prefixes"/><i>до</i><par n="до/штан__vbhaver"/></e> <!-- to have -->
-    <e lm="рафтан"><par n="P__prefixes"/><i>ра</i><par n="ра/фтан__vblex"/></e> <!-- to go --> <!-- check! -->
-    <e lm="шудан"><par n="P__prefixes"/><i>ш</i><par n="ш/удан__vblex"/></e> <!-- to become --> <!-- check! -->
-    <e lm="кандан"><par n="P__prefixes"/><i>кан</i><par n="кан/дан__vblex"/></e> 
-    <e lm="ёфтан"><par n="P__prefixes"/><i>ё</i><par n="ё/фтан__vblex"/></e>
-    <e lm="гуфтан"><par n="P__prefixes"/><i>гу</i><par n="гу/фтан__vblex"/></e> <!-- to say -->
-
-
-    <e lm="шустан"><par n="P__prefixes"/><i>шу</i><par n="ру/стан__vblex"/></e>
-    <e lm="ҷустан"><par n="P__prefixes"/><i>ҷу</i><par n="ру/стан__vblex"/></e>
-    <e lm="рустан"><par n="P__prefixes"/><i>ру</i><par n="ру/стан__vblex"/></e>
-    <e lm="шекастан"><par n="P__prefixes"/><i>шека</i><par n="шека/стан__vblex"/></e>
-    <e lm="герефтан"><par n="P__prefixes"/><i>г</i><par n="г/ерефтан__vblex"/></e>
-    <e lm="пардохтан"><par n="P__prefixes"/><i>пардо</i><par n="пардо/хтан__vblex"/></e>
-
   </section>
 
   <section id="verbs" type="standard">
@@ -1659,17 +1403,152 @@
     <e lm="бояд"><i/><par n="/бояд__vbmod"/></e> <!-- necessity -->
     <e lm="шояд"><i/><par n="/шояд__vbmod"/></e> <!-- possibility -->
 
-    <e lm="будан"><i/><par n="/будан__vbser"/></e> <!-- to be -->
-    
-    <!-- кардан: кард, кун -->
-    <e lm="кардан"><p><l>кард</l><r>кардан<s n="vbdo"/></r></p><par n="кард/ан__vbdo"/></e> <!-- inf, pp, past -->
-    <e lm="кардан"><p><l>кун</l><r>кардан<s n="vbdo"/><s n="prs"/></r></p><par n="к/ард.ан__vbdo"/></e> <!-- prs -->
-    <e lm="кардан"><p><l>накун</l><r>кардан<s n="vbdo"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vbdo"/></e> <!-- prs -->
-    <e lm="кардан"><p><l>накард</l><r>кардан<s n="vbdo"/><s n="neg"/></r></p><par n="кард/ан__vbdo"/></e> <!-- inf, pp, past -->
-    <e lm="кардан"><p><l>мекард</l><r>кардан<s n="vbdo"/></r></p><par n="ме.кард/ан__vbdo"/></e>  <!-- imperf -->
-    <e lm="кардан"><p><l>мекун</l><r>кардан<s n="vbdo"/><s n="pri"/></r></p><par n="к/ард.ан__vbdo"/></e>  <!-- pres.ind -->
-    <e lm="кардан"><p><l>намекард</l><r>кардан<s n="vbdo"/><s n="neg"/></r></p><par n="кард/ан__vbdo"/></e> <!-- imperf -->
-    <e lm="кардан"><p><l>намекун</l><r>кардан<s n="vbdo"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vbdo"/></e>   <!-- pres.ind -->
+    <!-- будан: буд, : "be" -->
+    <e lm="будан"><i/><par n="/будан__vbser"/></e> 
+
+    <!-- кардан: кард, кун: "do, make" -->
+    <e lm="кардан"><p><l>кард</l><r>кардан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> <!-- inf, pp, past -->
+    <e lm="кардан"><p><l>кун</l><r>кардан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> <!-- prs -->
+    <e lm="кардан"><p><l>накун</l><r>кардан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> <!-- prs -->
+    <e lm="кардан"><p><l>накард</l><r>кардан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> <!-- inf, pp, past -->
+    <e lm="кардан"><p><l>мекард</l><r>кардан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  <!-- imperf -->
+    <e lm="кардан"><p><l>мекун</l><r>кардан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  <!-- pres.ind -->
+    <e lm="кардан"><p><l>намекард</l><r>кардан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> <!-- imperf -->
+    <e lm="кардан"><p><l>намекун</l><r>кардан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   <!-- pres.ind -->
+
+    <!-- доштан: дошт, дор: "have" -->
+    <e lm="доштан"><p><l>дошт</l><r>доштан<s n="vbhaver"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="доштан"><p><l>дор</l><r>доштан<s n="vbhaver"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="доштан"><p><l>надор</l><r>доштан<s n="vbhaver"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="доштан"><p><l>надошт</l><r>доштан<s n="vbhaver"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="доштан"><p><l>медошт</l><r>доштан<s n="vbhaver"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="доштан"><p><l>медор</l><r>доштан<s n="vbhaver"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="доштан"><p><l>намедошт</l><r>доштан<s n="vbhaver"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="доштан"><p><l>намедор</l><r>доштан<s n="vbhaver"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- хостан: хост, хоҳ: "" -->
+    <e lm="хостан"><p><l>хост</l><r>хостан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="хостан"><p><l>хоҳ</l><r>хостан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="хостан"><p><l>нахоҳ</l><r>хостан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="хостан"><p><l>нахост</l><r>хостан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="хостан"><p><l>мехост</l><r>хостан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="хостан"><p><l>мехоҳ</l><r>хостан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="хостан"><p><l>намехост</l><r>хостан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="хостан"><p><l>намехоҳ</l><r>хостан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- рафтан: рафт, рав: "go" -->
+    <e lm="рафтан"><p><l>рафт</l><r>рафтан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="рафтан"><p><l>рав</l><r>рафтан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="рафтан"><p><l>нарав</l><r>рафтан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="рафтан"><p><l>нарафт</l><r>рафтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="рафтан"><p><l>мерафт</l><r>рафтан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="рафтан"><p><l>мерав</l><r>рафтан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="рафтан"><p><l>намерафт</l><r>рафтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="рафтан"><p><l>намерав</l><r>рафтан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- шудан: шуд, шав: "become" -->
+    <e lm="шудан"><p><l>шуд</l><r>шудан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шудан"><p><l>шав</l><r>шудан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="шудан"><p><l>нашав</l><r>шудан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="шудан"><p><l>нашуд</l><r>шудан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шудан"><p><l>мешуд</l><r>шудан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="шудан"><p><l>мешав</l><r>шудан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="шудан"><p><l>намешуд</l><r>шудан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шудан"><p><l>намешав</l><r>шудан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- кандан: канд, кан: "bite"(?) -->
+    <e lm="кандан"><p><l>канд</l><r>кандан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="кандан"><p><l>кан</l><r>кандан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="кандан"><p><l>накан</l><r>кандан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="кандан"><p><l>наканд</l><r>кандан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="кандан"><p><l>меканд</l><r>кандан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="кандан"><p><l>мекан</l><r>кандан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="кандан"><p><l>намеканд</l><r>кандан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="кандан"><p><l>намекан</l><r>кандан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- гуфтан: гуфт, гӯ: "say, tell" -->
+    <e lm="гуфтан"><p><l>гуфт</l><r>гуфтан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="гуфтан"><p><l>гӯ</l><r>гуфтан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="гуфтан"><p><l>нагӯ</l><r>гуфтан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="гуфтан"><p><l>нагуфт</l><r>гуфтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="гуфтан"><p><l>мегуфт</l><r>гуфтан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="гуфтан"><p><l>мегӯ</l><r>гуфтан<s n="vblex"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>  
+    <e lm="гуфтан"><p><l>намегуфт</l><r>гуфтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="гуфтан"><p><l>намегӯ</l><r>гуфтан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>   
+
+    <!-- рустан: руст, ру: "" -->
+    <e lm="рустан"><p><l>руст</l><r>рустан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="рустан"><p><l>ру</l><r>рустан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="рустан"><p><l>нару</l><r>рустан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="рустан"><p><l>наруст</l><r>рустан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="рустан"><p><l>меруст</l><r>рустан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="рустан"><p><l>меру</l><r>рустан<s n="vblex"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>  
+    <e lm="рустан"><p><l>намеруст</l><r>рустан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="рустан"><p><l>намеру</l><r>рустан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>   
+
+    <!-- шустан: шуст, шу: "" -->
+    <e lm="шустан"><p><l>шуст</l><r>шустан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шустан"><p><l>шу</l><r>шустан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="шустан"><p><l>нашу</l><r>шустан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="шустан"><p><l>нашуст</l><r>шустан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шустан"><p><l>мешуст</l><r>шустан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="шустан"><p><l>мешу</l><r>шустан<s n="vblex"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>  
+    <e lm="шустан"><p><l>намешуст</l><r>шустан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шустан"><p><l>намешу</l><r>шустан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>   
+
+    <!-- ҷустан: ҷуст, ҷу: "" -->
+    <e lm="ҷустан"><p><l>ҷуст</l><r>ҷустан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="ҷустан"><p><l>ҷу</l><r>ҷустан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="ҷустан"><p><l>наҷу</l><r>ҷустан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="ҷустан"><p><l>наҷуст</l><r>ҷустан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="ҷустан"><p><l>меҷуст</l><r>ҷустан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="ҷустан"><p><l>меҷу</l><r>ҷустан<s n="vblex"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>  
+    <e lm="ҷустан"><p><l>намеҷуст</l><r>ҷустан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="ҷустан"><p><l>намеҷу</l><r>ҷустан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>   
+
+    <!-- пардохтан: пардохт, пардоз: "" -->
+    <e lm="пардохтан"><p><l>пардохт</l><r>пардохтан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="пардохтан"><p><l>пардоз</l><r>пардохтан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="пардохтан"><p><l>напардоз</l><r>пардохтан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="пардохтан"><p><l>напардохт</l><r>пардохтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="пардохтан"><p><l>мепардохт</l><r>пардохтан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="пардохтан"><p><l>мепардоз</l><r>пардохтан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="пардохтан"><p><l>намепардохт</l><r>пардохтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="пардохтан"><p><l>намепардоз</l><r>пардохтан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- шекастан: шекаст, шекан: "" -->
+    <e lm="шекастан"><p><l>шекаст</l><r>шекастан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шекастан"><p><l>шекан</l><r>шекастан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="шекастан"><p><l>нашекан</l><r>шекастан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="шекастан"><p><l>нашекаст</l><r>шекастан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шекастан"><p><l>мешекаст</l><r>шекастан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="шекастан"><p><l>мешекан</l><r>шекастан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="шекастан"><p><l>намешекаст</l><r>шекастан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="шекастан"><p><l>намешекан</l><r>шекастан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- герефтан: герефт, гир: "" -->
+    <e lm="герефтан"><p><l>герефт</l><r>герефтан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="герефтан"><p><l>гир</l><r>герефтан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="герефтан"><p><l>нагир</l><r>герефтан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="герефтан"><p><l>нагерефт</l><r>герефтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="герефтан"><p><l>мегерефт</l><r>герефтан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="герефтан"><p><l>мегир</l><r>герефтан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="герефтан"><p><l>намегерефт</l><r>герефтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="герефтан"><p><l>намегир</l><r>герефтан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+    <!-- ёфтан: ёфт, ёб: "" -->
+    <e lm="ёфтан"><p><l>ёфт</l><r>ёфтан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="ёфтан"><p><l>ёб</l><r>ёфтан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="ёфтан"><p><l>наёб</l><r>ёфтан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> 
+    <e lm="ёфтан"><p><l>наёфт</l><r>ёфтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="ёфтан"><p><l>меёфт</l><r>ёфтан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  
+    <e lm="ёфтан"><p><l>меёб</l><r>ёфтан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>  
+    <e lm="ёфтан"><p><l>намеёфт</l><r>ёфтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> 
+    <e lm="ёфтан"><p><l>намеёб</l><r>ёфтан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>   
+
+
+
+
 
   </section>
 
