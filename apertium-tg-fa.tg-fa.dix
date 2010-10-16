@@ -120,10 +120,6 @@
     <e><p><l>ро<s n="enc"/></l><r>را<s n="enc"/></r></p></e>
     <e><p><l>е<s n="enc"/><s n="ind"/></l><r>ی<s n="enc"/><s n="ind"/></r></p></e>
 
-    <e><p><l>ме<s n="me"/></l><r>می<s n="me"/></r></p></e>
-    <e><p><l>би<s n="bi"/></l><r>ﺏ<s n="bi"/></r></p></e>
-    <e><p><l>на<s n="neg"/></l><r>ن<s n="neg"/></r></p></e>
-
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>ва<s n="cnjcoo"/></l><r>و<s n="cnjcoo"/></r></p></e>
@@ -202,6 +198,7 @@
 
     <e><p><l>ки<s n="rel"/></l><r>که<s n="rel"/></r></p></e>
 
+    <e><p><l>кӣ<s n="prn"/><s n="itg"/></l><r>که<s n="rel"/></r></p></e>
     <e><p><l>чӣ<s n="prn"/><s n="itg"/></l><r>چی<s n="adv"/></r></p></e>
     <e><p><l>кадом<s n="prn"/><s n="itg"/></l><r>کدام<s n="adv"/></r></p></e>
 
@@ -8558,8 +8555,10 @@
     <!-- SECTION: Verbs -->
     <e><p><l>будан<s n="vbser"/></l><r>بودن<s n="vbser"/></r></p></e>
 
-    <e><p><l>шудан<s n="vblex"/></l><r>شد<s n="vblex"/></r></p></e>
     <e><p><l>доштан<s n="vbhaver"/></l><r>داشت<s n="vblex"/></r></p></e>
+
+    <e><p><l>шудан<s n="vblex"/></l><r>شد<s n="vblex"/></r></p></e>
+    <e><p><l>омадан<s n="vblex"/></l><r>آمد<s n="vblex"/></r></p></e>
 
     <e><p><l>бӯд<s n="vblex"/></l><r>بود<s n="vblex"/></r></p></e>
     <e><p><l>бош<s n="vblex"/></l><r>باش<s n="vblex"/></r></p></e>
@@ -8643,7 +8642,6 @@
     <e><p><l>гӯй<s n="vblex"/></l><r>گوی<s n="vblex"/></r></p></e>
     <e><p><l>рафт<s n="vblex"/></l><r>رفت<s n="vblex"/></r></p></e>
     <e><p><l>рав<s n="vblex"/></l><r>رو<s n="vblex"/></r></p></e>
-    <e><p><l>омад<s n="vblex"/></l><r>آمد<s n="vblex"/></r></p></e>
     <e><p><l>ой<s n="vblex"/></l><r>آی<s n="vblex"/></r></p></e>
     <e><p><l>йодт<s n="vblex"/></l><r>یافت<s n="vblex"/></r></p></e>
     <e><p><l>йоб<s n="vblex"/></l><r>یاب<s n="vblex"/></r></p></e>
