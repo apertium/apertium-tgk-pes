@@ -34,13 +34,18 @@
     <sdef n="sp"      c="Singular / Plural"/>
 
     <sdef n="prs"     c="Present subjunctive"/>
+    <sdef n="pri"     c="Present indicative"/>
     <sdef n="pres"    c="Present indicative"/>
     <sdef n="past"    c="Past tense"/>
+    <sdef n="pii"     c="Imperfect"/>
     <sdef n="imp"     c="Imperative"/>
     <sdef n="inf"     c="Infinitive"/>
+    <sdef n="inf2"    c="Infinitive (II)"/>
     <sdef n="ger"     c="Gerund"/>
     <sdef n="pp"      c="Past participle I"/>
     <sdef n="ppgi"    c="Past participle II"/>
+    <sdef n="perf"    c="Perfect"/>
+    <sdef n="dur"     c="Durative"/>
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -177,6 +182,11 @@
     <pardef n="S__ind_V">
       <e>       <p><l>е</l><r><j/>е<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
       <e>       <p><l/><r/></p><par n="S__iza_V"/></e>
+    </pardef>
+
+    <pardef n="S__ва">
+      <e>       <p><l>у</l><r><j/>ва<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l/><r/></p></e>
     </pardef>
 
     <pardef n="S__nominal_C">
@@ -514,34 +524,6 @@
       <e>       <p><l>уданд</l>	  <r>удан<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="к/ардан__vbdo">
-      <e>       <p><l>ардан</l><r>ардан<s n="vbdo"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
-
-      <e>       <p><l>уним</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>унам</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>унид</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>уни</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>унанд</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>унад</l><r>ардан<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>уним</l><r>ардан<s n="vbdo"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>унам</l><r>ардан<s n="vbdo"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>унид</l><r>ардан<s n="vbdo"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>уни</l><r>ардан<s n="vbdo"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>унанд</l><r>ардан<s n="vbdo"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>унад</l><r>ардан<s n="vbdo"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>ардим</l><r>ардан<s n="vbdo"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ардам</l><r>ардан<s n="vbdo"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ардид</l><r>ардан<s n="vbdo"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>арди</l><r>ардан<s n="vbdo"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>арданд</l><r>ардан<s n="vbdo"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ард</l><r>ардан<s n="vbdo"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>ун</l><r>ардан<s n="vbdo"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>унид</l><r>ардан<s n="vbdo"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-
     <pardef n="кан/дан__vblex">
       <e>       <p><l>им</l><r>дан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ам</l><r>дан<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -722,6 +704,52 @@
       <e>       <p><l>з</l><r>хтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>зид</l><r>хтан<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
+
+
+    <!-- SECTION: Verbs (NEW) -->
+
+    <pardef n="S__будан"> <!-- Clitic present of 'to be' -->
+      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>аст</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
+    </pardef>
+
+    <pardef n="к/ард.ан__vbdo"> <!-- Personal suffixes for present tense -->
+      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ад</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
+    </pardef>
+
+    <pardef n="кард.ан__vbdo"> <!-- Personal suffixes for past tenses -->
+      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l></l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва"/></e>
+      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва"/></e>
+    </pardef>
+
+    <pardef n="кард/ан__vbdo"> <!-- Tenses and non-finite forms formed from stem II -->
+      <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C"/></e> <!-- Takes S__nominal_C -->
+      <e>       <p><l></l><r><s n="inf2"/></r></p></e>
+      <e>       <p><l>а</l><r><s n="pp"/></r></p></e>
+      <e>       <p><l>агӣ</l><r><s n="ppgi"/></r></p></e>
+
+      <e>       <p><l>а</l><r><s n="perf"/></r></p><par n="S__будан"/></e>
+      <e>       <p><l></l><r><s n="past"/></r></p><par n="кард.ан__vbdo"/></e>
+    </pardef>
+
+    <pardef n="ме.кард/ан__vbdo"> <!-- Tenses formed from me- prefix and stem II -->
+      <e>       <p><l></l><r><s n="pii"/></r></p><par n="кард.ан__vbdo"/></e>
+      <e>       <p><l>а</l><r><s n="dur"/></r></p><par n="S__будан"/></e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -1608,14 +1636,9 @@
 
     <!-- SECTION: Verbs -->
 
-    <e lm="бояд"><i/><par n="/бояд__vbmod"/></e> <!-- necessity -->
-    <e lm="шояд"><i/><par n="/шояд__vbmod"/></e> <!-- possibility -->
-
     <e lm="доштан"><par n="P__prefixes"/><i>до</i><par n="до/штан__vbhaver"/></e> <!-- to have -->
-    <e lm="будан"><i/><par n="/будан__vbser"/></e> <!-- to be -->
     <e lm="рафтан"><par n="P__prefixes"/><i>ра</i><par n="ра/фтан__vblex"/></e> <!-- to go --> <!-- check! -->
     <e lm="шудан"><par n="P__prefixes"/><i>ш</i><par n="ш/удан__vblex"/></e> <!-- to become --> <!-- check! -->
-    <e lm="кардан"><par n="P__prefixes"/><i>к</i><par n="к/ардан__vbdo"/></e> <!-- to do -->
     <e lm="кандан"><par n="P__prefixes"/><i>кан</i><par n="кан/дан__vblex"/></e> 
     <e lm="ёфтан"><par n="P__prefixes"/><i>ё</i><par n="ё/фтан__vblex"/></e>
     <e lm="гуфтан"><par n="P__prefixes"/><i>гу</i><par n="гу/фтан__vblex"/></e> <!-- to say -->
@@ -1627,6 +1650,26 @@
     <e lm="шекастан"><par n="P__prefixes"/><i>шека</i><par n="шека/стан__vblex"/></e>
     <e lm="герефтан"><par n="P__prefixes"/><i>г</i><par n="г/ерефтан__vblex"/></e>
     <e lm="пардохтан"><par n="P__prefixes"/><i>пардо</i><par n="пардо/хтан__vblex"/></e>
+
+  </section>
+
+  <section id="verbs" type="standard">
+    <!-- SECTION: Verbs -->
+
+    <e lm="бояд"><i/><par n="/бояд__vbmod"/></e> <!-- necessity -->
+    <e lm="шояд"><i/><par n="/шояд__vbmod"/></e> <!-- possibility -->
+
+    <e lm="будан"><i/><par n="/будан__vbser"/></e> <!-- to be -->
+    
+    <!-- кардан: кард, кун -->
+    <e lm="кардан"><p><l>кард</l><r>кардан<s n="vbdo"/></r></p><par n="кард/ан__vbdo"/></e> <!-- inf, pp, past -->
+    <e lm="кардан"><p><l>кун</l><r>кардан<s n="vbdo"/><s n="prs"/></r></p><par n="к/ард.ан__vbdo"/></e> <!-- prs -->
+    <e lm="кардан"><p><l>накун</l><r>кардан<s n="vbdo"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vbdo"/></e> <!-- prs -->
+    <e lm="кардан"><p><l>накард</l><r>кардан<s n="vbdo"/><s n="neg"/></r></p><par n="кард/ан__vbdo"/></e> <!-- inf, pp, past -->
+    <e lm="кардан"><p><l>мекард</l><r>кардан<s n="vbdo"/></r></p><par n="ме.кард/ан__vbdo"/></e>  <!-- imperf -->
+    <e lm="кардан"><p><l>мекун</l><r>кардан<s n="vbdo"/><s n="pri"/></r></p><par n="к/ард.ан__vbdo"/></e>  <!-- pres.ind -->
+    <e lm="кардан"><p><l>намекард</l><r>кардан<s n="vbdo"/><s n="neg"/></r></p><par n="кард/ан__vbdo"/></e> <!-- imperf -->
+    <e lm="кардан"><p><l>намекун</l><r>кардан<s n="vbdo"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vbdo"/></e>   <!-- pres.ind -->
 
   </section>
 
