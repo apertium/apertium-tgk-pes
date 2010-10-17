@@ -101,7 +101,8 @@
   </def-attr>
   <def-attr n="a_adj">
      <attr-item tags="adj"/>
-     <attr-item tags="adj.pve"/>
+     <attr-item tags="adj.ord"/>
+     <attr-item tags="adj.pst"/>
      <attr-item tags="adj.comp"/>
      <attr-item tags="adj.sup"/>
   </def-attr>
