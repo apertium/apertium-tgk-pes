@@ -359,8 +359,7 @@
              <clip pos="1" side="tl" part="nbr"/>
            </lu>
            <lu>
-             <clip pos="2" side="tl" part="lem"/>
-             <clip pos="2" side="tl" part="a_enc"/>
+             <clip pos="2" side="tl" part="whole"/>
            </lu>
          </mlu>
        </out>
@@ -400,12 +399,10 @@
              <clip pos="1" side="tl" part="nbr"/>
            </lu>
            <lu>
-             <clip pos="2" side="tl" part="lem"/>
-             <clip pos="2" side="tl" part="a_enc"/>
+             <clip pos="2" side="tl" part="whole"/>
            </lu>
            <lu>
-             <clip pos="3" side="tl" part="lem"/>
-             <clip pos="3" side="tl" part="a_enc"/>
+             <clip pos="3" side="tl" part="whole"/>
            </lu>
          </mlu>
        </out>

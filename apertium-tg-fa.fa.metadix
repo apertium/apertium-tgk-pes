@@ -150,6 +150,12 @@
       </e>
     </pardef>
 
+    <pardef n="S__poss">
+      <e>       <p><l>ام</l><r><j/>ام<s n="enc"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>اش</l><r><j/>اش<s n="enc"/><s n="px3sg"/></r></p></e>
+      <e>       <p><l></l><r></r></p></e>
+    </pardef>
+
     <pardef n="S__ی">
       <e>
         <p>
@@ -961,6 +967,7 @@
           <l/>
           <r><s n="n"/><s n="sg"/></r>
         </p>
+        <par n="S__poss"/>
         <par n="S__ی"/>
         <par n="S__ه"/>
         <par n="S__را"/>
@@ -972,6 +979,7 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
         <par n="S__یی"/>
+        <par n="S__ه"/>
         <par n="S__را"/>
       </e>
       <!-- plural with (ها), entry without ZWNJ -->
@@ -11552,7 +11560,7 @@
     <e lm="ده"><i>ده</i><par n="بزرگ__adj"/></e>
     <e lm="دهم"><i>دهم</i><par n="بزرگ__adj"/></e>
     <e lm="دهمین"><i>دهمین</i><par n="بزرگ__adj"/></e>
-    <e lm="دو"><i>دو</i><par n="بزرگ__adj"/></e>
+    <!--<e lm="دو"><i>دو</i><par n="بزرگ__adj"/></e>-->
     <e lm="دیواری"><i>دیواری</i><par n="بزرگ__adj"/></e>
     <e lm="دوازده"><i>دوازده</i><par n="بزرگ__adj"/></e>
     <e lm="دوازدهم"><i>دوازدهم</i><par n="بزرگ__adj"/></e>
