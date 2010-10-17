@@ -152,11 +152,14 @@
 
     <pardef n="S__poss">
       <e>       <p><l>م</l><r><j/>ام<s n="enc"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ب</l><r><j/>ات<s n="enc"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ت</l><r><j/>ات<s n="enc"/><s n="px2sg"/></r></p></e>
       <e>       <p><l>ش</l><r><j/>اش<s n="enc"/><s n="px3sg"/></r></p></e>
-      <e>       <p><l>مون</l><r><j/>امون<s n="enc"/><s n="px1pl"/></r></p></e>
-      <e>       <p><l>شون</l><r><j/>اتون<s n="enc"/><s n="px2pl"/></r></p></e>
-      <e>       <p><l>بون</l><r><j/>اشون<s n="enc"/><s n="px3pl"/></r></p></e>
+      <e>       <p><l>مان</l><r><j/>امان<s n="enc"/><s n="px1pl"/></r></p></e>
+      <e>       <p><l>تان</l><r><j/>اتان<s n="enc"/><s n="px2pl"/></r></p></e>
+      <e>       <p><l>شان</l><r><j/>اشان<s n="enc"/><s n="px3pl"/></r></p></e>
+      <e r="LR">       <p><l>مون</l><r><j/>امان<s n="enc"/><s n="px1pl"/></r></p></e>
+      <e r="LR">       <p><l>تون</l><r><j/>اتان<s n="enc"/><s n="px2pl"/></r></p></e>
+      <e r="LR">       <p><l>شون</l><r><j/>اشان<s n="enc"/><s n="px3pl"/></r></p></e>
       <e>       <p><l></l><r></r></p></e>
     </pardef>
 
@@ -180,7 +183,7 @@
       <e>
         <p>
           <l>یی</l>
-          <r><j/>یی<s n="enc"/><s n="ind"/></r>
+          <r><j/>ی<s n="enc"/><s n="ind"/></r>
         </p>
       </e>
       <!-- Passthrough -->
@@ -196,13 +199,13 @@
       <e>
         <p>
           <l>‌ای</l>
-          <r><j/>ای<s n="enc"/><s n="ind"/></r>
+          <r><j/>ی<s n="enc"/><s n="ind"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l><b/>ای</l>
-          <r><j/>ای<s n="enc"/><s n="ind"/></r>
+          <r><j/>ی<s n="enc"/><s n="ind"/></r>
         </p>
       </e>
       <!-- Passthrough -->

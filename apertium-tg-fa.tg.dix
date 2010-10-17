@@ -42,6 +42,7 @@
     <sdef n="ger"     c="Gerund"/>
     <sdef n="pp"      c="Past participle I"/>
     <sdef n="ppgi"    c="Past participle II"/>
+    <sdef n="pprs"    c="Present participle"/>
     <sdef n="perf"    c="Perfect"/>
     <sdef n="dur"     c="Durative"/>
 
@@ -527,6 +528,16 @@
       <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="perf"/></r></p><par n="S__будан"/></e>
 
       <e>       <p><l>набуда</l><r>будан<s n="vbser"/><s n="neg"/><s n="perf"/></r></p><par n="S__будан"/></e>
+    </pardef>
+
+    <pardef n="гу/янда__vblex"> <!-- Present participle and verbal adverb -->
+      <e>       <p><l>янда</l><r><s n="pprs"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>он</l><r><s n="adv"/></r></p><par n="S__nominal_V"/></e>
+    </pardef>
+
+    <pardef n="к/ун.анда__vblex"> <!-- Present participle and verbal adverb -->
+      <e>       <p><l>анда</l><r><s n="pprs"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>он</l><r><s n="adv"/></r></p><par n="S__nominal_V"/></e>
     </pardef>
 
     <pardef n="гу/фт.ан__vblex"> <!-- Personal suffixes for present tense (vowel ending stem I) -->
@@ -1768,9 +1779,13 @@
     <e lm="Шукурҷон"><i>Шукурҷон</i><par n="Иброҳим__np"/></e>
     <e lm="Мирзо"><i>Мирзо</i><par n="Иброҳим__np"/></e>
     <e lm="Эмомалӣ"><i>Эмомалӣ</i><par n="Иброҳим__np"/></e>
+    <e lm="Абдулло"><i>Абдулло</i><par n="Иброҳим__np"/></e>
+    <e lm="Абдуллоҳ"><i>Абдуллоҳ</i><par n="Иброҳим__np"/></e>
 
     <e lm="Фурӯғ"><i>Фурӯғ</i><par n="Фурӯғ__np"/></e>
 
+    <e lm="Давлатов"><i>Давлатов</i><par n="Рустамов__np"/></e>
+    <e lm="Абдуллоев"><i>Абдуллоев</i><par n="Рустамов__np"/></e>
     <e lm="Содиқ"><i>Содиқ</i><par n="Рустамов__np"/></e>
     <e lm="Нобел"><i>Нобел</i><par n="Рустамов__np"/></e>
     <e lm="Обама"><i>Обама</i><par n="Рустамов__np"/></e>
@@ -2023,6 +2038,7 @@
     <!-- кардан: кард, кун: "do, make" -->
     <e lm="кардан"><p><l>кард</l><r>кардан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> <!-- inf, pp, past -->
     <e lm="кардан"><p><l>кун</l><r>кардан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> <!-- prs -->
+    <e lm="кардан"><p><l>кун</l><r>кардан<s n="vblex"/></r></p><par n="к/ун.анда__vblex"/></e> <!-- pprs, adv -->
     <e lm="кардан"><p><l>накун</l><r>кардан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e> <!-- prs -->
     <e lm="кардан"><p><l>накард</l><r>кардан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e> <!-- inf, pp, past -->
     <e lm="кардан"><p><l>мекард</l><r>кардан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>  <!-- imperf -->
@@ -2154,6 +2170,7 @@
     <!-- омадан: омад, {о, биё}: "come" -->
     <e lm="омадан"><p><l>омад</l><r>омадан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e> 
     <e lm="омадан"><p><l>о</l><r>омадан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
+    <e lm="омадан"><p><l>о</l><r>омадан<s n="vblex"/></r></p><par n="гу/янда__vblex"/></e> 
     <e lm="омадан" r="LR"><p><l>биё</l><r>омадан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
     <e lm="омадан"><p><l>нао</l><r>омадан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
     <e lm="омадан" r="LR"><p><l>набиё</l><r>омадан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e> 
@@ -2909,6 +2926,7 @@
     <!-- тохтан: тохт, тоз: "run, gallop, charge" -->
     <e lm="тохтан"><p><l>тохт</l><r>тохтан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e>
     <e lm="тохтан"><p><l>тоз</l><r>тохтан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e>
+    <e lm="тохтан"><p><l>тоз</l><r>тохтан<s n="vblex"/></r></p><par n="к/ун.анда__vblex"/></e>
     <e lm="тохтан"><p><l>натоз</l><r>тохтан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e>
     <e lm="тохтан"><p><l>натохт</l><r>тохтан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e>
     <e lm="тохтан"><p><l>метохт</l><r>тохтан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>
