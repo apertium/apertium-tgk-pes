@@ -151,8 +151,12 @@
     </pardef>
 
     <pardef n="S__poss">
-      <e>       <p><l>ام</l><r><j/>ام<s n="enc"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>اش</l><r><j/>اش<s n="enc"/><s n="px3sg"/></r></p></e>
+      <e>       <p><l>م</l><r><j/>ام<s n="enc"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ب</l><r><j/>ات<s n="enc"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ش</l><r><j/>اش<s n="enc"/><s n="px3sg"/></r></p></e>
+      <e>       <p><l>مون</l><r><j/>امون<s n="enc"/><s n="px1pl"/></r></p></e>
+      <e>       <p><l>شون</l><r><j/>اتون<s n="enc"/><s n="px2pl"/></r></p></e>
+      <e>       <p><l>بون</l><r><j/>اشون<s n="enc"/><s n="px3pl"/></r></p></e>
       <e>       <p><l></l><r></r></p></e>
     </pardef>
 
