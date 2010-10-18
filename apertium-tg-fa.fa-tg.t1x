@@ -60,6 +60,7 @@
   <def-attr n="a_prn">
      <attr-item tags="prn"/>
      <attr-item tags="prn.dem"/>
+     <attr-item tags="prn.ind"/>
   </def-attr>
   <def-attr n="a_adv">
      <attr-item tags="adv"/>
