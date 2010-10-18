@@ -69,7 +69,7 @@
   </def-attr>
   <def-attr n="a_prn">
      <attr-item tags="prn"/>
-     <attr-item tags="prn.subj"/>
+     <attr-item tags="prn.dem"/>
   </def-attr>
   <def-attr n="a_adv">
      <attr-item tags="adv"/>
