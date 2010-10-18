@@ -47,16 +47,6 @@
 </section-def-cats>
 
 <section-def-attrs>
-  <def-attr n="gen">
-     <attr-item tags="mf"/>
-     <attr-item tags="f"/>
-     <attr-item tags="m"/>
-  </def-attr>
-  <def-attr n="nbr">
-     <attr-item tags="sp"/>
-     <attr-item tags="sg"/>
-     <attr-item tags="pl"/>
-  </def-attr>
   <def-attr n="a_nom">
      <attr-item tags="n"/>
      <attr-item tags="np"/>
@@ -106,6 +96,17 @@
      <attr-item tags="adj.comp"/>
      <attr-item tags="adj.sup"/>
   </def-attr>
+
+  <def-attr n="gen">
+     <attr-item tags="f"/>
+     <attr-item tags="mf"/>
+     <attr-item tags="m"/>
+  </def-attr>
+  <def-attr n="nbr">
+     <attr-item tags="sp"/>
+     <attr-item tags="sg"/>
+     <attr-item tags="pl"/>
+  </def-attr>
   <def-attr n="temps">
      <attr-item tags="pri"/>
      <attr-item tags="prs"/>
@@ -127,7 +128,7 @@
 
 <section-rules>
 
-  <rule>
+  <rule comment="regla: det">
      <pattern>
        <pattern-item n="det"/>
      </pattern>
@@ -160,7 +161,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="regla: prn">
      <pattern>
        <pattern-item n="prn"/>
      </pattern>
@@ -197,7 +198,7 @@
 
 
 
-  <rule>
+  <rule comment="regla: pr"> 
      <pattern>
        <pattern-item n="pr"/>
      </pattern>
@@ -229,7 +230,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="regla: adv">
      <pattern>
        <pattern-item n="adv"/>
      </pattern>
@@ -262,7 +263,7 @@
   </rule>
 
 
-  <rule>
+  <rule comment="regla: adj">
      <pattern>
        <pattern-item n="adj"/>
      </pattern>
@@ -298,7 +299,7 @@
 
 
 
-  <rule>
+  <rule comment="regla: nom">
      <pattern>
        <pattern-item n="nom"/>
      </pattern>
@@ -331,7 +332,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="regla: nom enc">
      <pattern>
        <pattern-item n="nom"/>
        <pattern-item n="enc"/>
@@ -370,7 +371,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="regla: nom enc enc">
      <pattern>
        <pattern-item n="nom"/>
        <pattern-item n="enc"/>
@@ -413,7 +414,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="regla: vpart verb">
      <pattern>
        <pattern-item n="vpart"/>
        <pattern-item n="verb"/>
@@ -435,7 +436,7 @@
      </action>
   </rule>
 
-  <rule>
+  <rule comment="regla: vpart vpart verb">
      <pattern>
        <pattern-item n="vpart"/>
        <pattern-item n="vpart"/>
@@ -463,8 +464,8 @@
   </rule>
 
 
-    <rule> <!-- REGLA: reset variables-->
-      <pattern>
+  <rule comment="regla: sent"> 
+     <pattern>
         <pattern-item n="sent"/>
       </pattern>
       <action>
