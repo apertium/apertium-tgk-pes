@@ -2,6 +2,10 @@
 <transfer>
 
 <section-def-cats>
+  <def-cat n="барои">
+     <cat-item lemma="барои" tags="pr"/>
+     <cat-item lemma="барои" tags="pr.*"/>
+  </def-cat>
   <def-cat n="adj">
      <cat-item tags="adj.*"/>
   </def-cat>
@@ -12,6 +16,14 @@
   <def-cat n="izofa">
      <cat-item tags="enc.izo"/>
      <cat-item tags="enc.izo.*"/>
+  </def-cat>
+  <def-cat n="px">
+     <cat-item tags="enc.px1sg"/>
+     <cat-item tags="enc.px2sg"/>
+     <cat-item tags="enc.px3sg"/>
+     <cat-item tags="enc.px1pl"/>
+     <cat-item tags="enc.px2pl"/>
+     <cat-item tags="enc.px3pl"/>
   </def-cat>
   <def-cat n="enc">
      <cat-item tags="enc"/>
@@ -71,6 +83,26 @@
        </out>
      </action>
   </rule>
+
+  <rule comment="regla: барои enc">
+     <pattern>
+       <pattern-item n="барои"/>
+       <pattern-item n="enc"/>
+     </pattern>
+     <action>
+       <out>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+         </mlu>
+       </out>
+     </action>
+  </rule>
+
 
   <rule comment="regla: nom enc">
      <pattern>
