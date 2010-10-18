@@ -25,6 +25,7 @@
 * Pronominal verb clitics only follow non-finite verbs (incl. imperative)
 * Some non-finite verb forms take full N clitics (e.g. long infinitive)
 * Add verbal adverb / pprs to all verbs
+* rewrite the tajik dictionary better ... rationalise the clitic paradigms so we don't get overgeneration
 
 == Other TODOs ==
 See: http://xixona.dlsi.ua.es/wiki/index.php/Iranian_Persian_and_Tajik
