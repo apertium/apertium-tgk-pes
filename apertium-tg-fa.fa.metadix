@@ -730,6 +730,15 @@
     </pardef>
 
 
+    <pardef n="هر__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="ﺍیﻥ__det">
       <e>
         <p>
@@ -12683,7 +12692,7 @@
     <e lm="هخامنشی"><i>هخامنشی</i><par n="بزرگ__adj"/></e>
     <e lm="هدر"><i>هدر</i><par n="بزرگ__adj"/></e>
     <e lm="هدفمند"><i>هدفمند</i><par n="بزرگ__adj"/></e>
-    <e lm="هر"><i>هر</i><par n="بزرگ__adj"/></e>
+
     <e lm="هردو"><i>هردو</i><par n="بزرگ__adj"/></e>
     <e lm="هرروزی"><i>هرروزی</i><par n="بزرگ__adj"/></e>
     <e lm="هرز"><i>هرز</i><par n="بزرگ__adj"/></e>
@@ -12809,7 +12818,7 @@
     <e lm="واخ"><i>واخ</i><par n="اوه__ij"/></e>
 
     <e lm="ﺍیﻥ"><i>ﺍیﻥ</i><par n="ﺍیﻥ__det"/></e>
-
+    <e lm="هر"><i>هر</i><par n="هر__det"/></e>
   </section>
 
   <section id="final" type="inconditional">
