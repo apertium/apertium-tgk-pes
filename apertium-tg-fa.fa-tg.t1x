@@ -2,6 +2,10 @@
 <transfer>
 
 <section-def-cats>
+  <def-cat n="ب">
+     <cat-item lemma="ب" tags="*"/>
+  </def-cat>
+
   <def-cat n="nom">
      <cat-item tags="n.*"/>
      <cat-item tags="np.*"/>
@@ -415,6 +419,26 @@
        </let>
      </action>
   </rule>
+
+  <rule comment="regla: ب verb">
+     <pattern>
+       <pattern-item n="ب"/>
+       <pattern-item n="verb"/>
+     </pattern>
+     <action>
+       <out>
+         <lu>
+           <clip pos="2" side="tl" part="lem"/>
+           <clip pos="2" side="tl" part="a_verb"/>
+           <clip pos="2" side="tl" part="temps"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+       </out>
+     </action>
+  </rule>
+
+
 
   <rule comment="regla: vpart verb">
      <pattern>
