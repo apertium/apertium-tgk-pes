@@ -267,6 +267,8 @@
     <!-- SECTION: Numerals -->
 
     <pardef n="numeros">
+      <e>       <re>[0-9]+</re><p><l>-сола</l><r>-сола<s n="num"/></r></p><par n="S__nominal_C"/></e>
+      <e>       <re>[0-9]+</re><p><l>-солагӣ</l><r>-солагӣ<s n="num"/></r></p></e>
       <e>       <re>[0-9]+</re><p><l>-ум</l><r>-ум<s n="num"/><s n="ord"/></r></p><par n="S__adject_C"/></e>
       <e>       <re>[0-9]*[23]</re><p><l>-юм</l><r>-юм<s n="num"/><s n="ord"/></r></p><par n="S__adject_C"/></e>
       <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
