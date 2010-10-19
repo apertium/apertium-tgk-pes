@@ -9,6 +9,9 @@
   <def-cat n="adj">
      <cat-item tags="adj.*"/>
   </def-cat>
+  <def-cat n="num">
+     <cat-item tags="num.*"/>
+  </def-cat>
   <def-cat n="nom">
      <cat-item tags="n.*"/>
      <cat-item tags="np.*"/>
@@ -94,6 +97,28 @@
          <mlu>
            <lu>
              <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+         </mlu>
+       </out>
+     </action>
+  </rule>
+
+
+  <rule comment="regla: num enc">
+     <pattern>
+       <pattern-item n="num"/>
+       <pattern-item n="enc"/>
+     </pattern>
+     <action>
+       <out>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_num"/>
+             <clip pos="1" side="tl" part="nbr"/>
            </lu>
            <lu>
              <clip pos="2" side="tl" part="whole"/>

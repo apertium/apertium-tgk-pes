@@ -173,7 +173,7 @@
     </pardef>
   
     <pardef n="S__ه">
-      <e>       <p><l>ه</l><r><j/>ه<s n="enc"/><s n="izo"/></r></p></e>
+      <e>       <p><l>ی</l><r><j/>ی<s n="enc"/><s n="izo"/></r></p></e>
       <e>       <p><l/><r/></p></e>
     </pardef>
  
@@ -220,9 +220,9 @@
       <e r="LR"><p><l>خودم</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>خودت</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>خودش</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>خودمان</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>خودتان</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>خودشان</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>خودمان</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>خودتان</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>خودشان</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="همه__prn">
@@ -407,9 +407,9 @@
 
     <pardef n="دشمن__n">
       <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="S__ی"/><par n="S__ه"/><par n="S__را"/></e>
-      <e>       <p><l>‌ها</l><r><s n="n"/><s n="pl"/></r></p><par n="S__یی"/><par n="S__را"/></e><!-- pl. with (ها), entry w/ ZWNJ -->
-      <e r="LR"><p><l>ها</l><r><s n="n"/><s n="pl"/></r></p><par n="S__یی"/><par n="S__را"/></e><!-- pl. with (ها), entry w/out ZWNJ -->
-      <e r="LR"><p><l>ان</l><r><s n="n"/><s n="pl"/></r></p><par n="S__ی"/><par n="S__را"/></e><!-- pl. with (ان) -->
+      <e>       <p><l>‌ها</l><r><s n="n"/><s n="pl"/></r></p><par n="S__یی"/><par n="S__ه"/><par n="S__را"/></e><!-- pl. with (ها), entry w/ ZWNJ -->
+      <e r="LR"><p><l>ها</l><r><s n="n"/><s n="pl"/></r></p><par n="S__یی"/><par n="S__ه"/><par n="S__را"/></e><!-- pl. with (ها), entry w/out ZWNJ -->
+      <e r="LR"><p><l>ان</l><r><s n="n"/><s n="pl"/></r></p><par n="S__ی"/><par n="S__ه"/><par n="S__را"/></e><!-- pl. with (ان) -->
     </pardef>
 
     <pardef n="آزادی__n">
@@ -831,6 +831,7 @@
     <e lm="ﺍیﻥ"><i>ﺍیﻥ</i><par n="ﺍیﻥ__prn"/></e>
 
     <e lm="هیچ"><i>هیچ</i><par n="هیچ__prn"/></e>
+    <e lm="همه"><i>همه</i><par n="هیچ__prn"/></e>
 
     <e lm="هیچکس"><i>هیچکس</i><par n="هیچ__prn"/></e>
     <e lm="هیچیک"><i>هیچیک</i><par n="هیچ__prn"/></e>
@@ -841,6 +842,7 @@
 
     <e lm="ﺍیﻥ"><i>ﺍیﻥ</i><par n="ﺍیﻥ__det"/></e>
     <e lm="هر"><i>هر</i><par n="هر__det"/></e>
+    <e lm="همه"><i>همه</i><par n="هر__det"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -952,6 +954,7 @@
 
     <!-- SECTION: Proper nouns  -->
 
+    <e lm="اریتره"><i>اریتره</i><par n="تاجیکستان__np"/></e>
     <e lm="دوشنبه"><i>دوشنبه</i><par n="تاجیکستان__np"/></e>
     <e lm="پاپوا گینه نو"><i>پاپوا<b/>گینه<b/>نو</i><par n="تاجیکستان__np"/></e>
     <e lm="ترینیداد و توباگو"><i>ترینیداد<b/>و<b/>توباگو</i><par n="تاجیکستان__np"/></e>
@@ -9267,6 +9270,7 @@
     <!-- SECTION: Adverbs -->
 
     <!-- adverbs like (هنوز) -->
+    <e lm="همه"><i>همه</i><par n="هنوز__adv"/></e>
     <e lm="حاضر"><i>حاضر</i><par n="هنوز__adv"/></e>
     <e lm="اتفاقی"><i>اتفاقی</i><par n="هنوز__adv"/></e>
     <e lm="اتفاقاً"><i>اتفاقاً</i><par n="هنوز__adv"/></e>
@@ -9862,6 +9866,7 @@
 
     <!-- adjectives like (بزرگ) -->
     <e lm="آزاد"><i>آزاد</i><par n="بزرگ__adj"/></e>
+    <e lm="کلان"><i>کلان</i><par n="بزرگ__adj"/></e>
     <e lm="کلان‌"><i>کلان‌</i><par n="بزرگ__adj"/></e>
     <e lm="ایالتی"><i>ایالتی</i><par n="بزرگ__adj"/></e>
     <e lm="آبی"><i>آبی</i><par n="بزرگ__adj"/></e>
