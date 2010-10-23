@@ -186,21 +186,6 @@
       <e>       <p><l></l><r><s n="enc"/></r></p></e>
     </pardef>
    
-    <pardef n="P__ن">
-      <!--<e>       <p><l>ن‌</l><r>ن<s n="neg"/><j/></r></p></e>-->
-      <e>       <p><l>ن</l><r>ن<s n="neg"/><j/></r></p></e>
-      <e>       <p><l/><r/></p></e>
-    </pardef>
-     
-    <pardef n="P__prefixes">
-      <e>       <par n="P__ن"/><p><l>می‌</l><r>می<s n="me"/><j/></r></p></e>
-      <e>       <par n="P__ن"/><p><l>ﺏ‌</l><r>ﺏ<s n="bi"/><j/></r></p></e>
-      <e r="LR"><par n="P__ن"/><p><l>می</l><r>می<s n="me"/><j/></r></p></e>
-      <e r="LR"><par n="P__ن"/><p><l>می<b/></l><r>می<s n="me"/><j/></r></p></e>
-      <e r="LR"><par n="P__ن"/><p><l>ﺏ</l><r>ﺏ<s n="bi"/><j/></r></p></e>
-      <e>       <p><l/><r/></p></e>
-    </pardef>
-
     <!-- SECTION: Pronouns -->
   
     <pardef n="prsubj__prn">
