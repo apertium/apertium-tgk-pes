@@ -23,6 +23,7 @@
 dev/README -text
 dev/count.tg-fa.dix -text
 dev/myverbparadigms.txt -text
+dev/tg.hitparade.txt -text
 dev/tg.vtemplate.c.txt -text
 dev/tg.vtemplate.v.txt -text
 dev/udhr.en.txt -text
