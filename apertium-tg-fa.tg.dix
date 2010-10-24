@@ -36,6 +36,8 @@
     <sdef n="pri"     c="Present indicative"/>
     <sdef n="past"    c="Past tense"/>
     <sdef n="pii"     c="Imperfect"/>
+    <sdef n="pic"     c="Past conjectural"/>
+    <sdef n="ftc"     c="Future/present conjectural"/>
     <sdef n="imp"     c="Imperative"/>
     <sdef n="inf"     c="Infinitive"/>
     <sdef n="inf2"    c="Infinitive (II)"/>
@@ -187,6 +189,27 @@
       <e>       <p><l>е</l><r><j/>е<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
     </pardef>
 
+    <pardef n="S__nominal_C_verb">
+      <!-- Clitics that can be added to nominals 
+           Morphotactics: stem + (number)? + (definite)? + (object)?
+        -->
+      <e>       <p><l/><r/></p><par n="S__ind_C"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_C"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_C"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>у</l><r><j/>ва<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>анда</l><r><j/>анда<s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__nominal_V_verb">
+      <e>       <p><l/><r/></p><par n="S__ind_V"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_V"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_V"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ву</l><r><j/>ва<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>нда</l><r><j/>анда<s n="post"/></r></p></e>
+    </pardef>
+
     <pardef n="S__nominal_C">
       <!-- Clitics that can be added to nominals 
            Morphotactics: stem + (number)? + (definite)? + (object)?
@@ -207,6 +230,7 @@
       <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
       <e>       <p><l>ву</l><r><j/>ва<s n="cnjcoo"/></r></p></e>
       <e>       <p><l>нда</l><r><j/>анда<s n="post"/></r></p></e>
+      <e>       <p><l></l><r><j/>будан<s n="vbser"/><s n="clt"/></r></p><par n="S__будан"/></e>
     </pardef>
 
     <pardef n="S__adject_C">
@@ -535,13 +559,23 @@
       <!--<e>       <p><l>мебоист</l><r>бояд<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>-->
     </pardef>
 
+    <pardef n="кард.ан__vblex"> <!-- Personal suffixes for past tenses -->
+      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва_C"/></e>
+      <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва_V"/></e>
+      <e>       <p><l></l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва_C"/></e>
+      <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
+      <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
+      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
+    </pardef>
+
     <pardef n="/будан__vbser">
       <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p></e>
-      <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
+      <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal_C_verb"/></e>
       <e>       <p><l>буд</l><r>будан<s n="vbser"/><s n="inf2"/></r></p></e>
       <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="pp"/></r></p></e>
       <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="pp"/></r></p><par n="S__adject_V"/></e>
       <e>       <p><l>будагӣ</l><r>будан<s n="vbser"/><s n="ppgi"/></r></p></e>
+      <e>       <p><l>будагист</l><r>будан<s n="vbser"/><s n="pic"/></r></p><par n="кард.ан__vblex"/></e>
 
       <e>       <p><l>ҳастам</l><r>будан<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ҳасти</l><r>будан<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -573,6 +607,13 @@
       <e>       <p><l>бошид</l><r>будан<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>бошанд</l><r>будан<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e>       <p><l>набошам</l><r>будан<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>набоши</l><r>будан<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>набошад</l><r>будан<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>набошим</l><r>будан<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>набошид</l><r>будан<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>набошанд</l><r>будан<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
       <e>       <p><l>будам</l><r>будан<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>будӣ</l><r>будан<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>буд</l><r>будан<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -594,16 +635,16 @@
 
     <pardef n="гу/янда__vblex"> <!-- Present participle and verbal adverb -->
       <e>       <p><l>янда</l><r><s n="pprs"/></r></p></e>
-      <e>       <p><l>янда</l><r><s n="pprs"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>янда</l><r><s n="pprs"/></r></p><par n="S__nominal_V_verb"/></e>
       <e>       <p><l>он</l><r><s n="adv"/></r></p></e>
-      <e>       <p><l>он</l><r><s n="adv"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>он</l><r><s n="adv"/></r></p><par n="S__nominal_V_verb"/></e>
     </pardef>
 
     <pardef n="к/ун.анда__vblex"> <!-- Present participle and verbal adverb -->
       <e>       <p><l>анда</l><r><s n="pprs"/></r></p></e>
-      <e>       <p><l>анда</l><r><s n="pprs"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>анда</l><r><s n="pprs"/></r></p><par n="S__nominal_V_verb"/></e>
       <e>       <p><l>он</l><r><s n="adv"/></r></p></e>
-      <e>       <p><l>он</l><r><s n="adv"/></r></p><par n="S__nominal_V"/></e>
+      <e>       <p><l>он</l><r><s n="adv"/></r></p><par n="S__nominal_V_verb"/></e>
     </pardef>
 
     <pardef n="гу/фт.ан__vblex"> <!-- Personal suffixes for present tense (vowel ending stem I) -->
@@ -624,21 +665,14 @@
       <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
     </pardef>
 
-    <pardef n="кард.ан__vblex"> <!-- Personal suffixes for past tenses -->
-      <e>       <p><l>ам</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__ва_C"/></e>
-      <e>       <p><l>ӣ</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__ва_V"/></e>
-      <e>       <p><l></l><r><s n="p3"/><s n="sg"/></r></p><par n="S__ва_C"/></e>
-      <e>       <p><l>ем</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
-      <e>       <p><l>ед</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
-      <e>       <p><l>анд</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__ва_C"/></e>
-    </pardef>
-
     <pardef n="кард/ан__vblex"> <!-- Tenses and non-finite forms formed from stem II -->
       <e>       <p><l>ан</l><r><s n="inf"/></r></p></e> 
-      <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C"/></e> 
+      <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C_verb"/></e> 
       <e>       <p><l></l><r><s n="inf2"/></r></p></e>
       <e>       <p><l>а</l><r><s n="pp"/></r></p></e>
       <e>       <p><l>агӣ</l><r><s n="ppgi"/></r></p></e>
+      <e>       <p><l>агист</l><r><s n="pic"/></r></p><par n="кард.ан__vblex"/></e>
+      <e r="LR"><p><l>аг</l><r><s n="pic"/></r></p><par n="кард.ан__vblex"/></e>
 
       <e>       <p><l>а</l><r><s n="perf"/></r></p><par n="S__будан"/></e>
       <e>       <p><l></l><r><s n="past"/></r></p><par n="кард.ан__vblex"/></e>
@@ -647,6 +681,7 @@
     <pardef n="ме.кард/ан__vblex"> <!-- Tenses formed from me- prefix and stem II -->
       <e>       <p><l></l><r><s n="pii"/></r></p><par n="кард.ан__vblex"/></e>
       <e>       <p><l>а</l><r><s n="dur"/></r></p><par n="S__будан"/></e>
+      <e>       <p><l>агист</l><r><s n="ftc"/></r></p><par n="кард.ан__vblex"/></e>
     </pardef>
 
   </pardefs>
@@ -1960,6 +1995,7 @@
     <e lm="Нӯъмонҷон"><i>Нӯъмонҷон</i><par n="Иброҳим__np"/></e>
     <e lm="Давронҷон"><i>Давронҷон</i><par n="Иброҳим__np"/></e>
     <e lm="Шукурҷон"><i>Шукурҷон</i><par n="Иброҳим__np"/></e>
+    <e lm="Пӯлод"><i>Пӯлод</i><par n="Иброҳим__np"/></e>
     <e lm="Мирзо"><i>Мирзо</i><par n="Иброҳим__np"/></e>
     <e lm="Эмомалӣ"><i>Эмомалӣ</i><par n="Иброҳим__np"/></e>
     <e lm="Абдулло"><i>Абдулло</i><par n="Иброҳим__np"/></e>
