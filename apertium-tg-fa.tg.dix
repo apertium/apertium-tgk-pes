@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dictionary>
-  <alphabet>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЪЭЮЯҒӢҚӮҲҶабвгдеёжзийклмнопрстуфхчшъэюяғӣқӯҳҷцы</alphabet>
+  <alphabet>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЪЭЮЯҒӢҚӮҲҶабвгдеёжзийклмнопрстуфхчшъэюяғӣқӯҳҷцыь</alphabet>
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
@@ -445,6 +445,7 @@
     <pardef n="ҷ/умҳури__n">
       <e>       <p><l>умҳури</l><r>умҳури<s n="n"/><s n="sg"/></r></p><par n="S__nominal_V"/></e>
       <e>       <p><l>умҳуриҳо</l><r>умҳури<s n="n"/><s n="pl"/></r></p><par n="S__nominal_V"/></e>
+      <e r="LR"><p><l>умҳур</l><r>умҳури<s n="n"/><s n="sg"/></r></p><par n="S__nominal_C"/></e>
       <e r="LR"><p><l>амоҳир</l><r>умҳури<s n="n"/><s n="pl"/></r></p><par n="S__nominal_C"/></e>
     </pardef>
 
@@ -535,6 +536,7 @@
     </pardef>
 
     <pardef n="/будан__vbser">
+      <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p></e>
       <e>       <p><l>будан</l><r>будан<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal_C"/></e>
       <e>       <p><l>буд</l><r>будан<s n="vbser"/><s n="inf2"/></r></p></e>
       <e>       <p><l>буда</l><r>будан<s n="vbser"/><s n="pp"/></r></p></e>
@@ -632,7 +634,8 @@
     </pardef>
 
     <pardef n="кард/ан__vblex"> <!-- Tenses and non-finite forms formed from stem II -->
-      <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C"/></e> <!-- Takes S__nominal_C -->
+      <e>       <p><l>ан</l><r><s n="inf"/></r></p></e> 
+      <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C"/></e> 
       <e>       <p><l></l><r><s n="inf2"/></r></p></e>
       <e>       <p><l>а</l><r><s n="pp"/></r></p></e>
       <e>       <p><l>агӣ</l><r><s n="ppgi"/></r></p></e>
@@ -999,6 +1002,9 @@
     <e lm="миллион"><i>миллион</i><par n="китоб__n"/></e> <!-- million -->
     <e lm="ибтидо"><i>ибтидо</i><par n="хона__n"/></e> <!-- beginning -->
     <e lm="иҷро"><i>иҷро</i><par n="хона__n"/></e> <!-- fulfilment -->
+    <e lm="халқ"><i>халқ</i><par n="хона__n"/></e> <!-- -->
+    <e lm="адаб"><i>адаб</i><par n="хона__n"/></e> <!-- -->
+    <e lm="ақд"><i>ақд</i><par n="хона__n"/></e> <!-- moment -->
     <e lm="масъала"><i>масъала</i><par n="хона__n"/></e> <!-- problem -->
     <e lm="ҳодиса"><i>ҳодиса</i><par n="хона__n"/></e> <!-- event, accident -->
     <e lm="ҷон"><i>ҷон</i><par n="китоб__n"/></e> <!-- spirit, life-->
@@ -1124,6 +1130,8 @@
     <e lm="паланг"><i>паланг</i><par n="китоб__n"/></e> <!-- tiger -->
     <e lm="пойтахт"><i>пойтахт</i><par n="китоб__n"/></e> <!-- capital city -->
     <e lm="ручка"><i>ручка</i><par n="китоб__n"/></e> <!-- pen -->
+    <e lm="фишор"><i>фишор</i><par n="китоб__n"/></e> <!-- pressure -->
+    <e lm="газ"><i>газ</i><par n="китоб__n"/></e> <!-- gas -->
     <e lm="зодрӯз"><i>зодрӯз</i><par n="китоб__n"/></e> <!-- birthday -->
     <e lm="рӯз"><i>рӯз</i><par n="китоб__n"/></e> <!-- day -->
     <e lm="рӯйхат"><i>рӯйхат</i><par n="китоб__n"/></e> <!-- list -->
@@ -1448,6 +1456,7 @@
     <e lm="биҳишт"><i>биҳишт</i><par n="китоб__n"/></e>
     <e lm="ангушт"><i>ангушт</i><par n="китоб__n"/></e>
     <e lm="гӯшт"><i>гӯшт</i><par n="китоб__n"/></e>
+    <e lm="чоп"><i>чоп</i><par n="китоб__n"/></e> <!-- edition, printing -->
     <e lm="пушт"><i>пушт</i><par n="китоб__n"/></e>
     <e lm="қу"><i>қу</i><par n="хона__n"/></e>
     <e lm="мӯ"><i>мӯ</i><par n="хона__n"/></e>
@@ -2092,6 +2101,7 @@
     <e lm="расмӣ"><i>расм</i><par n="рус/ӣ__adj"/></e> <!-- official -->
     <e lm="сиёсӣ"><i>сиёс</i><par n="рус/ӣ__adj"/></e> <!-- -->
     <e lm="ибтидоӣ"><i>ибтидо</i><par n="рус/ӣ__adj"/></e> <!-- -->
+    <e lm="адабӣ"><i>адаб</i><par n="рус/ӣ__adj"/></e> <!-- literary -->
     <e lm="башарӣ"><i>башар</i><par n="рус/ӣ__adj"/></e> <!-- human(?) --> 
     <e lm="ҳукуматӣ"><i>ҳукумат</i><par n="рус/ӣ__adj"/></e> <!-- governmental -->
     <e lm="парлумонӣ"><i>парлумон</i><par n="рус/ӣ__adj"/></e> <!-- parliamentary -->
