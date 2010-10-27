@@ -3791,6 +3791,17 @@
     <e lm="озмудан"><p><l>намеозмуд</l><r>озмудан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e>
     <e lm="озмудан"><p><l>намеозмо</l><r>озмудан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>
 
+    <!-- хонадан: хонад, хон: "count, add, consider, reckon" -->
+    <e lm="хонадан"><p><l>хонад</l><r>хонадан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e>
+    <e lm="хонадан"><p><l>хон</l><r>хонадан<s n="vblex"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e>
+    <e lm="хонадан"><p><l>нахон</l><r>хонадан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="к/ард.ан__vblex"/></e>
+    <e lm="хонадан"><p><l>нахонад</l><r>хонадан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e>
+    <e lm="хонадан"><p><l>мехонад</l><r>хонадан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>
+    <e lm="хонадан"><p><l>мехон</l><r>хонадан<s n="vblex"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>
+    <e lm="хонадан"><p><l>намехонад</l><r>хонадан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e>
+    <e lm="хонадан"><p><l>намехон</l><r>хонадан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="к/ард.ан__vblex"/></e>
+
+
 
   </section>
 
