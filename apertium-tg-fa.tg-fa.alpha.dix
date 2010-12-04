@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dictionary>
   <alphabet>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЪЭЮЯҒӢҚӮҲҶабвгдеёжзийклмнопрстуфхчшъэюяғӣқӯҳҷابپتثچجحخديذرزژسشصضطظعغقکگلىمنهیئونكفهؤپءٔآ</alphabet>
-  <sdefs/>
+  <sdefs>
+    <sdef n="null"/>
+  </sdefs>
   <pardefs>
     <pardef n="cons">
       <e><p><l>в</l><r>و</r></p></e>

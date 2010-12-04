@@ -37,7 +37,7 @@
     <sdef n="ref"     c="Reflexive"/>
     <sdef n="izo"     c="Izofa"/>
 
-    <sdef n="аnt"     c="Antroponym"/>
+    <sdef n="ant"     c="Antroponym"/>
     <sdef n="top"     c="Toponym"/>
     <sdef n="al"      c="Altres"/>
 

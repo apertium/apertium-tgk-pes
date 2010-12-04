@@ -11,7 +11,7 @@ TARGETS_COMMON =  \
      $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin \
      $(PREFIX1).t1x.bin  \
-     $(PREFIX2).t1x.bin modes  $(PREFIX2).mode
+     $(PREFIX2).t1x.bin $(PREFIX2).alpha.bin modes  $(PREFIX2).mode
 
 $(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).metadix
 	xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadix | uniq > $$gen.xsl
@@ -61,6 +61,10 @@ $(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
 
+$(PREFIX2).alpha.bin: $(BASENAME).$(PREFIX1).alpha.dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).alpha.dix
+	lt-comp rl $(BASENAME).$(PREFIX1).alpha.dix $@
+
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $@
@@ -96,6 +100,7 @@ apertium_tg_fa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin  \
+		    $(PREFIX2).alpha.bin \
 		    $(PREFIX2).t1x.bin \
 	   	    $(PREFIX2).autopgen.bin \
 		    $(PREFIX1).mode $(PREFIX2).mode 
