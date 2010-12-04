@@ -22,6 +22,7 @@
 /configure.ac -text
 dev/README -text
 dev/count.tg-fa.dix -text
+dev/dix-to-wiki.py -text
 dev/myverbparadigms.txt -text
 dev/tg.hitparade.txt -text
 dev/tg.vtemplate.c.txt -text

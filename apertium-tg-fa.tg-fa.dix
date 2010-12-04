@@ -11378,7 +11378,7 @@
     <e><p><l>вафодор<s n="adj"/></l><r>وفادار<s n="adj"/></r></p></e>
     <e><p><l>йӯнонӣ<s n="adj"/></l><r>یونانی<s n="adj"/></r></p></e>
 
-    <!-- interjections like (уҳ) -->
+    <!-- UNCHECKED: Interjections like (уҳ) -->
     <e><p><l>ой<s n="ij"/></l><r>آی<s n="ij"/></r></p></e>
     <e><p><l>ий<s n="ij"/></l><r>ای<s n="ij"/></r></p></e>
     <!--<e><p><l>ё<s n="ij"/></l><r>یا<s n="ij"/></r></p></e>-->
