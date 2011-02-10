@@ -38,7 +38,10 @@ dev/verbs.py -text
 old/apertium-tg-fa.fa.dix.xml -text
 old/apertium-tg-fa.tg-fa.dix.xml -text
 old/apertium-tg-fa.tg.dix.xml -text
+/pending-tests.sh -text
 /principal.xsl -text
+/regression-tests.sh -text
+/tg-fa-unsupervised.make -text
 /tg-fa.prob -text svneol=unset#unset
 tsts-nov19/apertium-tg-fa.fa.metadix -text
 tsts-nov19/apertium-tg-fa.tg.dix.xml -text
@@ -48,3 +51,4 @@ tsts-nov19/principal--[!!-~](copie).xsl -text
 tsts-nov19/principal.xsl -text
 tsts-nov19/tobeAdded -text
 tsts-nov19/xsl.sh -text
+/wiki-tests.sh -text
