@@ -1,6 +1,6 @@
     <!-- @STEM2@ن: @STEM2@, @STEM1@: "@TRANS@" -->
     <e lm="@STEM2@ن"><p><l>@STEM2@</l><r>@STEM2@ن<s n="vblex"/></r></p><par n="کرد/ن__vblex"/></e>
-    <e lm="@STEM2@ن"><p><l>@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="prs"/></r></p><par n="گ/فت.ن__vblex"/></e>
+    <e lm="@STEM2@ن"><p><l>ب@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="prs"/></r></p><par n="گ/فت.ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>@STEM1@</l><r>@STEM2@ن<s n="vblex"/></r></p><par n="گ/وینده__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>ن@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="گ/فت.ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>ن@STEM2@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/></r></p><par n="کرد/ن__vblex"/></e>
