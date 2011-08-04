@@ -559,8 +559,8 @@
       <e><par n="P__prefixes"/><p><l><prm/>ه</l><r><prm/>ن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
       
       <!-- Imperative -->
-      <e><par n="P__imp__prefixes"/><p><l><prm2/></l><r><prm/>ن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><par n="P__imp__prefixes"/><p><l><prm2/><prm3/></l><r><prm/>ن<s n="vblex"/><s n="pii"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
+      <e><par n="P__imp__prefixes"/><p><l><prm2/>ان</l><r><prm/>ن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><par n="P__imp__prefixes"/><p><l><prm2/><prm3/></l><r><prm/>ن<s n="vblex"/><s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
       
       <!-- Present -->
       <e><par n="P__njprefixes"/><p><l><prm2/><prm3/></l><r><prm/>ن<s n="vblex"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
