@@ -2,9 +2,10 @@
     <e lm="@STEM2@ن"><p><l>@STEM2@</l><r>@STEM2@ن<s n="vblex"/></r></p><par n="کرد/ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="prs"/></r></p><par n="ک/رد.ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>@STEM1@</l><r>@STEM2@ن<s n="vblex"/></r></p><par n="ک/ن.ند__vblex"/></e>
-    <e lm="@STEM2@ن"><p><l>на@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="ک/رد.ن__vblex"/></e>
+    <e lm="@STEM2@ن"><p><l>ن@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="ک/رد.ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>ن@STEM2@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/></r></p><par n="کرد/ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>می@STEM2@</l><r>@STEM2@ن<s n="vblex"/></r></p><par n="می.کرد/ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>می@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="pri"/></r></p><par n="ک/رد.ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>نمی@STEM2@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/></r></p><par n="کرد/ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>نمی@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="ک/رد.ن__vblex"/></e>
+
