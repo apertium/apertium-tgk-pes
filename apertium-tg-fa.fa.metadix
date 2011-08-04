@@ -302,7 +302,7 @@
       <e>       <p><l/><r><s n="rel"/></r></p></e>
     </pardef>
  
-    <pardef n="ﺍیﻥ__prn">
+    <pardef n="این__prn">
       <e>       <p><l/><r><s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
       <e>       <p><l>هﺍ</l><r><s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
     </pardef>
@@ -352,7 +352,7 @@
       <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
  
-    <pardef n="ﺍیﻥ__det">
+    <pardef n="این__det">
       <e>       <p><l/><r><s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
     </pardef>
 
@@ -813,7 +813,9 @@
 
     <e lm="که"><i>که</i><par n="که__rel"/></e>
 
-    <e lm="ﺍیﻥ"><i>ﺍیﻥ</i><par n="ﺍیﻥ__prn"/></e>
+    <e lm="این"><i>این</i><par n="این__prn"/></e>
+    <e lm="آن"><i>آن</i><par n="این__prn"/></e>
+    <e lm="شد"><i>شد</i><par n="این__prn"/></e>
 
     <e lm="هیچ"><i>هیچ</i><par n="هیچ__prn"/></e>
     <e lm="همه"><i>همه</i><par n="هیچ__prn"/></e>
@@ -825,7 +827,10 @@
 
     <!-- SECTION: Determiners -->
 
-    <e lm="ﺍیﻥ"><i>ﺍیﻥ</i><par n="ﺍیﻥ__det"/></e>
+    <e lm="این"><i>این</i><par n="این__det"/></e>
+    <e lm="آن"><i>آن</i><par n="این__det"/></e>
+    <e lm="شد"><i>شد</i><par n="این__det"/></e>
+
     <e lm="هر"><i>هر</i><par n="هر__det"/></e>
     <e lm="همه"><i>همه</i><par n="هر__det"/></e>
 
