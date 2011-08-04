@@ -1,0 +1,10 @@
+    <!-- @STEM2@ан: @STEM2@, @STEM1@: "@TRANS@" -->
+    <e lm="@STEM2@ан"><p><l>@STEM2@</l><r>@STEM2@ан<s n="vblex"/></r></p><par n="кард/ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>@STEM1@</l><r>@STEM2@ан<s n="vblex"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>@STEM1@</l><r>@STEM2@ан<s n="vblex"/></r></p><par n="гу/янда__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>на@STEM1@</l><r>@STEM2@ан<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="гу/фт.ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>на@STEM2@</l><r>@STEM2@ан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>ме@STEM2@</l><r>@STEM2@ан<s n="vblex"/></r></p><par n="ме.кард/ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>ме@STEM1@</l><r>@STEM2@ан<s n="vblex"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>наме@STEM2@</l><r>@STEM2@ан<s n="vblex"/><s n="neg"/></r></p><par n="кард/ан__vblex"/></e>
+    <e lm="@STEM2@ан"><p><l>наме@STEM1@</l><r>@STEM2@ан<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="гу/фт.ан__vblex"/></e>
