@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <alphabet>ABVGDEËŽZIĬKLMNOPRSTUFXČŠЮJaĞĪQŪHĐabvgdeëžziĭklmnoprstufxčš?юjağīqūhđц</alphabet>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="vblex"   c="Verb"/>	
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="vaux"    c="Auxilliary verb"/>	
+    <sdef n="vbser"   c="The verb 'to be'"/>
+    <sdef n="vbhaver" c="The verb 'to have'"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="preadv"  c="Pre-adverb"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="enc"     c="Enclitic"/>
+    <sdef n="clt"     c="Clitic"/>
+
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="mf"      c="Masculine-Feminine"/>
+
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c="Singular / Plural"/>
+
+    <sdef n="prs"     c="Present subjunctive"/>
+    <sdef n="pri"     c="Present indicative"/>
+    <sdef n="past"    c="Past tense"/>
+    <sdef n="pii"     c="Imperfect"/>
+    <sdef n="pic"     c="Past conjectural"/>
+    <sdef n="ftc"     c="Future/present conjectural"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="inf2"    c="Infinitive (II)"/>
+    <sdef n="ger"     c="Gerund"/>
+    <sdef n="pp"      c="Past participle I"/>
+    <sdef n="ppgi"    c="Past participle II"/>
+    <sdef n="pprs"    c="Present participle"/>
+    <sdef n="perf"    c="Perfect"/>
+    <sdef n="dur"     c="Durative"/>
+
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+
+    <sdef n="px1sg"   c="Possessive, First person singular"/>
+    <sdef n="px2sg"   c="Possessive, Second person singular"/>
+    <sdef n="px3sg"   c="Possessive, Third person singular"/>
+    <sdef n="px1pl"   c="Possessive, First person plural"/>
+    <sdef n="px2pl"   c="Possessive, Second person plural"/>
+    <sdef n="px3pl"   c="Possessive, Third person plural"/>
+
+    <sdef n="pst"     c="Positive"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+
+    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="ord"     c="Ordinal"/>
+
+    <sdef n="acr"     c="Acronym"/>
+    <sdef n="ant"     c="Antroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
+    <sdef n="al"      c="Other / Otros"/>
+    <sdef n="top"     c="Toponym"/>
+
+    <sdef n="nn"      c="Inanimate"/>
+    <sdef n="an"      c="Animate / inanimate"/>
+    <sdef n="aa"      c="Animate"/>
+
+    <sdef n="rel"     c="Relative"/>
+    <sdef n="emph"    c="Emphatic"/>
+    <sdef n="ind"     c="Indefinite"/>    
+    <sdef n="itg"     c="Interrogative"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="def"     c="Definite"/>
+    <sdef n="pos"     c="Possessive"/>
+    <sdef n="ref"     c="Reflexive"/>
+    <sdef n="neg"     c="Negative"/>
+
+    <sdef n="acc"     c="Accusative"/>
+    <sdef n="izo"     c="Izofa"/>
+
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="End of sentence"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquest"  c="Left question-mark"/>
+    <sdef n="guio"    c="Hyphen"/> 
+    <sdef n="apos"    c="Apostrophe"/>
+  </sdefs>
+
+
+<pardefs>
+
+    <!-- SECTION: Enclitics -->
+
+    <pardef n="S__va_C">
+      <e>       <p><l>u</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l/><r/></p></e>
+    </pardef>
+
+    <pardef n="S__va_V">
+      <e>       <p><l>vu</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l/><r/></p></e>
+    </pardef>
+
+    <pardef n="S__budan"> <!-- Clitic present of 'to be' -->
+      <e>       <p><l>am</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+<!--      <e>       <p><l>ī</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__va"/></e>--> <!-- Really ambiguous nouns vs. adjec -->
+      <e>       <p><l>ast</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>em</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ed</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>and</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+    </pardef>
+
+    <pardef n="S__accusative">
+      <e>       <p><l>ro</l><r><j/>ro<s n="enc"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__possess">
+      <e>       <p><l>m</l><r><j/>am<s n="enc"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>t</l><r><j/>at<s n="enc"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>š</l><r><j/>aš<s n="enc"/><s n="px3sg"/></r></p></e>
+      <e>       <p><l>mon</l><r><j/>amon<s n="enc"/><s n="px1pl"/></r></p></e>
+      <e>       <p><l>ton</l><r><j/>aton<s n="enc"/><s n="px2pl"/></r></p></e>
+      <e>       <p><l>šon</l><r><j/>ašon<s n="enc"/><s n="px3pl"/></r></p></e>
+      <e>       <p><l>m</l><r><j/>am<s n="enc"/><s n="px1sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>t</l><r><j/>at<s n="enc"/><s n="px2sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>š</l><r><j/>aš<s n="enc"/><s n="px3sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>mon</l><r><j/>amon<s n="enc"/><s n="px1pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ton</l><r><j/>aton<s n="enc"/><s n="px2pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>šon</l><r><j/>ašon<s n="enc"/><s n="px3pl"/></r></p><par n="S__accusative"/></e>
+    </pardef>
+
+    <pardef n="S__possess_C">
+      <e>       <p><l>a</l><r></r></p><par n="S__possess"/></e>
+    </pardef>
+
+    <pardef n="S__possess_V">
+      <e>       <p><l>ja</l><r></r></p><par n="S__possess"/></e>
+    </pardef>
+
+    <pardef n="S__iza_C">
+      <e>       <p><l>i</l><r><j/>i<s n="enc"/><s n="izo"/></r></p></e> <!-- end of the line -->
+    </pardef>
+
+    <pardef n="S__iza_V">
+      <e>       <p><l>i</l><r><j/>i<s n="enc"/><s n="izo"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__ind_C">
+      <e>       <p><l>e</l><r><j/>e<s n="enc"/><s n="ind"/></r></p></e>
+      <e>       <p><l>e</l><r><j/>e<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
+    </pardef>
+
+    <pardef n="S__ind_V">
+      <e>       <p><l>e</l><r><j/>e<s n="enc"/><s n="ind"/></r></p></e>
+      <e>       <p><l>e</l><r><j/>e<s n="enc"/><s n="ind"/></r></p><par n="S__accusative"/></e>
+    </pardef>
+
+    <pardef n="S__nominal_C_verb">
+      <!-- Clitics that can be added to nominals 
+           Morphotactics: stem + (number)? + (definite)? + (object)?
+        -->
+      <e>       <p><l/><r/></p><par n="S__ind_C"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_C"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_C"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>u</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>anda</l><r><j/>anda<s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__nominal_V_verb">
+      <e>       <p><l/><r/></p><par n="S__ind_V"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_V"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_V"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>vu</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>nda</l><r><j/>anda<s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__nominal_C">
+      <!-- Clitics that can be added to nominals 
+           Morphotactics: stem + (number)? + (definite)? + (object)?
+        -->
+      <e>       <p><l/><r/></p><par n="S__ind_C"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_C"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_C"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>u</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>anda</l><r><j/>anda<s n="post"/></r></p></e>
+      <e>       <p><l></l><r><j/>budan<s n="vbser"/><s n="clt"/></r></p><par n="S__budan"/></e>
+    </pardef>
+
+    <pardef n="S__nominal_V">
+      <e>       <p><l/><r/></p><par n="S__ind_V"/></e>
+      <e>       <p><l/><r/></p><par n="S__iza_V"/></e>
+      <e>       <p><l/><r/></p><par n="S__possess_V"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>vu</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>nda</l><r><j/>anda<s n="post"/></r></p></e>
+      <e>       <p><l></l><r><j/>budan<s n="vbser"/><s n="clt"/></r></p><par n="S__budan"/></e>
+    </pardef>
+
+    <pardef n="S__adject_C">
+      <e>       <p><l/><r/></p></e>
+      <e>       <p><l/><r/></p><par n="S__ind_V"/></e>
+      <e>       <p><l>i</l><r><j/>i<s n="enc"/><s n="izo"/></r></p></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l></l><r><j/>budan<s n="vbser"/><s n="clt"/></r></p><par n="S__budan"/></e>
+      <e>       <p><l>u</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l></l><r></r></p><par n="S__possess_V"/></e> <!-- p. 114 -->
+    </pardef>
+
+    <pardef n="S__adject_V">
+      <e>       <p><l/><r/></p><par n="S__ind_V"/></e>
+      <e>       <p><l>i</l><r><j/>i<s n="enc"/><s n="izo"/></r></p></e>
+      <e>       <p><l>vu</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l></l><r><j/>budan<s n="vbser"/><s n="clt"/></r></p><par n="S__budan"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__accusative"/></e>
+      <e>       <p><l></l><r></r></p><par n="S__possess_C"/></e> <!-- p. 114 -->
+    </pardef>
+
+    <!-- SECTION: Verbs  -->
+
+    <pardef n="/šojad__vbmod">
+      <e>       <p><l>šojad</l><r>šojad<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>našojad</l><r>šojad<s n="vbmod"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="/bojad__vbmod">
+      <e>       <p><l>bojad</l><r>bojad<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nabojad</l><r>bojad<s n="vbmod"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>boist</l><r>bojad<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <!--<e>       <p><l>meboist</l><r>bojad<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>-->
+    </pardef>
+
+    <pardef n="kard.an__vblex"> <!-- Personal suffixes for past tenses -->
+      <e>       <p><l>am</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ī</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__va_V"/></e>
+      <e>       <p><l></l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>em</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ed</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>and</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+    </pardef>
+
+    <pardef n="/budan__vbser">
+      <e>       <p><l>budan</l><r>budan<s n="vbser"/><s n="inf"/></r></p></e>
+      <e>       <p><l>budan</l><r>budan<s n="vbser"/><s n="inf"/></r></p><par n="S__nominal_C_verb"/></e>
+      <e>       <p><l>bud</l><r>budan<s n="vbser"/><s n="inf2"/></r></p></e>
+      <e>       <p><l>buda</l><r>budan<s n="vbser"/><s n="pp"/></r></p></e>
+      <e>       <p><l>buda</l><r>budan<s n="vbser"/><s n="pp"/></r></p><par n="S__adject_V"/></e>
+      <e>       <p><l>budagī</l><r>budan<s n="vbser"/><s n="ppgi"/></r></p></e>
+      <e>       <p><l>budagist</l><r>budan<s n="vbser"/><s n="pic"/></r></p><par n="kard.an__vblex"/></e>
+
+      <e>       <p><l>hastam</l><r>budan<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>hasti</l><r>budan<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>hast</l><r>budan<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ast</l><r>budan<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>hastem</l><r>budan<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hasted</l><r>budan<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hastand</l><r>budan<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>nestam</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nesti</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nest</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ne</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nestem</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>nested</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>nestand</l><r>budan<s n="vbser"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>mebošam</l><r>budan<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>meboši</l><r>budan<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mebošad</l><r>budan<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mebošim</l><r>budan<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>mebošid</l><r>budan<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>mebošand</l><r>budan<s n="vbser"/><s n="emph"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>bošam</l><r>budan<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>boši</l><r>budan<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>bošad</l><r>budan<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>bošim</l><r>budan<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>bošid</l><r>budan<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>bošand</l><r>budan<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>nabošam</l><r>budan<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>naboši</l><r>budan<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nabošad</l><r>budan<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nabošim</l><r>budan<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>nabošid</l><r>budan<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>nabošand</l><r>budan<s n="vbser"/><s n="neg"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>budam</l><r>budan<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>budī</l><r>budan<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>bud</l><r>budan<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>budem</l><r>budan<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>buded</l><r>budan<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>budand</l><r>budan<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>nabudam</l><r>budan<s n="vbser"/><s n="neg"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nabudī</l><r>budan<s n="vbser"/><s n="neg"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nabud</l><r>budan<s n="vbser"/><s n="neg"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>nabudem</l><r>budan<s n="vbser"/><s n="neg"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>nabuded</l><r>budan<s n="vbser"/><s n="neg"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>nabudand</l><r>budan<s n="vbser"/><s n="neg"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>buda</l><r>budan<s n="vbser"/><s n="perf"/></r></p><par n="S__budan"/></e>
+
+      <e>       <p><l>nabuda</l><r>budan<s n="vbser"/><s n="neg"/><s n="perf"/></r></p><par n="S__budan"/></e>
+    </pardef>
+
+    <pardef n="gu/janda__vblex"> <!-- Present participle and verbal adverb -->
+      <e>       <p><l>janda</l><r><s n="pprs"/></r></p></e>
+      <e>       <p><l>janda</l><r><s n="pprs"/></r></p><par n="S__nominal_V_verb"/></e>
+      <e>       <p><l>on</l><r><s n="adv"/></r></p></e>
+      <e>       <p><l>on</l><r><s n="adv"/></r></p><par n="S__nominal_V_verb"/></e>
+    </pardef>
+
+    <pardef n="k/un.anda__vblex"> <!-- Present participle and verbal adverb -->
+      <e>       <p><l>anda</l><r><s n="pprs"/></r></p></e>
+      <e>       <p><l>anda</l><r><s n="pprs"/></r></p><par n="S__nominal_V_verb"/></e>
+      <e>       <p><l>on</l><r><s n="adv"/></r></p></e>
+      <e>       <p><l>on</l><r><s n="adv"/></r></p><par n="S__nominal_V_verb"/></e>
+    </pardef>
+
+    <pardef n="gu/ft.an__vblex"> <!-- Personal suffixes for present tense (vowel ending stem I) -->
+      <e>       <p><l>jam</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ī</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__va_V"/></e>
+      <e>       <p><l>jad</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>em</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ed</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>jand</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+    </pardef>
+
+    <pardef n="k/ard.an__vblex"> <!-- Personal suffixes for present tense (consonant ending stem I) -->
+      <e>       <p><l>م</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ی</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__va_V"/></e>
+      <e>       <p><l>د</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>یم</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ید</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ند</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+    </pardef>
+
+    <pardef n="kard/an__vblex"> <!-- Tenses and non-finite forms formed from stem II -->
+      <e>       <p><l>ن</l><r><s n="inf"/></r></p></e> 
+      <e>       <p><l>ن</l><r><s n="inf"/></r></p><par n="S__nominal_C_verb"/></e> 
+      <e>       <p><l></l><r><s n="inf2"/></r></p></e>
+      <e>       <p><l>a</l><r><s n="pp"/></r></p></e>
+      <e>       <p><l>agī</l><r><s n="ppgi"/></r></p></e>
+      <e>       <p><l>agist</l><r><s n="pic"/></r></p><par n="kard.an__vblex"/></e>
+
+      <e>       <p><l>a</l><r><s n="perf"/></r></p><par n="S__budan"/></e>
+      <e>       <p><l></l><r><s n="past"/></r></p><par n="kard.an__vblex"/></e>
+    </pardef>
+
+    <pardef n="me.kard/an__vblex"> <!-- Tenses formed from me- prefix and stem II -->
+      <e>       <p><l></l><r><s n="pii"/></r></p><par n="kard.an__vblex"/></e>
+      <e>       <p><l>a</l><r><s n="dur"/></r></p><par n="S__budan"/></e>
+      <e>       <p><l>agist</l><r><s n="ftc"/></r></p><par n="kard.an__vblex"/></e>
+    </pardef>
+
+</pardefs>
+<section id="main" type="standard">
+    <!-- donistan: donist, don: "know" -->
+    <e lm="donistan"><p><l>دانست</l><r>دانستن<s n="vblex"/></r></p><par n="kard/an__vblex"/></e>
+    <e lm="donistan"><p><l>دان</l><r>دانستن<s n="vblex"/><s n="prs"/></r></p><par n="k/ard.an__vblex"/></e>
+    <e lm="donistan"><p><l>دان</l><r>دانستن<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="k/ard.an__vblex"/></e>
+    <e lm="donistan"><p><l>ندانستن</l><r>دانستن<s n="vblex"/><s n="neg"/></r></p><par n="kard/an__vblex"/></e>
+    <e lm="donistan"><p><l>medonist</l><r>دانستن<s n="vblex"/></r></p><par n="me.kard/an__vblex"/></e>
+    <e lm="donistan"><p><l>میدان</l><r>دانستن<s n="vblex"/><s n="pri"/></r></p><par n="k/ard.an__vblex"/></e>
+    <e lm="donistan"><p><l>namedonist</l><r>دانستن<s n="vblex"/><s n="neg"/></r></p><par n="kard/an__vblex"/></e>
+    <e lm="donistan"><p><l>namedon</l><r>دانستن<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="k/ard.an__vblex"/></e>
+
+</section>
+</dictionary>
