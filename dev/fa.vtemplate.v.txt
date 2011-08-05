@@ -8,3 +8,33 @@
     <e lm="@STEM2@ن"><p><l>می@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="pri"/></r></p><par n="گ/فت.ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>نمی@STEM2@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/></r></p><par n="کرد/ن__vblex"/></e>
     <e lm="@STEM2@ن"><p><l>نمی@STEM1@</l><r>@STEM2@ن<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="گ/فت.ن__vblex"/></e>
+
+    <pardef n="кард/ан__vblex"> <!-- Tenses and non-finite forms formed from stem II -->
+      <e>       <p><l>ан</l><r><s n="inf"/></r></p></e> 
+      <e>       <p><l>ан</l><r><s n="inf"/></r></p><par n="S__nominal_C_verb"/></e> 
+      <e>       <p><l></l><r><s n="inf2"/></r></p></e>
+      <e>       <p><l>а</l><r><s n="pp"/></r></p></e>
+      <e>       <p><l>агӣ</l><r><s n="ppgi"/></r></p></e>
+      <e>       <p><l>агист</l><r><s n="pic"/></r></p><par n="кард.ан__vblex"/></e>
+
+past ptc
+kardeham	کرده‍ام	note: using zero w/nonjoiner between h and a
+kardehi		کرده‍ای
+kardeh		کرده
+kardehim	کرده‍ایم
+kardehid	کرده‍اید
+kardehand	کرده‍اند
+پش  
+
+past participle
+(perfect of past participle followed by present of "to be")
+انباشتن amboštan 
+ambošteham	انباشته‍ام
+amboštehi	انباشته‍ای
+ambošteh	انباشته
+amboštehim	انباشته‍ایم
+amboštehid	انباشته‍اید
+amboštehand	انباشته‍اند
+
+
+negative prefix differs wrt vowel/ and consonant-initial stems (n- vs ni-)

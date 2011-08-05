@@ -103,24 +103,25 @@
 <pardefs>
 
     <!-- SECTION: Enclitics -->
-
+<!-- consider joining the S__va_C and S__va_C for Persian, the tajik distinction is not found. -->
     <pardef n="S__va_C">
-      <e>       <p><l>u</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>و</l><r><j/>و<s n="cnjcoo"/></r></p></e> 
       <e>       <p><l/><r/></p></e>
     </pardef>
 
     <pardef n="S__va_V">
-      <e>       <p><l>vu</l><r><j/>va<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>و</l><r><j/>و<s n="cnjcoo"/></r></p></e>
       <e>       <p><l/><r/></p></e>
     </pardef>
 
     <pardef n="S__budan"> <!-- Clitic present of 'to be' -->
-      <e>       <p><l>am</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__va_C"/></e>
-<!--      <e>       <p><l>ī</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__va"/></e>--> <!-- Really ambiguous nouns vs. adjec -->
-      <e>       <p><l>ast</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e>
-      <e>       <p><l>em</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__va_C"/></e>
-      <e>       <p><l>ed</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__va_C"/></e>
-      <e>       <p><l>and</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>ام</l><r><s n="p1"/><s n="sg"/></r></p><par n="S__va_C"/></e>
+<!--      <e>       <p><l>ای</l><r><s n="p2"/><s n="sg"/></r></p><par n="S__va"/></e>--> <!-- Really ambiguous nouns vs. adjec -->
+      <e>       <p><l>ه</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e><!-- colloquial-->
+      <e>       <p><l>ه‍است</l><r><s n="p3"/><s n="sg"/></r></p><par n="S__va_C"/></e>‍<!-- off, form, note: joined w preceeding ت -->
+      <e>       <p><l>ایم</l><r><s n="p1"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>اید</l><r><s n="p2"/><s n="pl"/></r></p><par n="S__va_C"/></e>
+      <e>       <p><l>اند</l><r><s n="p3"/><s n="pl"/></r></p><par n="S__va_C"/></e>
     </pardef>
 
     <pardef n="S__accusative">
@@ -128,18 +129,18 @@
     </pardef>
 
     <pardef n="S__possess">
-      <e>       <p><l>m</l><r><j/>am<s n="enc"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>t</l><r><j/>at<s n="enc"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>š</l><r><j/>aš<s n="enc"/><s n="px3sg"/></r></p></e>
-      <e>       <p><l>mon</l><r><j/>amon<s n="enc"/><s n="px1pl"/></r></p></e>
-      <e>       <p><l>ton</l><r><j/>aton<s n="enc"/><s n="px2pl"/></r></p></e>
-      <e>       <p><l>šon</l><r><j/>ašon<s n="enc"/><s n="px3pl"/></r></p></e>
-      <e>       <p><l>m</l><r><j/>am<s n="enc"/><s n="px1sg"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>t</l><r><j/>at<s n="enc"/><s n="px2sg"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>š</l><r><j/>aš<s n="enc"/><s n="px3sg"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>mon</l><r><j/>amon<s n="enc"/><s n="px1pl"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>ton</l><r><j/>aton<s n="enc"/><s n="px2pl"/></r></p><par n="S__accusative"/></e>
-      <e>       <p><l>šon</l><r><j/>ašon<s n="enc"/><s n="px3pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>م</l><r><j/>am<s n="enc"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ت</l><r><j/>at<s n="enc"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ش</l><r><j/>aš<s n="enc"/><s n="px3sg"/></r></p></e>
+      <e>       <p><l>مون</l><r><j/>amon<s n="enc"/><s n="px1pl"/></r></p></e>
+      <e>       <p><l>تون</l><r><j/>aton<s n="enc"/><s n="px2pl"/></r></p></e>
+      <e>       <p><l>شون</l><r><j/>ašon<s n="enc"/><s n="px3pl"/></r></p></e>
+      <e>       <p><l>م</l><r><j/>am<s n="enc"/><s n="px1sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ت</l><r><j/>at<s n="enc"/><s n="px2sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>ش</l><r><j/>aš<s n="enc"/><s n="px3sg"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>مون</l><r><j/>amon<s n="enc"/><s n="px1pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>تون</l><r><j/>aton<s n="enc"/><s n="px2pl"/></r></p><par n="S__accusative"/></e>
+      <e>       <p><l>شون</l><r><j/>ašon<s n="enc"/><s n="px3pl"/></r></p><par n="S__accusative"/></e>
     </pardef>
 
     <pardef n="S__possess_C">
@@ -355,11 +356,11 @@
       <e>       <p><l>ن</l><r><s n="inf"/></r></p></e> 
       <e>       <p><l>ن</l><r><s n="inf"/></r></p><par n="S__nominal_C_verb"/></e> 
       <e>       <p><l></l><r><s n="inf2"/></r></p></e>
-      <e>       <p><l>a</l><r><s n="pp"/></r></p></e>
-      <e>       <p><l>agī</l><r><s n="ppgi"/></r></p></e>
+      <e>       <p><l>ه</l><r><s n="pp"/></r></p></e>
+      <e>       <p><l>ای</l><r><s n="ppgi"/></r></p></e>
       <e>       <p><l>agist</l><r><s n="pic"/></r></p><par n="kard.an__vblex"/></e>
 
-      <e>       <p><l>a</l><r><s n="perf"/></r></p><par n="S__budan"/></e>
+      <e>       <p><l></l><r><s n="perf"/></r></p><par n="S__budan"/></e><!-- vowel a is امnot written in fa-->
       <e>       <p><l></l><r><s n="past"/></r></p><par n="kard.an__vblex"/></e>
     </pardef>
 
@@ -376,10 +377,10 @@
     <e lm="donistan"><p><l>دان</l><r>دانستن<s n="vblex"/><s n="prs"/></r></p><par n="k/ard.an__vblex"/></e>
     <e lm="donistan"><p><l>دان</l><r>دانستن<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="k/ard.an__vblex"/></e>
     <e lm="donistan"><p><l>ندانستن</l><r>دانستن<s n="vblex"/><s n="neg"/></r></p><par n="kard/an__vblex"/></e>
-    <e lm="donistan"><p><l>medonist</l><r>دانستن<s n="vblex"/></r></p><par n="me.kard/an__vblex"/></e>
+    <e lm="donistan"><p><l>می‍دانست</l><r>دانستن<s n="vblex"/></r></p><par n="me.kard/an__vblex"/></e>
     <e lm="donistan"><p><l>میدان</l><r>دانستن<s n="vblex"/><s n="pri"/></r></p><par n="k/ard.an__vblex"/></e>
-    <e lm="donistan"><p><l>namedonist</l><r>دانستن<s n="vblex"/><s n="neg"/></r></p><par n="kard/an__vblex"/></e>
-    <e lm="donistan"><p><l>namedon</l><r>دانستن<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="k/ard.an__vblex"/></e>
+    <e lm="donistan"><p><l>نمی‍دانست</l><r>دانستن<s n="vblex"/><s n="neg"/></r></p><par n="kard/an__vblex"/></e>
+    <e lm="donistan"><p><l>نمی‍دان</l><r>دانستن<s n="vblex"/><s n="neg"/><s n="pri"/></r></p><par n="k/ard.an__vblex"/></e>
 
 </section>
 </dictionary>
