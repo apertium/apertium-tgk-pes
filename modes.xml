@@ -147,6 +147,15 @@
 
 
 
+  <mode name="pes-tgk-morph">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="pes-tgk.automorf.bin"/>
+      </program>
+     </pipeline>
+  </mode>
+
+
   <mode name="pes-tgk-tagger">
     <pipeline>
       <program name="lt-proc">
