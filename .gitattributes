@@ -13,7 +13,6 @@
 /apertium-tgk-pes.tgk-pes.dix -text
 /apertium-tgk-pes.tgk-pes.t1x -text
 /autogen.sh -text
-/buscaPar.xsl -text
 /configure.ac -text
 dev/README -text
 dev/count.tg-fa.dix -text
@@ -24,9 +23,6 @@ dev/myverbparadigms.txt -text
 dev/tg.hitparade.txt -text
 dev/tg.vtemplate.c.txt -text
 dev/tg.vtemplate.v.txt -text
-dev/udhr.en.txt -text
-dev/udhr.fa.txt -text svneol=unset#application/octet-stream
-dev/udhr.tg.txt -text svneol=unset#application/octet-stream
 dev/verbs.csv -text
 dev/verbs.fa.dix -text
 dev/verbs.ods -text
@@ -37,9 +33,10 @@ old/apertium-tg-fa.tg-fa.dix.xml -text
 old/apertium-tg-fa.tg.dix.xml -text
 /pending-tests.sh -text
 /pes-tgk.prob -text svneol=unset#unset
-/principal.xsl -text
 /regression-tests.sh -text
-/tgk-pes-unsupervised.make -text
+texts/udhr.en.txt -text
+texts/udhr.fa.txt -text svneol=unset#application/octet-stream
+texts/udhr.tg.txt -text svneol=unset#application/octet-stream
 /tgk-pes.prob -text svneol=unset#unset
 tsts-nov19/apertium-tg-fa.fa.metadix -text
 tsts-nov19/apertium-tg-fa.tg.dix.xml -text
