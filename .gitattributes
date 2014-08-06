@@ -34,9 +34,9 @@ old/apertium-tg-fa.tg.dix.xml -text
 /pending-tests.sh -text
 /pes-tgk.prob -text svneol=unset#unset
 /regression-tests.sh -text
-texts/udhr.en.txt -text
-texts/udhr.fa.txt -text svneol=unset#application/octet-stream
-texts/udhr.tg.txt -text svneol=unset#application/octet-stream
+texts/udhr.eng.txt -text
+texts/udhr.pes.txt -text svneol=unset#application/octet-stream
+texts/udhr.tgk.txt -text svneol=unset#application/octet-stream
 /tgk-pes.prob -text svneol=unset#unset
 tsts-nov19/apertium-tg-fa.fa.metadix -text
 tsts-nov19/apertium-tg-fa.tg.dix.xml -text
