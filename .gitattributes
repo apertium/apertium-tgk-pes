@@ -13,9 +13,6 @@
 /apertium-tgk-pes.tgk-pes.alpha.dix -text
 /apertium-tgk-pes.tgk-pes.dix -text
 /apertium-tgk-pes.tgk-pes.t1x -text
-/apertium-tgk-pes.tgk.acx -text
-/apertium-tgk-pes.tgk.dix -text
-/apertium-tgk-pes.tgk.tsx -text
 /autogen.sh -text
 /buscaPar.xsl -text
 /configure.ac -text
