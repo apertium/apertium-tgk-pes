@@ -8,8 +8,8 @@ then
     GREP='WORKS'
 fi
 
-sh wiki-tests.sh Pending tg fa update | grep -C $C "$GREP"
+sh wiki-tests.sh Pending tgk pes update | grep -C $C "$GREP"
 
-sh wiki-tests.sh Pending fa tg update | grep -C $C "$GREP"
+sh wiki-tests.sh Pending pes tgk update | grep -C $C "$GREP"
 
 
