@@ -1,6 +1,6 @@
 VERSION=0.1
-LANG1=tg
-LANG2=fa
+LANG1=tgk
+LANG2=pes
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -13,14 +13,6 @@ TARGETS_COMMON =  \
      $(PREFIX1).t1x.bin  \
      $(PREFIX2).t1x.bin $(PREFIX2).alpha.bin modes  $(PREFIX2).mode
 
-$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).metadix
-	xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadix | uniq > $$gen.xsl
-	xsltproc $$gen.xsl $(BASENAME).$(LANG2).metadix >$@
-	@rm $$gen.xsl
-
-#$(PREFIX2).autopgen.bin $(PREFIX1).autopgen.bin
-# $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
-
 # LANG1 → LANG2
      
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
@@ -31,9 +23,9 @@ $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
 	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
 
-$(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
-	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp rl $(BASENAME).$(LANG2).dix $@
+$(PREFIX1).autogen.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).dix
+	apertium-validate-dictionary $< 
+	lt-comp rl $< $@
 
 $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
@@ -45,9 +37,8 @@ $(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
 
 # LANG2 → LANG1
 
-$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
-	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp lr $(BASENAME).$(LANG2).dix $@
+$(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
+	lt-trim $^ $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -93,9 +84,9 @@ $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
-apertium_tg_famodesdir=$(prefix)/share/apertium/modes/
-apertium_tg_fadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_tg_fa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
+apertium_tgk_pesmodesdir=$(prefix)/share/apertium/modes/
+apertium_tgk_pesdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_tgk_pes_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
                     $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
@@ -113,10 +104,10 @@ apertium_tg_fa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 
 install-data-local:
 	$(prefix)/bin/apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	test -d $(DESTDIR)$(apertium_tg_famodesdir) || mkdir $(DESTDIR)$(apertium_tg_famodesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_tg_famodesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_tg_famodesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_tg_fadir)
+	test -d $(DESTDIR)$(apertium_tgk_pesmodesdir) || mkdir $(DESTDIR)$(apertium_tgk_pesmodesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_tgk_pesmodesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_tgk_pesmodesdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_tgk_pesdir)
 	cp *.mode modes/
 
 CLEANFILES = -r $(TARGETS_COMMON) 

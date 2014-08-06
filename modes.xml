@@ -1,176 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="tg-fa-test" install="no">
+  <mode name="tgk-pes-test" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="tg-fa.automorf.bin"/>
+        <file name="tgk-pes.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="tg-fa.prob"/>
+        <file name="tgk-pes.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.tg-fa.t1x"/>
-        <file name="tg-fa.t1x.bin"/>
-        <file name="tg-fa.autobil.bin"/>
+        <file name="apertium-tgk-pes.tgk-pes.t1x"/>
+        <file name="tgk-pes.t1x.bin"/>
+        <file name="tgk-pes.autobil.bin"/>
       </program>
       <program name="lt-proc -g">
-        <file name="tg-fa.autogen.bin"/>
+        <file name="tgk-pes.autogen.bin"/>
       </program>
 <!--      <program name="lt-proc -p">
-        <file name="tg-fa.autopgen.bin"/>
+        <file name="tgk-pes.autopgen.bin"/>
       </program>  -->
     </pipeline>
   </mode>
 
-  <mode name="tg-fa-tagger" install="no">
+  <mode name="tgk-pes-tagger" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="tg-fa.automorf.bin"/>
+        <file name="tgk-pes.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="tg-fa.prob"/>
+        <file name="tgk-pes.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
 
-  <mode name="tg-fa-transfer" install="no">
+  <mode name="tgk-pes-transfer" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="tg-fa.automorf.bin"/>
+        <file name="tgk-pes.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="tg-fa.prob"/>
+        <file name="tgk-pes.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.tg-fa.t1x"/>
-        <file name="tg-fa.t1x.bin"/>
-        <file name="tg-fa.autobil.bin"/>
+        <file name="apertium-tgk-pes.tgk-pes.t1x"/>
+        <file name="tgk-pes.t1x.bin"/>
+        <file name="tgk-pes.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="tg-fa" install="yes">
+  <mode name="tgk-pes" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="tg-fa.automorf.bin"/>
+        <file name="tgk-pes.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="tg-fa.prob"/>
+        <file name="tgk-pes.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.tg-fa.t1x"/>
-        <file name="tg-fa.t1x.bin"/>
-        <file name="tg-fa.autobil.bin"/>
+        <file name="apertium-tgk-pes.tgk-pes.t1x"/>
+        <file name="tgk-pes.t1x.bin"/>
+        <file name="tgk-pes.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="tg-fa.autogen.bin"/>
+        <file name="tgk-pes.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="fa-tg-test" install="no">
+  <mode name="pes-tgk-test" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="fa-tg.automorf.bin"/>
+        <file name="pes-tgk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fa-tg.prob"/>
+        <file name="pes-tgk.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.fa-tg.t1x"/>
-        <file name="fa-tg.t1x.bin"/>
-        <file name="fa-tg.autobil.bin"/>
+        <file name="apertium-tgk-pes.pes-tgk.t1x"/>
+        <file name="pes-tgk.t1x.bin"/>
+        <file name="pes-tgk.autobil.bin"/>
       </program>
       <program name="lt-proc -g">
-        <file name="fa-tg.autogen.bin"/>
+        <file name="pes-tgk.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="fa-tg_translit" install="yes">
+  <mode name="pes-tgk_translit" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="fa-tg.automorf.bin"/>
+        <file name="pes-tgk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fa-tg.prob"/>
+        <file name="pes-tgk.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.fa-tg.t1x"/>
-        <file name="fa-tg.t1x.bin"/>
-        <file name="fa-tg.autobil.bin"/>
+        <file name="apertium-tgk-pes.pes-tgk.t1x"/>
+        <file name="pes-tgk.t1x.bin"/>
+        <file name="pes-tgk.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="fa-tg.autogen.bin"/>
+        <file name="pes-tgk.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="fa-tg.autopgen.bin"/>
+        <file name="pes-tgk.autopgen.bin"/>
       </program> 
       <program name="lt-proc -t">
-        <file name="fa-tg.alpha.bin"/>
+        <file name="pes-tgk.alpha.bin"/>
       </program> 
     </pipeline>
   </mode>
 
 
-  <mode name="fa-tg" install="yes">
+  <mode name="pes-tgk" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="fa-tg.automorf.bin"/>
+        <file name="pes-tgk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fa-tg.prob"/>
+        <file name="pes-tgk.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.fa-tg.t1x"/>
-        <file name="fa-tg.t1x.bin"/>
-        <file name="fa-tg.autobil.bin"/>
+        <file name="apertium-tgk-pes.pes-tgk.t1x"/>
+        <file name="pes-tgk.t1x.bin"/>
+        <file name="pes-tgk.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="fa-tg.autogen.bin"/>
+        <file name="pes-tgk.autogen.bin"/>
       </program>
       <program name="lt-proc -t">
-        <file name="fa-tg.autopgen.bin"/>
+        <file name="pes-tgk.autopgen.bin"/>
       </program> 
     </pipeline>
   </mode>
 
 
 
-  <mode name="fa-tg-tagger">
+  <mode name="pes-tgk-tagger">
     <pipeline>
       <program name="lt-proc">
-        <file name="fa-tg.automorf.bin"/>
+        <file name="pes-tgk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fa-tg.prob"/>
+        <file name="pes-tgk.prob"/>
       </program> 
      </pipeline>
   </mode>
 
-  <mode name="fa-tg-transfer">
+  <mode name="pes-tgk-transfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="fa-tg.automorf.bin"/>
+        <file name="pes-tgk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fa-tg.prob"/>
+        <file name="pes-tgk.prob"/>
       </program> 
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-tg-fa.fa-tg.t1x"/>
-        <file name="fa-tg.t1x.bin"/>
-        <file name="fa-tg.autobil.bin"/>
+        <file name="apertium-tgk-pes.pes-tgk.t1x"/>
+        <file name="pes-tgk.t1x.bin"/>
+        <file name="pes-tgk.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
