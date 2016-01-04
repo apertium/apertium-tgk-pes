@@ -5,7 +5,7 @@
 AC_PREREQ(2.52)
 
 m4_define([required_apertium_version], [3.3.0])
-m4_define([required_lttolbox_version], [3.3.0])
+m4_define([required_lttoolbox_version], [3.3.0])
 
 AC_INIT([apertium-tgk-pes], [0.1.0], [francis.tyers@gmail.com])
 AM_INIT_AUTOMAKE([apertium-tgk-pes], [0.1.0], no-define)
