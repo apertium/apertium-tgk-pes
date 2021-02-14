@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <!-- Iranian Persian → Tajik -->
-
   <mode name="pes-tgk-test" install="no">
     <pipeline>
       <program name="lt-proc">
@@ -50,15 +48,16 @@
     </pipeline>
   </mode>
 
+    <!-- pes → tgk -->
 
-  <mode name="pes-tgk" install="yes">
+  <mode name="pes-tgk" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="pes-tgk.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="pes-tgk.prob"/>
-      </program> 
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="pes-tgk.autobil.bin"/>
@@ -72,75 +71,20 @@
       </program>
       <program name="lt-proc -t">
         <file name="pes-tgk.autopgen.bin"/>
-      </program> 
-    </pipeline>
-  </mode>
-
-  <mode name="pes-tgk-morph">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="pes-tgk.automorf.bin"/>
-      </program>
-     </pipeline>
-  </mode>
-
-  <mode name="pes-tgk-tagger">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="pes-tgk.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="pes-tgk.prob"/>
-      </program> 
-     </pipeline>
-  </mode>
-
-  <mode name="pes-tgk-biltrans">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="pes-tgk.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="pes-tgk.prob"/>
-      </program> 
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="pes-tgk.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
+  <!-- tgk → pes -->
 
-  <mode name="pes-tgk-transfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="pes-tgk.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="pes-tgk.prob"/>
-      </program> 
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="pes-tgk.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-tgk-pes.pes-tgk.t1x"/>
-        <file name="pes-tgk.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <!-- Tajik → Iranian Persian -->
-
-  <mode name="tgk-pes" install="yes">
+  <mode name="tgk-pes" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="tgk-pes.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="tgk-pes.prob"/>
-      </program> 
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="tgk-pes.autobil.bin"/>
@@ -154,10 +98,8 @@
       </program>
       <program name="lt-proc -t">
         <file name="tgk-pes.autopgen.bin"/>
-      </program> 
+      </program>
     </pipeline>
   </mode>
-
-
-
 </modes>
+
